@@ -43,10 +43,12 @@ retail-sales-etl-validation/
 │   └── 04_referential_integrity.sql
 ├── test_cases/
 │   └── test_case_log.csv
-└── screenshots/
-    └── (query result screenshots from MySQL Workbench)
-```
 
+```
+**Note on `sql/ETL_12_Core_Validations_SQL.sql`:** this is a broader reference 
+script covering 12 general ETL validation techniques (a study/reference resource), 
+separate from the 4 numbered scripts above which are the actual test scripts run 
+against this project's source and target tables.
 ## Key Learnings
 - Practical application of SQL for end-to-end data quality testing
 - Structuring test cases the way QA teams document them (expected vs actual, pass/fail)
