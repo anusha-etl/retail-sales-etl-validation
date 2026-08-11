@@ -1,0 +1,1001 @@
+row_id,order_id,order_date,ship_date,ship_mode,customer_id,customer_name,segment,country,city,state,postal_code,region,product_id,category,sub_category,product_name,sales,quantity,discount,profit
+1,ORD-2023001,2024-10-29,2024-11-03,Second Class,CU-1057,Aarav Taylor,Home Office,United States,New York,New York,63269,East,PR-0071,Technology,Accessories,Accessories Model 5,484.65,1,0.5,132.96
+2,ORD-2023002,2023-03-02,2023-03-04,Same Day,CU-1063,Jessica Anderson,Home Office,United States,San Francisco,California,47388,West,PR-0062,Technology,Machines,Machines Model 2,42.49,7,0.2,-0.74
+3,ORD-2023003,2023-07-14,2023-07-17,Standard Class,CU-1055,James Patel,Corporate,United States,Miami,Florida,51104,South,PR-0072,Technology,Accessories,Accessories Model 6,1938.04,4,0.3,422.24
+4,ORD-2023004,2024-06-27,2024-06-29,Standard Class,CU-1008,Jessica Kumar,Home Office,United States,Charlotte,North Carolina,87992,South,PR-0007,Furniture,Tables,Tables Model 1,480.59,1,0.0,132.48
+5,ORD-2023005,2024-08-06,2024-08-08,First Class,CU-1009,Jessica Smith,Consumer,United States,Miami,Florida,44179,South,PR-0031,Office Supplies,Paper,Paper Model 1,2992.9,10,0.3,-326.25
+6,ORD-2023006,2024-02-10,2024-02-12,Standard Class,CU-1027,Anita Gupta,Corporate,United States,San Francisco,California,11220,West,PR-0041,Office Supplies,Storage,Storage Model 5,3569.72,11,0.2,28.87
+7,ORD-2023007,2024-07-04,2024-07-06,Second Class,CU-1059,Daniel Moore,Consumer,United States,New York,New York,58434,East,PR-0073,Technology,Copiers,Copiers Model 1,1226.43,9,0.15,356.19
+8,ORD-2023008,2023-11-06,2023-11-11,First Class,CU-1037,Rohit Kumar,Home Office,United States,Charlotte,North Carolina,96951,South,PR-0021,Furniture,Furnishings,Furnishings Model 3,2935.13,11,0.4,758.88
+9,ORD-2023009,2023-04-20,2023-04-26,First Class,CU-1014,Sneha Patel,Corporate,United States,Chicago,Illinois,36685,Central,PR-0018,Furniture,Bookcases,Bookcases Model 6,737.55,9,0.15,112.41
+10,ORD-2023010,2023-02-22,2023-02-23,First Class,CU-1088,Chris Davis,Corporate,United States,Atlanta,Georgia,27146,South,PR-0034,Office Supplies,Paper,Paper Model 4,2361.37,11,0.15,-302.15
+11,ORD-2023011,2024-03-28,2024-04-02,Second Class,CU-1082,Aarav Patel,Home Office,United States,Seattle,Washington,81511,West,PR-0034,Office Supplies,Paper,Paper Model 4,2600.52,12,0.0,-244.61
+12,ORD-2023012,2023-05-11,2023-05-12,Standard Class,CU-1005,Sarah Sharma,Consumer,United States,San Francisco,California,56898,West,PR-0048,Office Supplies,Art,Art Model 6,927.5,5,0.5,311.73
+13,ORD-2023013,2024-07-27,2024-08-03,Second Class,CU-1027,Anita Gupta,Corporate,United States,Boston,Massachusetts,31299,East,PR-0032,Office Supplies,Paper,Paper Model 2,3409.35,7,0.4,-247.94
+14,ORD-2023014,2023-12-07,2023-12-14,Second Class,CU-1023,Divya Anderson,Corporate,United States,New York,New York,44970,East,PR-0053,Office Supplies,Labels,Labels Model 5,2814.77,7,0.5,612.29
+15,ORD-2023015,2024-04-26,2024-04-28,Second Class,CU-1021,Chris Kumar,Home Office,United States,Miami,Florida,39219,South,PR-0014,Furniture,Bookcases,Bookcases Model 2,1636.84,4,0.2,40.64
+16,ORD-2023016,2023-10-13,2023-10-20,Same Day,CU-1004,Jessica Patel,Home Office,United States,Atlanta,Georgia,99065,South,PR-0025,Office Supplies,Binders,Binders Model 1,967.22,2,0.15,24.73
+17,ORD-2023017,2023-09-25,2023-09-27,Same Day,CU-1069,Laura Thomas,Consumer,United States,New York,New York,55309,East,PR-0043,Office Supplies,Art,Art Model 1,4814.5,10,0.15,-630.08
+18,ORD-2023018,2024-06-07,2024-06-08,Same Day,CU-1094,Priya Wilson,Home Office,United States,Charlotte,North Carolina,10221,South,PR-0041,Office Supplies,Storage,Storage Model 5,3151.75,7,0.1,-71.35
+19,ORD-2023019,2024-03-17,2024-03-18,Standard Class,CU-1067,Divya Sharma,Consumer,United States,San Francisco,California,49363,West,PR-0069,Technology,Accessories,Accessories Model 3,5068.58,11,0.3,35.27
+20,ORD-2023020,2024-02-17,2024-02-23,Same Day,CU-1065,Laura Sharma,Consumer,United States,Atlanta,Georgia,98777,South,PR-0040,Office Supplies,Storage,Storage Model 4,1397.15,5,0.1,84.14
+21,ORD-2023021,2024-07-15,2024-07-22,First Class,CU-1096,James Anderson,Consumer,United States,Dallas,Texas,70946,Central,PR-0023,Furniture,Furnishings,Furnishings Model 5,155.42,1,0.1,10.09
+22,ORD-2023022,2024-04-29,2024-05-06,First Class,CU-1057,Aarav Taylor,Home Office,United States,Seattle,Washington,22240,West,PR-0057,Technology,Phones,Phones Model 3,1068.0,12,0.0,-8.66
+23,ORD-2023023,2023-07-23,2023-07-25,Standard Class,CU-1097,Divya Kumar,Consumer,United States,Chicago,Illinois,69692,Central,PR-0031,Office Supplies,Paper,Paper Model 1,27.88,1,0.2,4.34
+24,ORD-2023024,2024-01-29,2024-02-02,Standard Class,CU-1054,Arjun Anderson,Home Office,United States,Seattle,Washington,65724,West,PR-0074,Technology,Copiers,Copiers Model 2,880.39,7,0.4,170.63
+25,ORD-2023025,2024-07-24,2024-07-26,First Class,CU-1029,Rohit Davis,Home Office,United States,Miami,Florida,68008,South,PR-0023,Furniture,Furnishings,Furnishings Model 5,461.9,2,0.5,38.02
+26,ORD-2023026,2024-04-01,2024-04-03,Second Class,CU-1079,Divya Patel,Corporate,United States,Charlotte,North Carolina,93579,South,PR-0065,Technology,Machines,Machines Model 5,5177.28,12,0.2,-105.64
+27,ORD-2023027,2023-09-02,2023-09-05,First Class,CU-1036,James Smith,Corporate,United States,Charlotte,North Carolina,51904,South,PR-0067,Technology,Accessories,Accessories Model 1,346.8,8,0.15,-11.36
+28,ORD-2023028,2023-08-25,2023-08-29,Same Day,CU-1070,Jessica Anderson,Consumer,United States,Los Angeles,California,53369,West,PR-0011,Furniture,Tables,Tables Model 5,967.68,12,0.1,-114.08
+29,ORD-2023029,2023-07-31,2023-08-07,Standard Class,CU-1070,Jessica Anderson,Consumer,United States,Miami,Florida,85456,South,PR-0060,Technology,Phones,Phones Model 6,1384.53,7,0.5,196.66
+30,ORD-2023030,2023-11-02,2023-11-09,Second Class,CU-1049,Sarah Davis,Consumer,United States,Boston,Massachusetts,73993,East,PR-0062,Technology,Machines,Machines Model 2,2992.22,7,0.5,178.07
+31,ORD-2023031,2023-01-30,2023-02-03,Second Class,CU-1029,Rohit Davis,Home Office,United States,Atlanta,Georgia,71261,South,PR-0035,Office Supplies,Paper,Paper Model 5,2016.54,6,0.5,105.18
+32,ORD-2023032,2024-08-29,2024-09-03,Same Day,CU-1017,David Brown,Consumer,United States,Boston,Massachusetts,33819,East,PR-0069,Technology,Accessories,Accessories Model 3,202.62,11,0.4,13.03
+33,ORD-2023033,2023-08-05,2023-08-09,Same Day,CU-1007,Daniel Davis,Consumer,United States,Atlanta,Georgia,43065,South,PR-0034,Office Supplies,Paper,Paper Model 4,1032.36,6,0.2,-11.22
+34,ORD-2023034,2024-07-06,2024-07-07,Standard Class,CU-1011,Aarav Anderson,Consumer,United States,Philadelphia,Pennsylvania,14067,East,PR-0061,Technology,Machines,Machines Model 1,695.94,6,0.0,167.45
+35,ORD-2023035,2023-06-06,2023-06-08,Second Class,CU-1032,Michael Singh,Home Office,United States,Philadelphia,Pennsylvania,70952,East,PR-0026,Office Supplies,Binders,Binders Model 2,718.23,3,0.0,94.8
+36,ORD-2023036,2024-09-12,2024-09-17,First Class,CU-1090,Sarah Kumar,Consumer,United States,Chicago,Illinois,24168,Central,PR-0033,Office Supplies,Paper,Paper Model 3,4327.08,12,0.5,1123.53
+37,ORD-2023037,2024-11-24,2024-11-28,Second Class,CU-1075,Karan Taylor,Corporate,United States,Houston,Texas,23356,Central,PR-0004,Furniture,Chairs,Chairs Model 4,3297.21,7,0.1,-369.29
+38,ORD-2023038,2023-02-12,2023-02-15,First Class,CU-1090,Sarah Kumar,Consumer,United States,Philadelphia,Pennsylvania,11658,East,PR-0039,Office Supplies,Storage,Storage Model 3,1953.45,9,0.15,-225.67
+39,ORD-2023039,2024-01-06,2024-01-12,First Class,CU-1054,Arjun Anderson,Home Office,United States,Boston,Massachusetts,90728,East,PR-0063,Technology,Machines,Machines Model 3,2840.96,8,0.2,-175.94
+40,ORD-2023040,2024-08-29,2024-09-01,First Class,CU-1069,Laura Thomas,Consumer,United States,Atlanta,Georgia,69087,South,PR-0062,Technology,Machines,Machines Model 2,2559.6,6,0.5,812.19
+41,ORD-2023041,2023-01-30,2023-02-03,First Class,CU-1032,Michael Singh,Home Office,United States,Atlanta,Georgia,54608,South,PR-0060,Technology,Phones,Phones Model 6,570.06,6,0.1,15.63
+42,ORD-2023042,2023-01-11,2023-01-16,Second Class,CU-1036,James Smith,Corporate,United States,Houston,Texas,72402,Central,PR-0077,Technology,Copiers,Copiers Model 5,189.52,4,0.4,10.09
+43,ORD-2023043,2023-04-06,2023-04-09,First Class,CU-1083,Priya Kumar,Consumer,United States,Miami,Florida,72031,South,PR-0063,Technology,Machines,Machines Model 3,820.72,4,0.1,2.55
+44,ORD-2023044,2024-07-17,2024-07-20,Second Class,CU-1071,Vikram Wilson,Corporate,United States,Dallas,Texas,25814,Central,PR-0068,Technology,Accessories,Accessories Model 2,2117.46,6,0.15,7.01
+45,ORD-2023045,2024-07-02,2024-07-09,First Class,CU-1093,David Thomas,Home Office,United States,Chicago,Illinois,87278,Central,PR-0025,Office Supplies,Binders,Binders Model 1,1159.8,12,0.1,254.35
+46,ORD-2023046,2023-07-18,2023-07-21,Second Class,CU-1098,Jessica Johnson,Consumer,United States,Chicago,Illinois,45954,Central,PR-0068,Technology,Accessories,Accessories Model 2,734.56,4,0.15,-104.99
+47,ORD-2023047,2023-05-10,2023-05-16,Same Day,CU-1006,Rohit Kumar,Consumer,United States,Houston,Texas,72746,Central,PR-0007,Furniture,Tables,Tables Model 1,446.24,8,0.0,61.15
+48,ORD-2023048,2023-09-16,2023-09-23,Standard Class,CU-1057,Aarav Taylor,Home Office,United States,Los Angeles,California,85631,West,PR-0044,Office Supplies,Art,Art Model 2,491.76,8,0.0,24.76
+49,ORD-2023049,2024-07-30,2024-08-02,Same Day,CU-1081,Divya Davis,Consumer,United States,Los Angeles,California,89471,West,PR-0007,Furniture,Tables,Tables Model 1,993.98,2,0.0,128.26
+50,ORD-2023050,2024-03-29,2024-04-01,Standard Class,CU-1077,Emily Johnson,Home Office,United States,Atlanta,Georgia,89905,South,PR-0029,Office Supplies,Binders,Binders Model 5,4950.7,10,0.15,664.95
+51,ORD-2023051,2023-08-05,2023-08-08,Standard Class,CU-1095,Sneha Sharma,Corporate,United States,Seattle,Washington,30517,West,PR-0013,Furniture,Bookcases,Bookcases Model 1,497.09,11,0.1,-31.36
+52,ORD-2023052,2024-08-31,2024-09-04,Same Day,CU-1001,Sneha Sharma,Home Office,United States,Charlotte,North Carolina,19329,South,PR-0053,Office Supplies,Labels,Labels Model 5,105.8,5,0.15,21.53
+53,ORD-2023053,2024-08-26,2024-09-01,Second Class,CU-1088,Chris Davis,Corporate,United States,Houston,Texas,44816,Central,PR-0030,Office Supplies,Binders,Binders Model 6,861.76,4,0.3,-32.4
+54,ORD-2023054,2023-11-11,2023-11-16,Same Day,CU-1019,Neha Thomas,Home Office,United States,New York,New York,49857,East,PR-0010,Furniture,Tables,Tables Model 4,4956.0,12,0.15,344.82
+55,ORD-2023055,2024-07-06,2024-07-10,First Class,CU-1090,Sarah Kumar,Consumer,United States,Houston,Texas,89129,Central,PR-0052,Office Supplies,Labels,Labels Model 4,358.56,8,0.0,105.67
+56,ORD-2023056,2024-11-21,2024-11-28,First Class,CU-1033,Jessica Kumar,Home Office,United States,New York,New York,85529,East,PR-0004,Furniture,Chairs,Chairs Model 4,2956.3,10,0.0,1034.07
+57,ORD-2023057,2024-10-29,2024-11-02,Same Day,CU-1006,Rohit Kumar,Consumer,United States,Charlotte,North Carolina,21959,South,PR-0023,Furniture,Furnishings,Furnishings Model 5,474.2,5,0.3,32.22
+58,ORD-2023058,2023-11-25,2023-12-01,Same Day,CU-1061,Daniel Davis,Consumer,United States,Atlanta,Georgia,47777,South,PR-0045,Office Supplies,Art,Art Model 3,859.16,2,0.15,47.96
+59,ORD-2023059,2023-04-01,2023-04-04,Standard Class,CU-1085,Rohit Brown,Consumer,United States,Boston,Massachusetts,96200,East,PR-0052,Office Supplies,Labels,Labels Model 4,825.1,5,0.5,42.98
+60,ORD-2023060,2023-07-12,2023-07-17,Standard Class,CU-1070,Jessica Anderson,Consumer,United States,Miami,Florida,36680,South,PR-0060,Technology,Phones,Phones Model 6,1879.2,6,0.2,305.75
+61,ORD-2023061,2024-03-24,2024-03-30,Second Class,CU-1035,Divya Thomas,Consumer,United States,San Francisco,California,30758,West,PR-0071,Technology,Accessories,Accessories Model 5,520.88,8,0.4,80.44
+62,ORD-2023062,2024-02-22,2024-02-23,Standard Class,CU-1040,David Reddy,Corporate,United States,Philadelphia,Pennsylvania,94896,East,PR-0071,Technology,Accessories,Accessories Model 5,1984.68,4,0.0,160.21
+63,ORD-2023063,2023-10-07,2023-10-11,Second Class,CU-1020,Amy Moore,Corporate,United States,Houston,Texas,60277,Central,PR-0064,Technology,Machines,Machines Model 4,3921.76,8,0.1,307.44
+64,ORD-2023064,2023-10-10,2023-10-17,Standard Class,CU-1025,Sneha Smith,Corporate,United States,Los Angeles,California,47072,West,PR-0077,Technology,Copiers,Copiers Model 5,1212.68,7,0.5,125.96
+65,ORD-2023065,2024-04-02,2024-04-07,Same Day,CU-1093,David Thomas,Home Office,United States,Miami,Florida,69682,South,PR-0039,Office Supplies,Storage,Storage Model 3,1406.72,8,0.3,325.57
+66,ORD-2023066,2024-01-28,2024-01-30,Same Day,CU-1042,Jessica Brown,Corporate,United States,Seattle,Washington,60604,West,PR-0025,Office Supplies,Binders,Binders Model 1,186.27,7,0.4,16.11
+67,ORD-2023067,2023-05-10,2023-05-15,Same Day,CU-1085,Rohit Brown,Consumer,United States,Miami,Florida,23069,South,PR-0020,Furniture,Furnishings,Furnishings Model 2,1693.4,10,0.0,486.17
+68,ORD-2023068,2023-05-28,2023-06-01,First Class,CU-1068,Chris Patel,Consumer,United States,Philadelphia,Pennsylvania,54375,East,PR-0059,Technology,Phones,Phones Model 5,5336.43,11,0.0,452.24
+69,ORD-2023069,2024-11-21,2024-11-28,Same Day,CU-1080,Aarav Davis,Home Office,United States,Boston,Massachusetts,80912,East,PR-0051,Office Supplies,Labels,Labels Model 3,1737.9,9,0.15,283.97
+70,ORD-2023070,2024-12-01,2024-12-04,Standard Class,CU-1005,Sarah Sharma,Consumer,United States,Seattle,Washington,68153,West,PR-0009,Furniture,Tables,Tables Model 3,1498.6,4,0.2,508.28
+71,ORD-2023071,2023-11-29,2023-12-06,Second Class,CU-1022,Rohit Sharma,Home Office,United States,New York,New York,79621,East,PR-0039,Office Supplies,Storage,Storage Model 3,150.22,1,0.15,9.82
+72,ORD-2023072,2023-06-29,2023-06-30,Same Day,CU-1053,Sneha Wilson,Home Office,United States,Los Angeles,California,86435,West,PR-0073,Technology,Copiers,Copiers Model 1,4360.7,10,0.3,835.37
+73,ORD-2023073,2023-09-18,2023-09-22,First Class,CU-1019,Neha Thomas,Home Office,United States,Charlotte,North Carolina,98815,South,PR-0030,Office Supplies,Binders,Binders Model 6,1675.45,5,0.5,138.44
+74,ORD-2023074,2023-12-20,2023-12-25,Same Day,CU-1070,Jessica Anderson,Consumer,United States,Boston,Massachusetts,49599,East,PR-0021,Furniture,Furnishings,Furnishings Model 3,1606.35,5,0.2,313.49
+75,ORD-2023075,2023-08-31,2023-09-04,First Class,CU-1026,David Wilson,Corporate,United States,Miami,Florida,12875,South,PR-0050,Office Supplies,Labels,Labels Model 2,1826.8,10,0.15,632.7
+76,ORD-2023076,2024-08-02,2024-08-09,Same Day,CU-1085,Rohit Brown,Consumer,United States,Chicago,Illinois,47512,Central,PR-0051,Office Supplies,Labels,Labels Model 3,4292.86,11,0.0,1310.65
+77,ORD-2023077,2024-10-13,2024-10-15,Second Class,CU-1100,David Kumar,Consumer,United States,Chicago,Illinois,92345,Central,PR-0030,Office Supplies,Binders,Binders Model 6,1290.6,10,0.5,271.63
+78,ORD-2023078,2023-02-04,2023-02-09,First Class,CU-1013,Vikram Kumar,Corporate,United States,Dallas,Texas,64460,Central,PR-0006,Furniture,Chairs,Chairs Model 6,2205.12,6,0.0,672.15
+79,ORD-2023079,2024-01-10,2024-01-15,Same Day,CU-1023,Divya Anderson,Corporate,United States,Seattle,Washington,48684,West,PR-0026,Office Supplies,Binders,Binders Model 2,4114.62,9,0.5,-278.67
+80,ORD-2023080,2023-03-19,2023-03-21,Same Day,CU-1096,James Anderson,Consumer,United States,Boston,Massachusetts,83048,East,PR-0044,Office Supplies,Art,Art Model 2,1723.08,4,0.4,322.57
+81,ORD-2023081,2023-09-28,2023-10-03,First Class,CU-1047,Sneha Reddy,Home Office,United States,Miami,Florida,86619,South,PR-0012,Furniture,Tables,Tables Model 6,460.24,2,0.4,103.33
+82,ORD-2023082,2023-08-28,2023-09-01,Second Class,CU-1049,Sarah Davis,Consumer,United States,Philadelphia,Pennsylvania,94889,East,PR-0048,Office Supplies,Art,Art Model 6,311.68,1,0.3,4.36
+83,ORD-2023083,2024-02-23,2024-02-24,Same Day,CU-1009,Jessica Smith,Consumer,United States,Houston,Texas,25220,Central,PR-0060,Technology,Phones,Phones Model 6,82.35,3,0.0,0.18
+84,ORD-2023084,2024-04-09,2024-04-12,Same Day,CU-1013,Vikram Kumar,Corporate,United States,San Francisco,California,86983,West,PR-0031,Office Supplies,Paper,Paper Model 1,5224.34,11,0.4,1687.39
+85,ORD-2023085,2023-04-12,2023-04-19,First Class,CU-1096,James Anderson,Consumer,United States,Charlotte,North Carolina,38477,South,PR-0020,Furniture,Furnishings,Furnishings Model 2,2478.0,8,0.15,-331.16
+86,ORD-2023086,2023-04-12,2023-04-18,Same Day,CU-1057,Aarav Taylor,Home Office,United States,San Francisco,California,46160,West,PR-0057,Technology,Phones,Phones Model 3,1647.06,6,0.4,48.32
+87,ORD-2023087,2024-11-09,2024-11-11,First Class,CU-1025,Sneha Smith,Corporate,United States,Miami,Florida,41925,South,PR-0016,Furniture,Bookcases,Bookcases Model 4,3537.05,11,0.0,-441.11
+88,ORD-2023088,2024-07-21,2024-07-23,Second Class,CU-1017,David Brown,Consumer,United States,Los Angeles,California,88116,West,PR-0073,Technology,Copiers,Copiers Model 1,1119.0,10,0.5,-37.49
+89,ORD-2023089,2024-07-07,2024-07-10,Standard Class,CU-1001,Sneha Sharma,Home Office,United States,Los Angeles,California,56955,West,PR-0036,Office Supplies,Paper,Paper Model 6,178.23,3,0.5,-24.44
+90,ORD-2023090,2023-06-28,2023-07-01,Standard Class,CU-1031,Divya Reddy,Corporate,United States,Chicago,Illinois,72422,Central,PR-0076,Technology,Copiers,Copiers Model 4,67.75,1,0.2,7.66
+91,ORD-2023091,2024-05-30,2024-06-01,First Class,CU-1058,Arjun Brown,Consumer,United States,Boston,Massachusetts,70036,East,PR-0047,Office Supplies,Art,Art Model 5,264.7,10,0.5,80.57
+92,ORD-2023092,2024-02-16,2024-02-20,Standard Class,CU-1083,Priya Kumar,Consumer,United States,Boston,Massachusetts,20589,East,PR-0004,Furniture,Chairs,Chairs Model 4,642.84,11,0.4,195.97
+93,ORD-2023093,2023-05-10,2023-05-13,Same Day,CU-1042,Jessica Brown,Corporate,United States,Los Angeles,California,88301,West,PR-0078,Technology,Copiers,Copiers Model 6,3183.7,10,0.3,656.09
+94,ORD-2023094,2024-09-11,2024-09-15,Second Class,CU-1068,Chris Patel,Consumer,United States,Charlotte,North Carolina,66370,South,PR-0038,Office Supplies,Storage,Storage Model 2,795.16,2,0.0,219.78
+95,ORD-2023095,2024-04-09,2024-04-13,First Class,CU-1058,Arjun Brown,Consumer,United States,Atlanta,Georgia,59060,South,PR-0030,Office Supplies,Binders,Binders Model 6,2563.12,7,0.15,162.46
+96,ORD-2023096,2023-03-29,2023-03-30,Second Class,CU-1020,Amy Moore,Corporate,United States,New York,New York,82924,East,PR-0061,Technology,Machines,Machines Model 1,369.6,7,0.4,13.43
+97,ORD-2023097,2023-05-06,2023-05-10,Standard Class,CU-1008,Jessica Kumar,Home Office,United States,Houston,Texas,47700,Central,PR-0076,Technology,Copiers,Copiers Model 4,2624.64,6,0.5,161.33
+98,ORD-2023098,2024-08-14,2024-08-19,Standard Class,CU-1077,Emily Johnson,Home Office,United States,Chicago,Illinois,55890,Central,PR-0040,Office Supplies,Storage,Storage Model 4,326.36,4,0.2,-12.36
+99,ORD-2023099,2024-08-10,2024-08-12,Standard Class,CU-1072,Jessica Reddy,Corporate,United States,Boston,Massachusetts,89822,East,PR-0048,Office Supplies,Art,Art Model 6,2963.45,7,0.5,768.17
+100,ORD-2023100,2023-10-07,2023-10-13,Second Class,CU-1085,Rohit Brown,Consumer,United States,New York,New York,84228,East,PR-0035,Office Supplies,Paper,Paper Model 5,2305.8,5,0.15,-338.83
+101,ORD-2023101,2024-10-10,2024-10-11,Same Day,CU-1085,Rohit Brown,Consumer,United States,New York,New York,54681,East,PR-0052,Office Supplies,Labels,Labels Model 4,748.66,2,0.1,28.52
+102,ORD-2023102,2023-11-29,2023-12-06,Standard Class,CU-1021,Chris Kumar,Home Office,United States,Houston,Texas,98338,Central,PR-0048,Office Supplies,Art,Art Model 6,3001.3,10,0.0,-216.72
+103,ORD-2023103,2024-03-10,2024-03-14,Standard Class,CU-1011,Aarav Anderson,Consumer,United States,Charlotte,North Carolina,55242,South,PR-0035,Office Supplies,Paper,Paper Model 5,2238.1,10,0.15,-94.48
+104,ORD-2023104,2024-11-25,2024-11-30,Same Day,CU-1056,Sarah Reddy,Corporate,United States,Houston,Texas,88554,Central,PR-0015,Furniture,Bookcases,Bookcases Model 3,2126.64,8,0.15,-270.7
+105,ORD-2023105,2023-08-05,2023-08-12,Standard Class,CU-1008,Jessica Kumar,Home Office,United States,San Francisco,California,75193,West,PR-0001,Furniture,Chairs,Chairs Model 1,1149.78,3,0.15,16.17
+106,ORD-2023106,2024-01-25,2024-01-30,First Class,CU-1096,James Anderson,Consumer,United States,Los Angeles,California,19447,West,PR-0056,Technology,Phones,Phones Model 2,1426.8,12,0.3,380.49
+107,ORD-2023107,2024-04-15,2024-04-16,Same Day,CU-1051,David Brown,Corporate,United States,Miami,Florida,47947,South,PR-0006,Furniture,Chairs,Chairs Model 6,1740.0,6,0.3,90.85
+108,ORD-2023108,2023-06-25,2023-07-02,Standard Class,CU-1015,Sneha Gupta,Corporate,United States,Boston,Massachusetts,67240,East,PR-0052,Office Supplies,Labels,Labels Model 4,2327.5,10,0.4,721.26
+109,ORD-2023109,2024-02-15,2024-02-20,Second Class,CU-1014,Sneha Patel,Corporate,United States,Charlotte,North Carolina,53655,South,PR-0032,Office Supplies,Paper,Paper Model 2,401.8,2,0.15,89.56
+110,ORD-2023110,2024-10-10,2024-10-11,Second Class,CU-1100,David Kumar,Consumer,United States,Philadelphia,Pennsylvania,40968,East,PR-0022,Furniture,Furnishings,Furnishings Model 4,2316.87,9,0.5,57.2
+111,ORD-2023111,2023-06-27,2023-07-02,Same Day,CU-1014,Sneha Patel,Corporate,United States,Chicago,Illinois,70811,Central,PR-0019,Furniture,Furnishings,Furnishings Model 1,1143.93,3,0.4,-128.49
+112,ORD-2023112,2024-08-01,2024-08-07,First Class,CU-1097,Divya Kumar,Consumer,United States,Charlotte,North Carolina,29786,South,PR-0073,Technology,Copiers,Copiers Model 1,5426.63,11,0.15,1530.98
+113,ORD-2023113,2024-10-08,2024-10-11,First Class,CU-1057,Aarav Taylor,Home Office,United States,Atlanta,Georgia,70521,South,PR-0009,Furniture,Tables,Tables Model 3,1488.75,5,0.15,154.34
+114,ORD-2023114,2023-10-21,2023-10-22,Same Day,CU-1058,Arjun Brown,Consumer,United States,Boston,Massachusetts,70648,East,PR-0005,Furniture,Chairs,Chairs Model 5,4760.8,11,0.5,-499.18
+115,ORD-2023115,2024-08-08,2024-08-14,Standard Class,CU-1075,Karan Taylor,Corporate,United States,Boston,Massachusetts,69050,East,PR-0071,Technology,Accessories,Accessories Model 5,656.64,4,0.2,66.11
+116,ORD-2023116,2024-10-23,2024-10-25,Second Class,CU-1014,Sneha Patel,Corporate,United States,Philadelphia,Pennsylvania,57696,East,PR-0044,Office Supplies,Art,Art Model 2,127.63,1,0.2,44.1
+117,ORD-2023117,2023-12-13,2023-12-19,Standard Class,CU-1048,Anita Anderson,Home Office,United States,Atlanta,Georgia,53213,South,PR-0037,Office Supplies,Storage,Storage Model 1,309.2,10,0.4,53.69
+118,ORD-2023118,2023-09-16,2023-09-22,First Class,CU-1013,Vikram Kumar,Corporate,United States,Atlanta,Georgia,20682,South,PR-0072,Technology,Accessories,Accessories Model 6,5306.18,11,0.3,1520.96
+119,ORD-2023119,2024-11-02,2024-11-08,Standard Class,CU-1075,Karan Taylor,Corporate,United States,Dallas,Texas,50577,Central,PR-0019,Furniture,Furnishings,Furnishings Model 1,2189.22,11,0.3,447.51
+120,ORD-2023120,2024-11-17,2024-11-23,Same Day,CU-1072,Jessica Reddy,Corporate,United States,Chicago,Illinois,76648,Central,PR-0049,Office Supplies,Labels,Labels Model 1,5983.2,12,0.3,-617.91
+121,ORD-2023121,2023-07-04,2023-07-06,Second Class,CU-1047,Sneha Reddy,Home Office,United States,Dallas,Texas,30308,Central,PR-0003,Furniture,Chairs,Chairs Model 3,2844.6,6,0.2,-153.6
+122,ORD-2023122,2024-07-06,2024-07-13,Second Class,CU-1010,David Davis,Corporate,United States,Philadelphia,Pennsylvania,88282,East,PR-0038,Office Supplies,Storage,Storage Model 2,5309.04,12,0.0,960.75
+123,ORD-2023123,2024-10-01,2024-10-08,Second Class,CU-1049,Sarah Davis,Consumer,United States,Los Angeles,California,68222,West,PR-0020,Furniture,Furnishings,Furnishings Model 2,1085.97,3,0.0,60.19
+124,ORD-2023124,2024-06-30,2024-07-02,Second Class,CU-1079,Divya Patel,Corporate,United States,Miami,Florida,58213,South,PR-0037,Office Supplies,Storage,Storage Model 1,2414.85,5,0.5,204.07
+125,ORD-2023125,2023-10-16,2023-10-23,Second Class,CU-1087,Karan Brown,Consumer,United States,Atlanta,Georgia,89254,South,PR-0074,Technology,Copiers,Copiers Model 2,1777.58,7,0.2,592.17
+126,ORD-2023126,2024-05-07,2024-05-14,Standard Class,CU-1018,Michael Patel,Home Office,United States,Philadelphia,Pennsylvania,47363,East,PR-0033,Office Supplies,Paper,Paper Model 3,1677.0,6,0.0,344.96
+127,ORD-2023127,2024-06-09,2024-06-11,First Class,CU-1011,Aarav Anderson,Consumer,United States,Dallas,Texas,13495,Central,PR-0021,Furniture,Furnishings,Furnishings Model 3,352.8,7,0.1,91.15
+128,ORD-2023128,2024-01-18,2024-01-20,First Class,CU-1054,Arjun Anderson,Home Office,United States,Charlotte,North Carolina,22987,South,PR-0007,Furniture,Tables,Tables Model 1,3481.03,7,0.15,-131.34
+129,ORD-2023129,2023-02-09,2023-02-12,Same Day,CU-1092,Emily Smith,Corporate,United States,Los Angeles,California,68799,West,PR-0043,Office Supplies,Art,Art Model 1,2796.48,8,0.1,641.57
+130,ORD-2023130,2023-09-20,2023-09-22,Same Day,CU-1079,Divya Patel,Corporate,United States,New York,New York,24573,East,PR-0001,Furniture,Chairs,Chairs Model 1,829.98,3,0.4,128.18
+131,ORD-2023131,2023-05-05,2023-05-06,Standard Class,CU-1100,David Kumar,Consumer,United States,San Francisco,California,24530,West,PR-0037,Office Supplies,Storage,Storage Model 1,851.24,4,0.5,137.39
+132,ORD-2023132,2024-06-11,2024-06-16,First Class,CU-1064,Aarav Davis,Corporate,United States,Philadelphia,Pennsylvania,41531,East,PR-0077,Technology,Copiers,Copiers Model 5,1442.72,4,0.15,93.23
+133,ORD-2023133,2024-11-15,2024-11-16,Standard Class,CU-1074,Sarah Kumar,Home Office,United States,Seattle,Washington,61177,West,PR-0054,Office Supplies,Labels,Labels Model 6,4387.05,9,0.0,1433.26
+134,ORD-2023134,2023-09-17,2023-09-23,Standard Class,CU-1061,Daniel Davis,Consumer,United States,Atlanta,Georgia,86271,South,PR-0006,Furniture,Chairs,Chairs Model 6,181.76,1,0.0,4.07
+135,ORD-2023135,2023-12-27,2024-01-01,Same Day,CU-1095,Sneha Sharma,Corporate,United States,Los Angeles,California,72722,West,PR-0043,Office Supplies,Art,Art Model 1,2446.14,6,0.1,648.7
+136,ORD-2023136,2024-04-13,2024-04-14,Standard Class,CU-1081,Divya Davis,Consumer,United States,Los Angeles,California,51365,West,PR-0024,Furniture,Furnishings,Furnishings Model 6,523.95,5,0.5,-26.34
+137,ORD-2023137,2024-04-29,2024-05-02,Standard Class,CU-1040,David Reddy,Corporate,United States,Charlotte,North Carolina,95948,South,PR-0066,Technology,Machines,Machines Model 6,377.88,1,0.1,-2.62
+138,ORD-2023138,2024-03-23,2024-03-27,Second Class,CU-1043,Chris Smith,Home Office,United States,Boston,Massachusetts,75038,East,PR-0035,Office Supplies,Paper,Paper Model 5,2672.04,12,0.2,52.15
+139,ORD-2023139,2023-10-01,2023-10-08,Second Class,CU-1089,Divya Anderson,Corporate,United States,Houston,Texas,81496,Central,PR-0064,Technology,Machines,Machines Model 4,729.82,2,0.0,47.66
+140,ORD-2023140,2023-12-02,2023-12-08,Second Class,CU-1038,James Kumar,Home Office,United States,New York,New York,68183,East,PR-0042,Office Supplies,Storage,Storage Model 6,783.6,5,0.3,163.64
+141,ORD-2023141,2023-12-28,2024-01-02,Standard Class,CU-1045,Vikram Brown,Corporate,United States,Philadelphia,Pennsylvania,97973,East,PR-0058,Technology,Phones,Phones Model 4,986.3,7,0.5,319.51
+142,ORD-2023142,2024-11-26,2024-11-28,Same Day,CU-1082,Aarav Patel,Home Office,United States,Houston,Texas,14561,Central,PR-0052,Office Supplies,Labels,Labels Model 4,75.68,1,0.3,14.31
+143,ORD-2023143,2024-01-11,2024-01-14,Same Day,CU-1017,David Brown,Consumer,United States,Seattle,Washington,58623,West,PR-0009,Furniture,Tables,Tables Model 3,3324.93,7,0.0,507.21
+144,ORD-2023144,2023-05-21,2023-05-26,Standard Class,CU-1048,Anita Anderson,Home Office,United States,Philadelphia,Pennsylvania,13396,East,PR-0057,Technology,Phones,Phones Model 3,1212.18,6,0.4,-12.92
+145,ORD-2023145,2024-02-01,2024-02-06,Second Class,CU-1095,Sneha Sharma,Corporate,United States,Charlotte,North Carolina,90199,South,PR-0024,Furniture,Furnishings,Furnishings Model 6,269.16,2,0.15,54.38
+146,ORD-2023146,2023-05-19,2023-05-26,Standard Class,CU-1037,Rohit Kumar,Home Office,United States,Los Angeles,California,99381,West,PR-0063,Technology,Machines,Machines Model 3,457.52,2,0.4,33.2
+147,ORD-2023147,2024-07-09,2024-07-12,Second Class,CU-1041,Vikram Kumar,Home Office,United States,Philadelphia,Pennsylvania,57381,East,PR-0045,Office Supplies,Art,Art Model 3,2132.1,5,0.4,436.62
+148,ORD-2023148,2023-05-23,2023-05-25,Same Day,CU-1066,Emily Moore,Corporate,United States,New York,New York,82305,East,PR-0029,Office Supplies,Binders,Binders Model 5,144.08,8,0.3,19.61
+149,ORD-2023149,2024-02-12,2024-02-18,Standard Class,CU-1017,David Brown,Consumer,United States,Boston,Massachusetts,26426,East,PR-0012,Furniture,Tables,Tables Model 6,2903.28,12,0.2,681.06
+150,ORD-2023150,2024-11-27,2024-12-02,Second Class,CU-1041,Vikram Kumar,Home Office,United States,Atlanta,Georgia,26912,South,PR-0010,Furniture,Tables,Tables Model 4,411.18,6,0.5,98.74
+151,ORD-2023151,2024-06-14,2024-06-16,Second Class,CU-1056,Sarah Reddy,Corporate,United States,New York,New York,55353,East,PR-0065,Technology,Machines,Machines Model 5,432.55,5,0.15,137.28
+152,ORD-2023152,2023-07-21,2023-07-27,Standard Class,CU-1067,Divya Sharma,Consumer,United States,Boston,Massachusetts,75873,East,PR-0037,Office Supplies,Storage,Storage Model 1,1267.65,9,0.4,1.79
+153,ORD-2023153,2024-11-05,2024-11-10,Standard Class,CU-1083,Priya Kumar,Consumer,United States,Los Angeles,California,13718,West,PR-0022,Furniture,Furnishings,Furnishings Model 4,5417.88,12,0.15,1469.68
+154,ORD-2023154,2023-08-04,2023-08-11,First Class,CU-1011,Aarav Anderson,Consumer,United States,Houston,Texas,94136,Central,PR-0006,Furniture,Chairs,Chairs Model 6,2112.1,10,0.4,-284.83
+155,ORD-2023155,2024-02-20,2024-02-23,Same Day,CU-1039,Laura Smith,Home Office,United States,Seattle,Washington,73471,West,PR-0062,Technology,Machines,Machines Model 2,328.96,8,0.0,-23.34
+156,ORD-2023156,2023-05-28,2023-05-31,Same Day,CU-1060,Neha Thomas,Home Office,United States,Houston,Texas,27139,Central,PR-0027,Office Supplies,Binders,Binders Model 3,1956.72,12,0.5,44.39
+157,ORD-2023157,2023-09-05,2023-09-09,Standard Class,CU-1098,Jessica Johnson,Consumer,United States,Boston,Massachusetts,48038,East,PR-0048,Office Supplies,Art,Art Model 6,274.8,2,0.1,-21.86
+158,ORD-2023158,2023-12-02,2023-12-07,Same Day,CU-1050,Michael Smith,Home Office,United States,Los Angeles,California,75373,West,PR-0054,Office Supplies,Labels,Labels Model 6,1917.48,12,0.5,-134.85
+159,ORD-2023159,2024-02-07,2024-02-12,Standard Class,CU-1040,David Reddy,Corporate,United States,New York,New York,16624,East,PR-0064,Technology,Machines,Machines Model 4,3868.08,8,0.1,548.0
+160,ORD-2023160,2024-07-03,2024-07-04,Same Day,CU-1037,Rohit Kumar,Home Office,United States,Atlanta,Georgia,57964,South,PR-0064,Technology,Machines,Machines Model 4,436.62,2,0.15,93.33
+161,ORD-2023161,2024-07-29,2024-07-31,Same Day,CU-1006,Rohit Kumar,Consumer,United States,Philadelphia,Pennsylvania,82070,East,PR-0052,Office Supplies,Labels,Labels Model 4,1673.1,6,0.0,72.24
+162,ORD-2023162,2024-02-08,2024-02-11,Second Class,CU-1036,James Smith,Corporate,United States,Los Angeles,California,88966,West,PR-0016,Furniture,Bookcases,Bookcases Model 4,1686.78,6,0.15,383.71
+163,ORD-2023163,2023-02-09,2023-02-11,Second Class,CU-1066,Emily Moore,Corporate,United States,New York,New York,89463,East,PR-0052,Office Supplies,Labels,Labels Model 4,2038.32,12,0.2,223.54
+164,ORD-2023164,2023-11-23,2023-11-25,First Class,CU-1066,Emily Moore,Corporate,United States,Houston,Texas,76494,Central,PR-0018,Furniture,Bookcases,Bookcases Model 6,3467.45,7,0.4,940.72
+165,ORD-2023165,2024-07-30,2024-08-02,Standard Class,CU-1066,Emily Moore,Corporate,United States,Charlotte,North Carolina,64596,South,PR-0069,Technology,Accessories,Accessories Model 3,3270.4,8,0.15,51.08
+166,ORD-2023166,2024-04-30,2024-05-03,Second Class,CU-1075,Karan Taylor,Corporate,United States,Philadelphia,Pennsylvania,16731,East,PR-0040,Office Supplies,Storage,Storage Model 4,4317.94,11,0.5,601.22
+167,ORD-2023167,2024-10-06,2024-10-12,Second Class,CU-1075,Karan Taylor,Corporate,United States,Seattle,Washington,14138,West,PR-0062,Technology,Machines,Machines Model 2,3884.3,10,0.2,-295.64
+168,ORD-2023168,2024-03-27,2024-03-30,Same Day,CU-1074,Sarah Kumar,Home Office,United States,Los Angeles,California,18163,West,PR-0015,Furniture,Bookcases,Bookcases Model 3,559.72,7,0.4,-26.9
+169,ORD-2023169,2023-11-29,2023-12-05,Same Day,CU-1091,Sneha Wilson,Corporate,United States,Seattle,Washington,79878,West,PR-0018,Furniture,Bookcases,Bookcases Model 6,2120.88,8,0.15,696.38
+170,ORD-2023170,2024-11-28,2024-12-04,Second Class,CU-1044,Michael Gupta,Consumer,United States,Houston,Texas,46569,Central,PR-0070,Technology,Accessories,Accessories Model 4,1630.32,12,0.2,-87.82
+171,ORD-2023171,2023-10-23,2023-10-29,First Class,CU-1072,Jessica Reddy,Corporate,United States,San Francisco,California,83464,West,PR-0039,Office Supplies,Storage,Storage Model 3,1386.68,4,0.2,11.82
+172,ORD-2023172,2024-08-10,2024-08-16,Second Class,CU-1093,David Thomas,Home Office,United States,Chicago,Illinois,48070,Central,PR-0036,Office Supplies,Paper,Paper Model 6,1736.55,9,0.2,450.09
+173,ORD-2023173,2024-03-28,2024-04-03,First Class,CU-1006,Rohit Kumar,Consumer,United States,Boston,Massachusetts,83664,East,PR-0037,Office Supplies,Storage,Storage Model 1,1874.65,5,0.1,-91.79
+174,ORD-2023174,2024-09-22,2024-09-28,Second Class,CU-1090,Sarah Kumar,Consumer,United States,Los Angeles,California,93616,West,PR-0035,Office Supplies,Paper,Paper Model 5,1234.4,10,0.0,228.26
+175,ORD-2023175,2023-12-05,2023-12-11,Second Class,CU-1030,Anita Brown,Home Office,United States,Boston,Massachusetts,63334,East,PR-0007,Furniture,Tables,Tables Model 1,438.16,8,0.5,-35.61
+176,ORD-2023176,2023-07-24,2023-07-31,Standard Class,CU-1084,Priya Thomas,Corporate,United States,Charlotte,North Carolina,95498,South,PR-0061,Technology,Machines,Machines Model 1,819.9,5,0.4,-98.73
+177,ORD-2023177,2024-03-03,2024-03-10,Same Day,CU-1074,Sarah Kumar,Home Office,United States,New York,New York,74930,East,PR-0030,Office Supplies,Binders,Binders Model 6,1401.87,3,0.0,488.67
+178,ORD-2023178,2023-11-02,2023-11-07,Same Day,CU-1024,Rohit Thomas,Consumer,United States,New York,New York,27589,East,PR-0038,Office Supplies,Storage,Storage Model 2,581.1,10,0.15,-4.49
+179,ORD-2023179,2023-04-26,2023-04-29,Second Class,CU-1065,Laura Sharma,Consumer,United States,Chicago,Illinois,11846,Central,PR-0060,Technology,Phones,Phones Model 6,1100.7,3,0.4,-23.52
+180,ORD-2023180,2024-11-21,2024-11-28,Same Day,CU-1095,Sneha Sharma,Corporate,United States,Houston,Texas,66059,Central,PR-0044,Office Supplies,Art,Art Model 2,367.48,4,0.5,62.24
+181,ORD-2023181,2024-11-16,2024-11-17,Second Class,CU-1066,Emily Moore,Corporate,United States,Boston,Massachusetts,10895,East,PR-0042,Office Supplies,Storage,Storage Model 6,1472.79,3,0.2,17.38
+182,ORD-2023182,2023-10-01,2023-10-04,First Class,CU-1034,James Thomas,Consumer,United States,San Francisco,California,40972,West,PR-0050,Office Supplies,Labels,Labels Model 2,1466.6,5,0.3,-211.6
+183,ORD-2023183,2023-06-13,2023-06-17,Standard Class,CU-1008,Jessica Kumar,Home Office,United States,Atlanta,Georgia,93717,South,PR-0016,Furniture,Bookcases,Bookcases Model 4,2791.25,11,0.4,655.72
+184,ORD-2023184,2023-05-17,2023-05-21,Same Day,CU-1038,James Kumar,Home Office,United States,Los Angeles,California,80453,West,PR-0048,Office Supplies,Art,Art Model 6,690.63,3,0.3,25.42
+185,ORD-2023185,2024-09-02,2024-09-09,Standard Class,CU-1086,Arjun Wilson,Corporate,United States,Seattle,Washington,83946,West,PR-0028,Office Supplies,Binders,Binders Model 4,530.26,2,0.3,107.05
+186,ORD-2023186,2024-07-03,2024-07-05,Second Class,CU-1015,Sneha Gupta,Corporate,United States,Seattle,Washington,86434,West,PR-0008,Furniture,Tables,Tables Model 2,502.26,3,0.3,35.62
+187,ORD-2023187,2024-04-09,2024-04-11,Same Day,CU-1063,Jessica Anderson,Home Office,United States,Miami,Florida,98181,South,PR-0012,Furniture,Tables,Tables Model 6,1895.76,9,0.3,-229.64
+188,ORD-2023188,2023-01-04,2023-01-10,Standard Class,CU-1040,David Reddy,Corporate,United States,Atlanta,Georgia,80931,South,PR-0003,Furniture,Chairs,Chairs Model 3,1165.04,4,0.0,72.06
+189,ORD-2023189,2023-10-21,2023-10-25,Same Day,CU-1008,Jessica Kumar,Home Office,United States,Miami,Florida,59081,South,PR-0009,Furniture,Tables,Tables Model 3,1156.92,3,0.5,197.56
+190,ORD-2023190,2023-03-24,2023-03-30,First Class,CU-1049,Sarah Davis,Consumer,United States,Atlanta,Georgia,25549,South,PR-0058,Technology,Phones,Phones Model 4,4816.9,11,0.1,851.47
+191,ORD-2023191,2023-05-11,2023-05-17,First Class,CU-1023,Divya Anderson,Corporate,United States,Charlotte,North Carolina,70686,South,PR-0069,Technology,Accessories,Accessories Model 3,1672.96,4,0.5,-231.93
+192,ORD-2023192,2024-01-24,2024-01-31,Second Class,CU-1087,Karan Brown,Consumer,United States,Charlotte,North Carolina,24790,South,PR-0070,Technology,Accessories,Accessories Model 4,510.08,4,0.15,-36.95
+193,ORD-2023193,2023-07-31,2023-08-01,Standard Class,CU-1005,Sarah Sharma,Consumer,United States,New York,New York,42077,East,PR-0054,Office Supplies,Labels,Labels Model 6,598.0,2,0.2,89.04
+194,ORD-2023194,2023-08-28,2023-09-02,First Class,CU-1095,Sneha Sharma,Corporate,United States,Atlanta,Georgia,40692,South,PR-0006,Furniture,Chairs,Chairs Model 6,1513.68,4,0.5,-184.33
+195,ORD-2023195,2024-09-04,2024-09-11,Second Class,CU-1094,Priya Wilson,Home Office,United States,Houston,Texas,96535,Central,PR-0074,Technology,Copiers,Copiers Model 2,4511.1,11,0.1,3.98
+196,ORD-2023196,2023-10-09,2023-10-10,Same Day,CU-1067,Divya Sharma,Consumer,United States,Atlanta,Georgia,82856,South,PR-0029,Office Supplies,Binders,Binders Model 5,4270.68,9,0.4,1305.93
+197,ORD-2023197,2024-11-18,2024-11-22,First Class,CU-1064,Aarav Davis,Corporate,United States,Houston,Texas,59343,Central,PR-0007,Furniture,Tables,Tables Model 1,1464.93,9,0.2,79.3
+198,ORD-2023198,2023-08-19,2023-08-22,Same Day,CU-1024,Rohit Thomas,Consumer,United States,Miami,Florida,64592,South,PR-0069,Technology,Accessories,Accessories Model 3,917.4,12,0.2,281.98
+199,ORD-2023199,2023-09-06,2023-09-09,First Class,CU-1072,Jessica Reddy,Corporate,United States,San Francisco,California,22119,West,PR-0068,Technology,Accessories,Accessories Model 2,673.92,4,0.0,209.67
+200,ORD-2023200,2024-01-22,2024-01-28,Second Class,CU-1069,Laura Thomas,Consumer,United States,Boston,Massachusetts,72835,East,PR-0025,Office Supplies,Binders,Binders Model 1,3034.5,10,0.5,-344.74
+201,ORD-2023201,2023-08-05,2023-08-07,Second Class,CU-1027,Anita Gupta,Corporate,United States,Chicago,Illinois,89220,Central,PR-0043,Office Supplies,Art,Art Model 1,756.84,12,0.5,67.71
+202,ORD-2023202,2024-07-19,2024-07-22,First Class,CU-1091,Sneha Wilson,Corporate,United States,Miami,Florida,44283,South,PR-0027,Office Supplies,Binders,Binders Model 3,967.15,5,0.3,168.63
+203,ORD-2023203,2023-04-11,2023-04-18,Second Class,CU-1047,Sneha Reddy,Home Office,United States,Atlanta,Georgia,58589,South,PR-0066,Technology,Machines,Machines Model 6,2848.8,12,0.5,28.82
+204,ORD-2023204,2023-08-15,2023-08-21,Same Day,CU-1041,Vikram Kumar,Home Office,United States,Philadelphia,Pennsylvania,48691,East,PR-0053,Office Supplies,Labels,Labels Model 5,39.09,3,0.3,12.41
+205,ORD-2023205,2024-01-24,2024-01-29,First Class,CU-1020,Amy Moore,Corporate,United States,Chicago,Illinois,43728,Central,PR-0026,Office Supplies,Binders,Binders Model 2,1008.6,4,0.4,324.5
+206,ORD-2023206,2023-06-22,2023-06-28,Second Class,CU-1098,Jessica Johnson,Consumer,United States,Atlanta,Georgia,81058,South,PR-0063,Technology,Machines,Machines Model 3,532.74,6,0.4,65.67
+207,ORD-2023207,2024-11-15,2024-11-16,Standard Class,CU-1083,Priya Kumar,Consumer,United States,New York,New York,29795,East,PR-0008,Furniture,Tables,Tables Model 2,209.13,1,0.5,34.58
+208,ORD-2023208,2023-03-03,2023-03-08,Same Day,CU-1002,Arjun Kumar,Consumer,United States,Atlanta,Georgia,12061,South,PR-0028,Office Supplies,Binders,Binders Model 4,3685.44,11,0.3,1129.13
+209,ORD-2023209,2023-01-18,2023-01-23,Same Day,CU-1001,Sneha Sharma,Home Office,United States,Miami,Florida,33496,South,PR-0069,Technology,Accessories,Accessories Model 3,1692.0,12,0.15,-239.3
+210,ORD-2023210,2023-07-16,2023-07-21,Same Day,CU-1014,Sneha Patel,Corporate,United States,Los Angeles,California,20357,West,PR-0013,Furniture,Bookcases,Bookcases Model 1,1169.55,9,0.15,-19.11
+211,ORD-2023211,2023-09-07,2023-09-13,Standard Class,CU-1048,Anita Anderson,Home Office,United States,Charlotte,North Carolina,22255,South,PR-0052,Office Supplies,Labels,Labels Model 4,613.96,4,0.5,168.18
+212,ORD-2023212,2024-05-02,2024-05-03,Same Day,CU-1052,Jessica Thomas,Consumer,United States,Charlotte,North Carolina,94529,South,PR-0049,Office Supplies,Labels,Labels Model 1,106.48,11,0.1,-11.57
+213,ORD-2023213,2023-02-13,2023-02-15,Same Day,CU-1043,Chris Smith,Home Office,United States,Philadelphia,Pennsylvania,45532,East,PR-0073,Technology,Copiers,Copiers Model 1,1804.52,4,0.4,530.13
+214,ORD-2023214,2024-07-31,2024-08-06,Second Class,CU-1006,Rohit Kumar,Consumer,United States,Houston,Texas,86943,Central,PR-0010,Furniture,Tables,Tables Model 4,93.78,1,0.5,0.68
+215,ORD-2023215,2023-06-16,2023-06-21,First Class,CU-1019,Neha Thomas,Home Office,United States,Boston,Massachusetts,60311,East,PR-0051,Office Supplies,Labels,Labels Model 3,1142.04,4,0.5,50.91
+216,ORD-2023216,2023-12-21,2023-12-22,Same Day,CU-1097,Divya Kumar,Consumer,United States,Philadelphia,Pennsylvania,52778,East,PR-0018,Furniture,Bookcases,Bookcases Model 6,442.72,2,0.5,-49.58
+217,ORD-2023217,2023-08-22,2023-08-25,Same Day,CU-1004,Jessica Patel,Home Office,United States,Atlanta,Georgia,21232,South,PR-0035,Office Supplies,Paper,Paper Model 5,4237.83,9,0.2,-242.11
+218,ORD-2023218,2023-03-17,2023-03-18,Second Class,CU-1099,Sarah Reddy,Corporate,United States,Seattle,Washington,61068,West,PR-0038,Office Supplies,Storage,Storage Model 2,406.7,5,0.4,98.4
+219,ORD-2023219,2023-01-06,2023-01-09,Standard Class,CU-1041,Vikram Kumar,Home Office,United States,New York,New York,34561,East,PR-0047,Office Supplies,Art,Art Model 5,1465.28,8,0.15,-144.89
+220,ORD-2023220,2023-01-27,2023-01-28,First Class,CU-1056,Sarah Reddy,Corporate,United States,Miami,Florida,60493,South,PR-0058,Technology,Phones,Phones Model 4,1676.04,6,0.3,249.77
+221,ORD-2023221,2023-03-28,2023-04-03,Second Class,CU-1002,Arjun Kumar,Consumer,United States,Atlanta,Georgia,99825,South,PR-0038,Office Supplies,Storage,Storage Model 2,4077.72,9,0.1,554.49
+222,ORD-2023222,2023-11-05,2023-11-08,Same Day,CU-1049,Sarah Davis,Consumer,United States,San Francisco,California,49289,West,PR-0022,Furniture,Furnishings,Furnishings Model 4,617.92,8,0.1,41.61
+223,ORD-2023223,2023-09-10,2023-09-16,Standard Class,CU-1062,Vikram Gupta,Consumer,United States,Dallas,Texas,27758,Central,PR-0010,Furniture,Tables,Tables Model 4,2754.62,11,0.3,-143.86
+224,ORD-2023224,2024-09-27,2024-10-01,Second Class,CU-1039,Laura Smith,Home Office,United States,Atlanta,Georgia,49378,South,PR-0001,Furniture,Chairs,Chairs Model 1,1337.46,6,0.2,344.71
+225,ORD-2023225,2023-11-18,2023-11-20,Same Day,CU-1042,Jessica Brown,Corporate,United States,San Francisco,California,85481,West,PR-0078,Technology,Copiers,Copiers Model 6,3391.64,7,0.15,737.47
+226,ORD-2023226,2024-02-07,2024-02-10,Second Class,CU-1032,Michael Singh,Home Office,United States,Atlanta,Georgia,99353,South,PR-0042,Office Supplies,Storage,Storage Model 6,932.74,2,0.1,136.29
+227,ORD-2023227,2024-04-17,2024-04-23,Standard Class,CU-1099,Sarah Reddy,Corporate,United States,Philadelphia,Pennsylvania,63627,East,PR-0071,Technology,Accessories,Accessories Model 5,888.16,4,0.15,235.93
+228,ORD-2023228,2023-11-07,2023-11-09,Same Day,CU-1087,Karan Brown,Consumer,United States,Seattle,Washington,19694,West,PR-0064,Technology,Machines,Machines Model 4,1655.2,5,0.4,101.9
+229,ORD-2023229,2024-02-15,2024-02-20,Standard Class,CU-1058,Arjun Brown,Consumer,United States,Charlotte,North Carolina,57124,South,PR-0077,Technology,Copiers,Copiers Model 5,4159.17,9,0.5,814.59
+230,ORD-2023230,2023-09-12,2023-09-18,Same Day,CU-1090,Sarah Kumar,Consumer,United States,New York,New York,53463,East,PR-0069,Technology,Accessories,Accessories Model 3,1988.03,11,0.4,310.81
+231,ORD-2023231,2023-09-22,2023-09-24,Second Class,CU-1056,Sarah Reddy,Corporate,United States,New York,New York,68429,East,PR-0014,Furniture,Bookcases,Bookcases Model 2,3372.21,9,0.3,472.98
+232,ORD-2023232,2024-08-25,2024-08-31,First Class,CU-1048,Anita Anderson,Home Office,United States,Charlotte,North Carolina,64522,South,PR-0051,Office Supplies,Labels,Labels Model 3,716.58,9,0.0,65.49
+233,ORD-2023233,2023-11-16,2023-11-19,Same Day,CU-1011,Aarav Anderson,Consumer,United States,San Francisco,California,22795,West,PR-0015,Furniture,Bookcases,Bookcases Model 3,3145.68,8,0.3,287.71
+234,ORD-2023234,2023-11-04,2023-11-05,Standard Class,CU-1057,Aarav Taylor,Home Office,United States,Chicago,Illinois,98754,Central,PR-0058,Technology,Phones,Phones Model 4,743.64,12,0.5,16.02
+235,ORD-2023235,2023-06-13,2023-06-16,Same Day,CU-1022,Rohit Sharma,Home Office,United States,Seattle,Washington,92543,West,PR-0032,Office Supplies,Paper,Paper Model 2,1944.45,9,0.2,-66.25
+236,ORD-2023236,2023-01-30,2023-02-05,Same Day,CU-1024,Rohit Thomas,Consumer,United States,Atlanta,Georgia,10583,South,PR-0024,Furniture,Furnishings,Furnishings Model 6,4421.3,10,0.2,645.96
+237,ORD-2023237,2023-03-06,2023-03-11,First Class,CU-1091,Sneha Wilson,Corporate,United States,San Francisco,California,35830,West,PR-0028,Office Supplies,Binders,Binders Model 4,801.5,2,0.3,-45.3
+238,ORD-2023238,2024-05-16,2024-05-21,Standard Class,CU-1059,Daniel Moore,Consumer,United States,Houston,Texas,55603,Central,PR-0015,Furniture,Bookcases,Bookcases Model 3,1761.54,11,0.2,274.19
+239,ORD-2023239,2023-11-01,2023-11-06,Second Class,CU-1046,Rohit Anderson,Consumer,United States,Seattle,Washington,50026,West,PR-0059,Technology,Phones,Phones Model 5,469.5,10,0.1,3.1
+240,ORD-2023240,2023-05-25,2023-05-30,Same Day,CU-1015,Sneha Gupta,Corporate,United States,Houston,Texas,34347,Central,PR-0024,Furniture,Furnishings,Furnishings Model 6,1484.21,7,0.1,203.93
+241,ORD-2023241,2023-06-20,2023-06-24,Standard Class,CU-1063,Jessica Anderson,Home Office,United States,Seattle,Washington,57059,West,PR-0069,Technology,Accessories,Accessories Model 3,372.25,5,0.15,100.88
+242,ORD-2023242,2024-01-29,2024-02-03,Same Day,CU-1002,Arjun Kumar,Consumer,United States,Los Angeles,California,68176,West,PR-0063,Technology,Machines,Machines Model 3,2954.43,9,0.2,568.28
+243,ORD-2023243,2023-02-01,2023-02-08,First Class,CU-1063,Jessica Anderson,Home Office,United States,Philadelphia,Pennsylvania,32047,East,PR-0022,Furniture,Furnishings,Furnishings Model 4,598.32,4,0.15,-22.48
+244,ORD-2023244,2024-06-07,2024-06-08,First Class,CU-1100,David Kumar,Consumer,United States,Charlotte,North Carolina,81046,South,PR-0059,Technology,Phones,Phones Model 5,615.3,10,0.5,74.79
+245,ORD-2023245,2023-08-12,2023-08-16,First Class,CU-1097,Divya Kumar,Consumer,United States,Charlotte,North Carolina,14224,South,PR-0006,Furniture,Chairs,Chairs Model 6,738.62,2,0.4,166.69
+246,ORD-2023246,2024-03-25,2024-04-01,First Class,CU-1058,Arjun Brown,Consumer,United States,Chicago,Illinois,89988,Central,PR-0034,Office Supplies,Paper,Paper Model 4,777.88,2,0.1,-35.05
+247,ORD-2023247,2023-05-23,2023-05-30,First Class,CU-1081,Divya Davis,Consumer,United States,Seattle,Washington,79767,West,PR-0055,Technology,Phones,Phones Model 1,1630.8,4,0.5,-196.22
+248,ORD-2023248,2023-10-27,2023-10-30,Standard Class,CU-1036,James Smith,Corporate,United States,San Francisco,California,27771,West,PR-0077,Technology,Copiers,Copiers Model 5,1373.3,10,0.5,147.23
+249,ORD-2023249,2024-11-02,2024-11-04,First Class,CU-1097,Divya Kumar,Consumer,United States,Boston,Massachusetts,42447,East,PR-0053,Office Supplies,Labels,Labels Model 5,5204.52,12,0.1,-400.11
+250,ORD-2023250,2024-08-14,2024-08-20,Standard Class,CU-1098,Jessica Johnson,Consumer,United States,Miami,Florida,62802,South,PR-0051,Office Supplies,Labels,Labels Model 3,1578.85,5,0.2,119.99
+251,ORD-2023251,2024-05-14,2024-05-17,Standard Class,CU-1066,Emily Moore,Corporate,United States,Dallas,Texas,70089,Central,PR-0036,Office Supplies,Paper,Paper Model 6,62.2,10,0.5,17.02
+252,ORD-2023252,2024-02-12,2024-02-14,First Class,CU-1082,Aarav Patel,Home Office,United States,Philadelphia,Pennsylvania,54270,East,PR-0046,Office Supplies,Art,Art Model 4,2893.1,7,0.2,-45.51
+253,ORD-2023253,2024-05-11,2024-05-18,Standard Class,CU-1071,Vikram Wilson,Corporate,United States,Seattle,Washington,92074,West,PR-0074,Technology,Copiers,Copiers Model 2,2685.66,6,0.5,-337.84
+254,ORD-2023254,2024-03-27,2024-03-31,Second Class,CU-1059,Daniel Moore,Consumer,United States,New York,New York,95196,East,PR-0003,Furniture,Chairs,Chairs Model 3,495.96,1,0.2,-24.22
+255,ORD-2023255,2024-11-01,2024-11-04,Second Class,CU-1039,Laura Smith,Home Office,United States,Chicago,Illinois,16787,Central,PR-0021,Furniture,Furnishings,Furnishings Model 3,229.0,5,0.4,69.14
+256,ORD-2023256,2024-11-02,2024-11-03,Second Class,CU-1051,David Brown,Corporate,United States,San Francisco,California,87814,West,PR-0040,Office Supplies,Storage,Storage Model 4,625.44,12,0.1,55.29
+257,ORD-2023257,2023-01-09,2023-01-15,Second Class,CU-1029,Rohit Davis,Home Office,United States,Miami,Florida,72613,South,PR-0067,Technology,Accessories,Accessories Model 1,2456.82,6,0.5,150.25
+258,ORD-2023258,2023-04-15,2023-04-16,Second Class,CU-1010,David Davis,Corporate,United States,Miami,Florida,94092,South,PR-0030,Office Supplies,Binders,Binders Model 6,1121.64,6,0.15,-91.34
+259,ORD-2023259,2024-07-30,2024-07-31,Second Class,CU-1087,Karan Brown,Consumer,United States,Philadelphia,Pennsylvania,92323,East,PR-0019,Furniture,Furnishings,Furnishings Model 1,3267.6,10,0.2,83.63
+260,ORD-2023260,2024-03-29,2024-04-05,Standard Class,CU-1096,James Anderson,Consumer,United States,Charlotte,North Carolina,87276,South,PR-0020,Furniture,Furnishings,Furnishings Model 2,191.64,4,0.0,-15.33
+261,ORD-2023261,2023-11-19,2023-11-26,First Class,CU-1094,Priya Wilson,Home Office,United States,Dallas,Texas,13515,Central,PR-0050,Office Supplies,Labels,Labels Model 2,382.95,3,0.4,-41.31
+262,ORD-2023262,2024-09-13,2024-09-18,Second Class,CU-1085,Rohit Brown,Consumer,United States,Seattle,Washington,74865,West,PR-0039,Office Supplies,Storage,Storage Model 3,1500.72,4,0.15,259.75
+263,ORD-2023263,2024-10-15,2024-10-20,First Class,CU-1050,Michael Smith,Home Office,United States,San Francisco,California,27299,West,PR-0015,Furniture,Bookcases,Bookcases Model 3,533.0,2,0.0,183.05
+264,ORD-2023264,2024-07-13,2024-07-19,Standard Class,CU-1050,Michael Smith,Home Office,United States,Atlanta,Georgia,11807,South,PR-0073,Technology,Copiers,Copiers Model 1,1147.65,3,0.5,-130.26
+265,ORD-2023265,2024-02-12,2024-02-17,Same Day,CU-1034,James Thomas,Consumer,United States,New York,New York,62727,East,PR-0028,Office Supplies,Binders,Binders Model 4,1580.7,5,0.3,369.18
+266,ORD-2023266,2023-03-27,2023-03-30,Second Class,CU-1011,Aarav Anderson,Consumer,United States,San Francisco,California,80305,West,PR-0069,Technology,Accessories,Accessories Model 3,516.2,2,0.1,174.04
+267,ORD-2023267,2024-03-23,2024-03-29,Standard Class,CU-1042,Jessica Brown,Corporate,United States,Boston,Massachusetts,69424,East,PR-0051,Office Supplies,Labels,Labels Model 3,134.64,4,0.0,42.05
+268,ORD-2023268,2024-11-13,2024-11-19,Second Class,CU-1079,Divya Patel,Corporate,United States,Boston,Massachusetts,11487,East,PR-0078,Technology,Copiers,Copiers Model 6,4087.93,11,0.0,-587.3
+269,ORD-2023269,2024-06-13,2024-06-20,First Class,CU-1021,Chris Kumar,Home Office,United States,Houston,Texas,25473,Central,PR-0064,Technology,Machines,Machines Model 4,1599.96,12,0.15,-138.45
+270,ORD-2023270,2023-10-06,2023-10-11,Same Day,CU-1099,Sarah Reddy,Corporate,United States,Dallas,Texas,69663,Central,PR-0004,Furniture,Chairs,Chairs Model 4,270.32,2,0.3,44.27
+271,ORD-2023271,2024-08-03,2024-08-05,Standard Class,CU-1066,Emily Moore,Corporate,United States,Boston,Massachusetts,39937,East,PR-0047,Office Supplies,Art,Art Model 5,497.22,6,0.5,-49.0
+272,ORD-2023272,2023-01-13,2023-01-15,Second Class,CU-1095,Sneha Sharma,Corporate,United States,New York,New York,14635,East,PR-0066,Technology,Machines,Machines Model 6,238.52,1,0.2,73.97
+273,ORD-2023273,2023-09-12,2023-09-16,First Class,CU-1071,Vikram Wilson,Corporate,United States,San Francisco,California,25650,West,PR-0054,Office Supplies,Labels,Labels Model 6,1960.44,12,0.5,-217.72
+274,ORD-2023274,2024-06-12,2024-06-13,First Class,CU-1065,Laura Sharma,Consumer,United States,Los Angeles,California,52899,West,PR-0007,Furniture,Tables,Tables Model 1,273.84,7,0.2,77.5
+275,ORD-2023275,2024-01-13,2024-01-15,Second Class,CU-1012,Sarah Gupta,Corporate,United States,Miami,Florida,70807,South,PR-0071,Technology,Accessories,Accessories Model 5,1420.4,5,0.15,312.19
+276,ORD-2023276,2024-07-13,2024-07-20,First Class,CU-1048,Anita Anderson,Home Office,United States,Miami,Florida,93354,South,PR-0076,Technology,Copiers,Copiers Model 4,318.12,4,0.2,-43.91
+277,ORD-2023277,2024-11-04,2024-11-08,Second Class,CU-1089,Divya Anderson,Corporate,United States,Chicago,Illinois,65026,Central,PR-0002,Furniture,Chairs,Chairs Model 2,4379.64,12,0.0,-207.61
+278,ORD-2023278,2023-10-14,2023-10-15,First Class,CU-1063,Jessica Anderson,Home Office,United States,Seattle,Washington,70091,West,PR-0008,Furniture,Tables,Tables Model 2,461.03,1,0.5,50.66
+279,ORD-2023279,2023-05-17,2023-05-23,Second Class,CU-1096,James Anderson,Consumer,United States,Philadelphia,Pennsylvania,41034,East,PR-0011,Furniture,Tables,Tables Model 5,294.28,7,0.3,-34.98
+280,ORD-2023280,2023-12-01,2023-12-04,Second Class,CU-1038,James Kumar,Home Office,United States,Dallas,Texas,86638,Central,PR-0034,Office Supplies,Paper,Paper Model 4,1116.96,8,0.0,359.41
+281,ORD-2023281,2024-04-05,2024-04-09,Second Class,CU-1014,Sneha Patel,Corporate,United States,New York,New York,69233,East,PR-0020,Furniture,Furnishings,Furnishings Model 2,1237.32,6,0.3,36.06
+282,ORD-2023282,2023-04-03,2023-04-05,Standard Class,CU-1040,David Reddy,Corporate,United States,Chicago,Illinois,38183,Central,PR-0060,Technology,Phones,Phones Model 6,1711.49,11,0.4,339.63
+283,ORD-2023283,2023-09-12,2023-09-15,Second Class,CU-1042,Jessica Brown,Corporate,United States,Philadelphia,Pennsylvania,14073,East,PR-0019,Furniture,Furnishings,Furnishings Model 1,1814.12,7,0.4,-1.05
+284,ORD-2023284,2024-04-18,2024-04-19,Second Class,CU-1052,Jessica Thomas,Consumer,United States,Los Angeles,California,27133,West,PR-0058,Technology,Phones,Phones Model 4,195.36,3,0.0,51.81
+285,ORD-2023285,2024-10-07,2024-10-13,Standard Class,CU-1026,David Wilson,Corporate,United States,Houston,Texas,12857,Central,PR-0052,Office Supplies,Labels,Labels Model 4,586.5,2,0.15,181.06
+286,ORD-2023286,2023-04-05,2023-04-12,Same Day,CU-1009,Jessica Smith,Consumer,United States,Miami,Florida,61773,South,PR-0026,Office Supplies,Binders,Binders Model 2,393.9,6,0.2,-49.11
+287,ORD-2023287,2024-03-12,2024-03-14,Same Day,CU-1064,Aarav Davis,Corporate,United States,Charlotte,North Carolina,29481,South,PR-0004,Furniture,Chairs,Chairs Model 4,667.68,6,0.1,-8.35
+288,ORD-2023288,2024-02-26,2024-03-02,Same Day,CU-1005,Sarah Sharma,Consumer,United States,Dallas,Texas,36143,Central,PR-0032,Office Supplies,Paper,Paper Model 2,281.44,8,0.15,11.68
+289,ORD-2023289,2024-07-10,2024-07-17,Same Day,CU-1083,Priya Kumar,Consumer,United States,Seattle,Washington,81371,West,PR-0068,Technology,Accessories,Accessories Model 2,494.75,1,0.5,102.26
+290,ORD-2023290,2023-10-04,2023-10-06,First Class,CU-1063,Jessica Anderson,Home Office,United States,Dallas,Texas,17679,Central,PR-0045,Office Supplies,Art,Art Model 3,162.84,1,0.1,-22.04
+291,ORD-2023291,2023-08-27,2023-08-29,Standard Class,CU-1061,Daniel Davis,Consumer,United States,Houston,Texas,38758,Central,PR-0068,Technology,Accessories,Accessories Model 2,255.38,2,0.1,-4.27
+292,ORD-2023292,2023-06-30,2023-07-02,Standard Class,CU-1074,Sarah Kumar,Home Office,United States,Chicago,Illinois,56095,Central,PR-0050,Office Supplies,Labels,Labels Model 2,1624.1,10,0.4,322.89
+293,ORD-2023293,2023-07-12,2023-07-19,Standard Class,CU-1073,Daniel Thomas,Home Office,United States,Seattle,Washington,17362,West,PR-0073,Technology,Copiers,Copiers Model 1,2186.8,8,0.1,208.22
+294,ORD-2023294,2024-06-23,2024-06-27,Second Class,CU-1030,Anita Brown,Home Office,United States,Los Angeles,California,54663,West,PR-0078,Technology,Copiers,Copiers Model 6,169.21,1,0.3,-8.34
+295,ORD-2023295,2023-01-23,2023-01-25,First Class,CU-1092,Emily Smith,Corporate,United States,Chicago,Illinois,19506,Central,PR-0023,Furniture,Furnishings,Furnishings Model 5,3538.2,10,0.1,839.2
+296,ORD-2023296,2023-11-06,2023-11-09,Same Day,CU-1048,Anita Anderson,Home Office,United States,Boston,Massachusetts,95089,East,PR-0051,Office Supplies,Labels,Labels Model 3,1464.15,3,0.4,474.89
+297,ORD-2023297,2024-11-12,2024-11-17,Second Class,CU-1041,Vikram Kumar,Home Office,United States,Chicago,Illinois,33292,Central,PR-0023,Furniture,Furnishings,Furnishings Model 5,576.9,3,0.4,112.06
+298,ORD-2023298,2023-02-03,2023-02-05,Second Class,CU-1094,Priya Wilson,Home Office,United States,Charlotte,North Carolina,93839,South,PR-0001,Furniture,Chairs,Chairs Model 1,1625.2,10,0.5,542.44
+299,ORD-2023299,2023-12-06,2023-12-12,Standard Class,CU-1073,Daniel Thomas,Home Office,United States,Miami,Florida,97821,South,PR-0014,Furniture,Bookcases,Bookcases Model 2,245.62,2,0.15,-16.22
+300,ORD-2023300,2023-09-29,2023-10-01,Standard Class,CU-1082,Aarav Patel,Home Office,United States,Miami,Florida,10167,South,PR-0043,Office Supplies,Art,Art Model 1,1392.48,4,0.15,-30.18
+301,ORD-2023301,2024-03-05,2024-03-07,Same Day,CU-1007,Daniel Davis,Consumer,United States,Charlotte,North Carolina,23294,South,PR-0050,Office Supplies,Labels,Labels Model 2,1743.56,7,0.2,44.66
+302,ORD-2023302,2024-04-07,2024-04-08,Standard Class,CU-1062,Vikram Gupta,Consumer,United States,Los Angeles,California,19725,West,PR-0074,Technology,Copiers,Copiers Model 2,150.98,1,0.15,-2.93
+303,ORD-2023303,2023-03-18,2023-03-23,Standard Class,CU-1044,Michael Gupta,Consumer,United States,Miami,Florida,66534,South,PR-0022,Furniture,Furnishings,Furnishings Model 4,344.58,2,0.3,102.21
+304,ORD-2023304,2023-02-24,2023-02-25,First Class,CU-1084,Priya Thomas,Corporate,United States,Miami,Florida,96585,South,PR-0022,Furniture,Furnishings,Furnishings Model 4,640.5,6,0.1,35.0
+305,ORD-2023305,2023-02-20,2023-02-24,First Class,CU-1037,Rohit Kumar,Home Office,United States,Los Angeles,California,10500,West,PR-0039,Office Supplies,Storage,Storage Model 3,2770.8,10,0.2,-202.84
+306,ORD-2023306,2024-10-02,2024-10-07,First Class,CU-1055,James Patel,Corporate,United States,Houston,Texas,20739,Central,PR-0012,Furniture,Tables,Tables Model 6,830.72,8,0.0,-38.65
+307,ORD-2023307,2024-04-27,2024-05-01,Second Class,CU-1061,Daniel Davis,Consumer,United States,Dallas,Texas,58630,Central,PR-0015,Furniture,Bookcases,Bookcases Model 3,1497.98,11,0.4,182.85
+308,ORD-2023308,2023-02-15,2023-02-18,Standard Class,CU-1049,Sarah Davis,Consumer,United States,San Francisco,California,29808,West,PR-0048,Office Supplies,Art,Art Model 6,1881.6,8,0.1,505.28
+309,ORD-2023309,2023-12-19,2023-12-26,Standard Class,CU-1097,Divya Kumar,Consumer,United States,Philadelphia,Pennsylvania,60738,East,PR-0013,Furniture,Bookcases,Bookcases Model 1,1889.28,9,0.5,273.69
+310,ORD-2023310,2023-08-30,2023-09-03,Second Class,CU-1067,Divya Sharma,Consumer,United States,Charlotte,North Carolina,25765,South,PR-0054,Office Supplies,Labels,Labels Model 6,220.4,5,0.5,45.66
+311,ORD-2023311,2023-08-05,2023-08-12,Same Day,CU-1097,Divya Kumar,Consumer,United States,Los Angeles,California,36465,West,PR-0058,Technology,Phones,Phones Model 4,269.84,4,0.2,-29.9
+312,ORD-2023312,2023-03-10,2023-03-11,First Class,CU-1081,Divya Davis,Consumer,United States,Dallas,Texas,78116,Central,PR-0019,Furniture,Furnishings,Furnishings Model 1,1962.8,7,0.3,25.64
+313,ORD-2023313,2024-02-29,2024-03-02,Standard Class,CU-1059,Daniel Moore,Consumer,United States,Miami,Florida,23845,South,PR-0002,Furniture,Chairs,Chairs Model 2,856.38,3,0.3,196.27
+314,ORD-2023314,2023-12-19,2023-12-23,Same Day,CU-1073,Daniel Thomas,Home Office,United States,Houston,Texas,14910,Central,PR-0013,Furniture,Bookcases,Bookcases Model 1,973.05,5,0.2,132.35
+315,ORD-2023315,2024-09-25,2024-09-30,First Class,CU-1023,Divya Anderson,Corporate,United States,Miami,Florida,41139,South,PR-0036,Office Supplies,Paper,Paper Model 6,3831.96,11,0.0,183.54
+316,ORD-2023316,2023-01-21,2023-01-24,Standard Class,CU-1007,Daniel Davis,Consumer,United States,Dallas,Texas,39878,Central,PR-0061,Technology,Machines,Machines Model 1,794.6,5,0.5,76.13
+317,ORD-2023317,2023-10-03,2023-10-09,Second Class,CU-1018,Michael Patel,Home Office,United States,Atlanta,Georgia,63368,South,PR-0039,Office Supplies,Storage,Storage Model 3,2131.22,7,0.0,-119.42
+318,ORD-2023318,2024-06-11,2024-06-18,Second Class,CU-1095,Sneha Sharma,Corporate,United States,Chicago,Illinois,78719,Central,PR-0063,Technology,Machines,Machines Model 3,112.44,3,0.4,11.63
+319,ORD-2023319,2023-07-25,2023-08-01,First Class,CU-1073,Daniel Thomas,Home Office,United States,Los Angeles,California,36097,West,PR-0004,Furniture,Chairs,Chairs Model 4,128.5,1,0.2,-16.03
+320,ORD-2023320,2024-02-11,2024-02-17,Same Day,CU-1036,James Smith,Corporate,United States,Charlotte,North Carolina,33276,South,PR-0048,Office Supplies,Art,Art Model 6,684.36,2,0.1,24.8
+321,ORD-2023321,2023-06-17,2023-06-24,Standard Class,CU-1061,Daniel Davis,Consumer,United States,Dallas,Texas,60667,Central,PR-0076,Technology,Copiers,Copiers Model 4,1878.7,5,0.4,-196.9
+322,ORD-2023322,2024-10-24,2024-10-26,Standard Class,CU-1007,Daniel Davis,Consumer,United States,Los Angeles,California,99417,West,PR-0021,Furniture,Furnishings,Furnishings Model 3,1180.63,11,0.4,64.64
+323,ORD-2023323,2023-06-27,2023-07-02,First Class,CU-1002,Arjun Kumar,Consumer,United States,Seattle,Washington,94245,West,PR-0061,Technology,Machines,Machines Model 1,115.77,1,0.3,29.24
+324,ORD-2023324,2024-04-15,2024-04-18,Same Day,CU-1036,James Smith,Corporate,United States,Atlanta,Georgia,86609,South,PR-0055,Technology,Phones,Phones Model 1,944.08,4,0.4,104.15
+325,ORD-2023325,2024-10-24,2024-10-29,Standard Class,CU-1014,Sneha Patel,Corporate,United States,Houston,Texas,54077,Central,PR-0001,Furniture,Chairs,Chairs Model 1,1449.3,10,0.4,-139.06
+326,ORD-2023326,2024-11-02,2024-11-08,Second Class,CU-1036,James Smith,Corporate,United States,Dallas,Texas,17441,Central,PR-0042,Office Supplies,Storage,Storage Model 6,1681.9,11,0.1,182.73
+327,ORD-2023327,2023-05-24,2023-05-30,Same Day,CU-1077,Emily Johnson,Home Office,United States,Houston,Texas,63031,Central,PR-0052,Office Supplies,Labels,Labels Model 4,329.42,1,0.15,-6.68
+328,ORD-2023328,2023-08-16,2023-08-22,First Class,CU-1050,Michael Smith,Home Office,United States,San Francisco,California,76494,West,PR-0005,Furniture,Chairs,Chairs Model 5,2888.73,9,0.2,876.05
+329,ORD-2023329,2023-04-10,2023-04-14,Second Class,CU-1039,Laura Smith,Home Office,United States,San Francisco,California,99091,West,PR-0022,Furniture,Furnishings,Furnishings Model 4,1115.25,3,0.4,283.47
+330,ORD-2023330,2023-08-17,2023-08-23,First Class,CU-1043,Chris Smith,Home Office,United States,San Francisco,California,70786,West,PR-0012,Furniture,Tables,Tables Model 6,1065.65,5,0.15,38.19
+331,ORD-2023331,2024-08-20,2024-08-25,Same Day,CU-1016,Amy Singh,Consumer,United States,Philadelphia,Pennsylvania,79446,East,PR-0061,Technology,Machines,Machines Model 1,402.5,10,0.1,40.35
+332,ORD-2023332,2023-05-21,2023-05-23,Same Day,CU-1039,Laura Smith,Home Office,United States,New York,New York,28772,East,PR-0053,Office Supplies,Labels,Labels Model 5,1245.3,6,0.3,369.14
+333,ORD-2023333,2023-12-07,2023-12-13,First Class,CU-1041,Vikram Kumar,Home Office,United States,Boston,Massachusetts,37444,East,PR-0024,Furniture,Furnishings,Furnishings Model 6,480.42,3,0.0,-70.93
+334,ORD-2023334,2023-04-01,2023-04-03,Same Day,CU-1098,Jessica Johnson,Consumer,United States,San Francisco,California,60242,West,PR-0022,Furniture,Furnishings,Furnishings Model 4,2196.9,10,0.2,113.57
+335,ORD-2023335,2024-01-18,2024-01-19,Standard Class,CU-1001,Sneha Sharma,Home Office,United States,Seattle,Washington,92141,West,PR-0005,Furniture,Chairs,Chairs Model 5,2277.84,6,0.3,-124.62
+336,ORD-2023336,2023-12-19,2023-12-22,Second Class,CU-1094,Priya Wilson,Home Office,United States,Seattle,Washington,18557,West,PR-0032,Office Supplies,Paper,Paper Model 2,167.52,3,0.3,24.18
+337,ORD-2023337,2024-06-16,2024-06-21,First Class,CU-1006,Rohit Kumar,Consumer,United States,Dallas,Texas,74248,Central,PR-0039,Office Supplies,Storage,Storage Model 3,1550.07,9,0.4,539.02
+338,ORD-2023338,2023-01-20,2023-01-22,Standard Class,CU-1046,Rohit Anderson,Consumer,United States,San Francisco,California,87292,West,PR-0025,Office Supplies,Binders,Binders Model 1,1459.8,4,0.1,-64.82
+339,ORD-2023339,2024-10-28,2024-11-04,Standard Class,CU-1065,Laura Sharma,Consumer,United States,Boston,Massachusetts,87846,East,PR-0022,Furniture,Furnishings,Furnishings Model 4,190.72,1,0.4,-4.22
+340,ORD-2023340,2023-04-29,2023-05-03,Second Class,CU-1007,Daniel Davis,Consumer,United States,New York,New York,36934,East,PR-0014,Furniture,Bookcases,Bookcases Model 2,1545.84,8,0.3,-36.53
+341,ORD-2023341,2024-11-08,2024-11-09,Second Class,CU-1089,Divya Anderson,Corporate,United States,Dallas,Texas,64896,Central,PR-0002,Furniture,Chairs,Chairs Model 2,2888.05,11,0.3,441.34
+342,ORD-2023342,2023-04-27,2023-05-04,First Class,CU-1014,Sneha Patel,Corporate,United States,Boston,Massachusetts,78569,East,PR-0066,Technology,Machines,Machines Model 6,502.76,2,0.3,-25.2
+343,ORD-2023343,2023-06-14,2023-06-15,Same Day,CU-1026,David Wilson,Corporate,United States,Atlanta,Georgia,53332,South,PR-0046,Office Supplies,Art,Art Model 4,2256.3,9,0.1,437.95
+344,ORD-2023344,2023-04-02,2023-04-03,Standard Class,CU-1031,Divya Reddy,Corporate,United States,Philadelphia,Pennsylvania,23276,East,PR-0001,Furniture,Chairs,Chairs Model 1,3361.7,10,0.1,1091.62
+345,ORD-2023345,2023-09-28,2023-10-02,First Class,CU-1033,Jessica Kumar,Home Office,United States,Atlanta,Georgia,57214,South,PR-0030,Office Supplies,Binders,Binders Model 6,54.41,1,0.1,15.62
+346,ORD-2023346,2023-04-29,2023-04-30,Second Class,CU-1087,Karan Brown,Consumer,United States,Charlotte,North Carolina,53078,South,PR-0041,Office Supplies,Storage,Storage Model 5,9.79,1,0.1,1.78
+347,ORD-2023347,2023-04-06,2023-04-09,Same Day,CU-1046,Rohit Anderson,Consumer,United States,Houston,Texas,45629,Central,PR-0057,Technology,Phones,Phones Model 3,573.12,6,0.2,28.73
+348,ORD-2023348,2023-06-20,2023-06-21,Second Class,CU-1050,Michael Smith,Home Office,United States,Charlotte,North Carolina,23593,South,PR-0062,Technology,Machines,Machines Model 2,1048.8,3,0.0,357.41
+349,ORD-2023349,2024-11-25,2024-11-29,Standard Class,CU-1054,Arjun Anderson,Home Office,United States,Charlotte,North Carolina,99714,South,PR-0076,Technology,Copiers,Copiers Model 4,922.8,3,0.5,27.04
+350,ORD-2023350,2023-04-26,2023-04-30,Standard Class,CU-1094,Priya Wilson,Home Office,United States,Atlanta,Georgia,98857,South,PR-0017,Furniture,Bookcases,Bookcases Model 5,222.08,8,0.15,39.42
+351,ORD-2023351,2023-12-13,2023-12-18,Second Class,CU-1068,Chris Patel,Consumer,United States,Seattle,Washington,73167,West,PR-0074,Technology,Copiers,Copiers Model 2,3111.12,9,0.3,-318.51
+352,ORD-2023352,2024-09-19,2024-09-20,Same Day,CU-1045,Vikram Brown,Corporate,United States,Seattle,Washington,74990,West,PR-0050,Office Supplies,Labels,Labels Model 2,323.48,1,0.1,33.25
+353,ORD-2023353,2023-09-04,2023-09-07,Same Day,CU-1022,Rohit Sharma,Home Office,United States,Atlanta,Georgia,62858,South,PR-0010,Furniture,Tables,Tables Model 4,149.6,5,0.1,18.74
+354,ORD-2023354,2024-08-09,2024-08-13,Same Day,CU-1031,Divya Reddy,Corporate,United States,Atlanta,Georgia,95638,South,PR-0011,Furniture,Tables,Tables Model 5,858.02,2,0.2,6.89
+355,ORD-2023355,2023-02-06,2023-02-11,First Class,CU-1003,Vikram Taylor,Consumer,United States,Atlanta,Georgia,76628,South,PR-0014,Furniture,Bookcases,Bookcases Model 2,45.72,9,0.0,11.24
+356,ORD-2023356,2024-01-08,2024-01-15,Same Day,CU-1072,Jessica Reddy,Corporate,United States,Atlanta,Georgia,96136,South,PR-0027,Office Supplies,Binders,Binders Model 3,409.21,1,0.5,31.6
+357,ORD-2023357,2024-11-05,2024-11-07,First Class,CU-1047,Sneha Reddy,Home Office,United States,New York,New York,81786,East,PR-0058,Technology,Phones,Phones Model 4,173.97,1,0.5,29.02
+358,ORD-2023358,2023-06-18,2023-06-22,Standard Class,CU-1067,Divya Sharma,Consumer,United States,New York,New York,43330,East,PR-0048,Office Supplies,Art,Art Model 6,1235.43,3,0.4,260.4
+359,ORD-2023359,2024-02-07,2024-02-09,Standard Class,CU-1079,Divya Patel,Corporate,United States,Los Angeles,California,64325,West,PR-0026,Office Supplies,Binders,Binders Model 2,3305.2,8,0.1,688.78
+360,ORD-2023360,2024-04-13,2024-04-19,Standard Class,CU-1006,Rohit Kumar,Consumer,United States,Boston,Massachusetts,79515,East,PR-0076,Technology,Copiers,Copiers Model 4,4783.1,10,0.1,1587.64
+361,ORD-2023361,2024-05-09,2024-05-14,Second Class,CU-1095,Sneha Sharma,Corporate,United States,Charlotte,North Carolina,23573,South,PR-0007,Furniture,Tables,Tables Model 1,1042.35,3,0.1,224.36
+362,ORD-2023362,2024-01-29,2024-02-02,Same Day,CU-1050,Michael Smith,Home Office,United States,Houston,Texas,54939,Central,PR-0077,Technology,Copiers,Copiers Model 5,4583.8,10,0.5,-118.63
+363,ORD-2023363,2024-02-27,2024-03-03,First Class,CU-1038,James Kumar,Home Office,United States,Los Angeles,California,82559,West,PR-0058,Technology,Phones,Phones Model 4,5325.48,12,0.3,-2.89
+364,ORD-2023364,2024-10-01,2024-10-07,Second Class,CU-1081,Divya Davis,Consumer,United States,Los Angeles,California,76046,West,PR-0028,Office Supplies,Binders,Binders Model 4,1724.35,5,0.4,-144.27
+365,ORD-2023365,2024-07-29,2024-08-02,First Class,CU-1070,Jessica Anderson,Consumer,United States,Boston,Massachusetts,65363,East,PR-0042,Office Supplies,Storage,Storage Model 6,2874.7,10,0.4,589.49
+366,ORD-2023366,2024-01-26,2024-01-28,Second Class,CU-1002,Arjun Kumar,Consumer,United States,New York,New York,47567,East,PR-0067,Technology,Accessories,Accessories Model 1,336.78,1,0.1,-5.56
+367,ORD-2023367,2023-10-30,2023-11-01,Second Class,CU-1088,Chris Davis,Corporate,United States,Los Angeles,California,94819,West,PR-0033,Office Supplies,Paper,Paper Model 3,188.91,9,0.5,14.41
+368,ORD-2023368,2023-10-22,2023-10-28,First Class,CU-1072,Jessica Reddy,Corporate,United States,Seattle,Washington,82368,West,PR-0050,Office Supplies,Labels,Labels Model 2,310.86,11,0.2,13.61
+369,ORD-2023369,2024-09-27,2024-10-04,First Class,CU-1007,Daniel Davis,Consumer,United States,Chicago,Illinois,87120,Central,PR-0002,Furniture,Chairs,Chairs Model 2,3326.72,8,0.4,673.04
+370,ORD-2023370,2023-07-18,2023-07-21,Second Class,CU-1070,Jessica Anderson,Consumer,United States,Seattle,Washington,77350,West,PR-0078,Technology,Copiers,Copiers Model 6,742.64,8,0.4,-83.74
+371,ORD-2023371,2023-10-13,2023-10-18,Standard Class,CU-1016,Amy Singh,Consumer,United States,Boston,Massachusetts,53327,East,PR-0049,Office Supplies,Labels,Labels Model 1,346.9,5,0.3,94.71
+372,ORD-2023372,2023-11-27,2023-12-02,First Class,CU-1060,Neha Thomas,Home Office,United States,New York,New York,74297,East,PR-0020,Furniture,Furnishings,Furnishings Model 2,387.96,1,0.4,61.22
+373,ORD-2023373,2023-11-22,2023-11-27,Second Class,CU-1074,Sarah Kumar,Home Office,United States,Chicago,Illinois,64516,Central,PR-0071,Technology,Accessories,Accessories Model 5,1914.84,4,0.3,-221.95
+374,ORD-2023374,2023-12-24,2023-12-26,Second Class,CU-1070,Jessica Anderson,Consumer,United States,Miami,Florida,91039,South,PR-0069,Technology,Accessories,Accessories Model 3,1333.4,4,0.15,40.53
+375,ORD-2023375,2024-11-15,2024-11-18,Second Class,CU-1068,Chris Patel,Consumer,United States,New York,New York,15226,East,PR-0061,Technology,Machines,Machines Model 1,991.76,8,0.4,155.56
+376,ORD-2023376,2024-01-31,2024-02-03,First Class,CU-1088,Chris Davis,Corporate,United States,Miami,Florida,77411,South,PR-0042,Office Supplies,Storage,Storage Model 6,3270.33,9,0.0,999.64
+377,ORD-2023377,2023-10-31,2023-11-06,Second Class,CU-1066,Emily Moore,Corporate,United States,Miami,Florida,80513,South,PR-0058,Technology,Phones,Phones Model 4,654.2,4,0.0,212.03
+378,ORD-2023378,2024-11-17,2024-11-23,Second Class,CU-1069,Laura Thomas,Consumer,United States,New York,New York,80484,East,PR-0001,Furniture,Chairs,Chairs Model 1,1732.6,4,0.2,464.05
+379,ORD-2023379,2023-06-07,2023-06-08,Standard Class,CU-1090,Sarah Kumar,Consumer,United States,Philadelphia,Pennsylvania,33329,East,PR-0056,Technology,Phones,Phones Model 2,2878.8,8,0.0,-305.84
+380,ORD-2023380,2023-08-22,2023-08-25,First Class,CU-1033,Jessica Kumar,Home Office,United States,Philadelphia,Pennsylvania,12213,East,PR-0072,Technology,Accessories,Accessories Model 6,1379.56,7,0.4,72.05
+381,ORD-2023381,2024-09-25,2024-09-26,First Class,CU-1050,Michael Smith,Home Office,United States,Philadelphia,Pennsylvania,75907,East,PR-0016,Furniture,Bookcases,Bookcases Model 4,3538.56,12,0.4,970.01
+382,ORD-2023382,2023-03-30,2023-04-02,Same Day,CU-1014,Sneha Patel,Corporate,United States,Houston,Texas,30489,Central,PR-0038,Office Supplies,Storage,Storage Model 2,1550.4,8,0.5,279.63
+383,ORD-2023383,2024-02-05,2024-02-12,First Class,CU-1069,Laura Thomas,Consumer,United States,Seattle,Washington,11461,West,PR-0029,Office Supplies,Binders,Binders Model 5,1359.09,9,0.4,-105.96
+384,ORD-2023384,2023-02-12,2023-02-13,Standard Class,CU-1071,Vikram Wilson,Corporate,United States,Los Angeles,California,49936,West,PR-0072,Technology,Accessories,Accessories Model 6,3003.4,10,0.3,371.71
+385,ORD-2023385,2024-10-23,2024-10-30,First Class,CU-1027,Anita Gupta,Corporate,United States,San Francisco,California,35470,West,PR-0045,Office Supplies,Art,Art Model 3,679.68,9,0.1,-26.92
+386,ORD-2023386,2024-04-17,2024-04-23,Standard Class,CU-1015,Sneha Gupta,Corporate,United States,Philadelphia,Pennsylvania,35875,East,PR-0024,Furniture,Furnishings,Furnishings Model 6,370.89,9,0.4,-43.14
+387,ORD-2023387,2024-01-01,2024-01-03,Standard Class,CU-1093,David Thomas,Home Office,United States,Atlanta,Georgia,35362,South,PR-0075,Technology,Copiers,Copiers Model 3,3624.06,11,0.0,-26.93
+388,ORD-2023388,2024-09-23,2024-09-29,First Class,CU-1041,Vikram Kumar,Home Office,United States,Atlanta,Georgia,51462,South,PR-0063,Technology,Machines,Machines Model 3,1741.3,5,0.1,231.2
+389,ORD-2023389,2023-09-10,2023-09-17,First Class,CU-1055,James Patel,Corporate,United States,Boston,Massachusetts,27603,East,PR-0022,Furniture,Furnishings,Furnishings Model 4,1430.16,4,0.4,97.34
+390,ORD-2023390,2024-04-01,2024-04-04,Standard Class,CU-1087,Karan Brown,Consumer,United States,Atlanta,Georgia,46780,South,PR-0043,Office Supplies,Art,Art Model 1,1230.25,5,0.0,-76.42
+391,ORD-2023391,2024-10-03,2024-10-04,Standard Class,CU-1018,Michael Patel,Home Office,United States,San Francisco,California,86269,West,PR-0069,Technology,Accessories,Accessories Model 3,507.84,12,0.0,139.55
+392,ORD-2023392,2024-07-18,2024-07-21,Second Class,CU-1075,Karan Taylor,Corporate,United States,Los Angeles,California,57948,West,PR-0052,Office Supplies,Labels,Labels Model 4,4027.68,9,0.3,346.59
+393,ORD-2023393,2024-04-20,2024-04-25,Second Class,CU-1051,David Brown,Corporate,United States,Chicago,Illinois,90482,Central,PR-0029,Office Supplies,Binders,Binders Model 5,448.38,9,0.15,45.32
+394,ORD-2023394,2023-06-13,2023-06-15,Second Class,CU-1088,Chris Davis,Corporate,United States,San Francisco,California,73373,West,PR-0022,Furniture,Furnishings,Furnishings Model 4,4746.1,10,0.4,1357.85
+395,ORD-2023395,2023-08-26,2023-08-27,First Class,CU-1046,Rohit Anderson,Consumer,United States,San Francisco,California,60868,West,PR-0006,Furniture,Chairs,Chairs Model 6,939.35,5,0.0,173.12
+396,ORD-2023396,2024-10-26,2024-10-29,First Class,CU-1061,Daniel Davis,Consumer,United States,New York,New York,44513,East,PR-0059,Technology,Phones,Phones Model 5,706.7,2,0.3,117.87
+397,ORD-2023397,2024-10-31,2024-11-04,First Class,CU-1075,Karan Taylor,Corporate,United States,San Francisco,California,59326,West,PR-0070,Technology,Accessories,Accessories Model 4,1775.4,6,0.5,-197.21
+398,ORD-2023398,2023-12-20,2023-12-24,Second Class,CU-1029,Rohit Davis,Home Office,United States,Atlanta,Georgia,67658,South,PR-0067,Technology,Accessories,Accessories Model 1,3553.2,8,0.0,358.58
+399,ORD-2023399,2024-10-20,2024-10-23,Standard Class,CU-1022,Rohit Sharma,Home Office,United States,Philadelphia,Pennsylvania,96652,East,PR-0030,Office Supplies,Binders,Binders Model 6,317.48,4,0.1,9.88
+400,ORD-2023400,2023-04-27,2023-05-01,Same Day,CU-1030,Anita Brown,Home Office,United States,Houston,Texas,12942,Central,PR-0054,Office Supplies,Labels,Labels Model 6,2662.11,11,0.1,387.06
+401,ORD-2023401,2024-08-29,2024-08-31,Second Class,CU-1032,Michael Singh,Home Office,United States,Seattle,Washington,17328,West,PR-0006,Furniture,Chairs,Chairs Model 6,949.86,3,0.0,280.59
+402,ORD-2023402,2024-02-20,2024-02-25,First Class,CU-1022,Rohit Sharma,Home Office,United States,Seattle,Washington,21239,West,PR-0034,Office Supplies,Paper,Paper Model 4,3206.2,10,0.4,686.09
+403,ORD-2023403,2023-06-24,2023-06-26,Second Class,CU-1028,Karan Wilson,Corporate,United States,Atlanta,Georgia,91685,South,PR-0058,Technology,Phones,Phones Model 4,2116.94,7,0.5,299.17
+404,ORD-2023404,2023-12-17,2023-12-21,Second Class,CU-1085,Rohit Brown,Consumer,United States,Chicago,Illinois,24230,Central,PR-0066,Technology,Machines,Machines Model 6,2973.5,10,0.1,116.28
+405,ORD-2023405,2024-09-12,2024-09-13,Standard Class,CU-1003,Vikram Taylor,Consumer,United States,Miami,Florida,22214,South,PR-0026,Office Supplies,Binders,Binders Model 2,721.68,3,0.3,108.18
+406,ORD-2023406,2024-10-26,2024-10-30,Same Day,CU-1062,Vikram Gupta,Consumer,United States,Philadelphia,Pennsylvania,40079,East,PR-0017,Furniture,Bookcases,Bookcases Model 5,1919.16,9,0.5,-246.19
+407,ORD-2023407,2024-08-12,2024-08-13,Standard Class,CU-1062,Vikram Gupta,Consumer,United States,Houston,Texas,47128,Central,PR-0049,Office Supplies,Labels,Labels Model 1,498.89,7,0.2,116.21
+408,ORD-2023408,2023-07-13,2023-07-14,Standard Class,CU-1077,Emily Johnson,Home Office,United States,Atlanta,Georgia,78126,South,PR-0070,Technology,Accessories,Accessories Model 4,4477.2,12,0.0,622.3
+409,ORD-2023409,2023-11-20,2023-11-24,First Class,CU-1001,Sneha Sharma,Home Office,United States,Seattle,Washington,44249,West,PR-0049,Office Supplies,Labels,Labels Model 1,346.56,6,0.2,60.92
+410,ORD-2023410,2023-10-10,2023-10-16,Same Day,CU-1069,Laura Thomas,Consumer,United States,Houston,Texas,33425,Central,PR-0055,Technology,Phones,Phones Model 1,2650.97,7,0.2,334.16
+411,ORD-2023411,2023-11-11,2023-11-16,Standard Class,CU-1048,Anita Anderson,Home Office,United States,Atlanta,Georgia,40116,South,PR-0072,Technology,Accessories,Accessories Model 6,2329.38,6,0.2,507.55
+412,ORD-2023412,2024-06-04,2024-06-08,Standard Class,CU-1058,Arjun Brown,Consumer,United States,New York,New York,31068,East,PR-0021,Furniture,Furnishings,Furnishings Model 3,2408.52,6,0.3,478.16
+413,ORD-2023413,2024-04-27,2024-05-02,Standard Class,CU-1050,Michael Smith,Home Office,United States,New York,New York,89826,East,PR-0001,Furniture,Chairs,Chairs Model 1,340.41,7,0.15,-13.32
+414,ORD-2023414,2024-11-02,2024-11-07,Second Class,CU-1005,Sarah Sharma,Consumer,United States,Charlotte,North Carolina,93924,South,PR-0050,Office Supplies,Labels,Labels Model 2,1786.2,5,0.3,-216.61
+415,ORD-2023415,2024-11-03,2024-11-10,Second Class,CU-1064,Aarav Davis,Corporate,United States,New York,New York,90634,East,PR-0057,Technology,Phones,Phones Model 3,1319.13,9,0.0,319.2
+416,ORD-2023416,2024-11-01,2024-11-02,First Class,CU-1022,Rohit Sharma,Home Office,United States,Chicago,Illinois,97773,Central,PR-0005,Furniture,Chairs,Chairs Model 5,143.97,3,0.15,34.53
+417,ORD-2023417,2023-01-16,2023-01-22,First Class,CU-1051,David Brown,Corporate,United States,Seattle,Washington,55544,West,PR-0052,Office Supplies,Labels,Labels Model 4,467.64,12,0.0,58.36
+418,ORD-2023418,2024-02-18,2024-02-23,Standard Class,CU-1036,James Smith,Corporate,United States,San Francisco,California,75951,West,PR-0029,Office Supplies,Binders,Binders Model 5,134.25,1,0.2,13.84
+419,ORD-2023419,2023-09-21,2023-09-26,Same Day,CU-1038,James Kumar,Home Office,United States,Philadelphia,Pennsylvania,41886,East,PR-0044,Office Supplies,Art,Art Model 2,1288.2,10,0.2,429.01
+420,ORD-2023420,2024-04-16,2024-04-21,Second Class,CU-1097,Divya Kumar,Consumer,United States,Charlotte,North Carolina,98724,South,PR-0044,Office Supplies,Art,Art Model 2,243.58,1,0.15,-28.31
+421,ORD-2023421,2023-12-28,2024-01-02,First Class,CU-1090,Sarah Kumar,Consumer,United States,Dallas,Texas,22190,Central,PR-0030,Office Supplies,Binders,Binders Model 6,88.29,9,0.5,-1.62
+422,ORD-2023422,2023-07-02,2023-07-06,Second Class,CU-1052,Jessica Thomas,Consumer,United States,Philadelphia,Pennsylvania,75404,East,PR-0044,Office Supplies,Art,Art Model 2,1080.0,6,0.3,-16.7
+423,ORD-2023423,2023-09-05,2023-09-12,First Class,CU-1095,Sneha Sharma,Corporate,United States,Seattle,Washington,30446,West,PR-0026,Office Supplies,Binders,Binders Model 2,536.8,5,0.1,143.58
+424,ORD-2023424,2024-11-23,2024-11-29,Standard Class,CU-1100,David Kumar,Consumer,United States,New York,New York,73214,East,PR-0014,Furniture,Bookcases,Bookcases Model 2,2470.72,8,0.5,688.21
+425,ORD-2023425,2023-10-09,2023-10-13,Second Class,CU-1048,Anita Anderson,Home Office,United States,Charlotte,North Carolina,85584,South,PR-0041,Office Supplies,Storage,Storage Model 5,1476.84,3,0.3,-14.57
+426,ORD-2023426,2024-07-07,2024-07-08,Second Class,CU-1017,David Brown,Consumer,United States,Atlanta,Georgia,69925,South,PR-0007,Furniture,Tables,Tables Model 1,1592.19,9,0.5,307.56
+427,ORD-2023427,2023-01-09,2023-01-10,First Class,CU-1016,Amy Singh,Consumer,United States,Atlanta,Georgia,90318,South,PR-0067,Technology,Accessories,Accessories Model 1,1202.52,11,0.3,-119.8
+428,ORD-2023428,2023-10-03,2023-10-07,Second Class,CU-1034,James Thomas,Consumer,United States,Chicago,Illinois,64931,Central,PR-0024,Furniture,Furnishings,Furnishings Model 6,1748.3,10,0.1,173.75
+429,ORD-2023429,2023-10-14,2023-10-18,Standard Class,CU-1090,Sarah Kumar,Consumer,United States,Dallas,Texas,45382,Central,PR-0048,Office Supplies,Art,Art Model 6,863.55,3,0.3,166.67
+430,ORD-2023430,2023-07-20,2023-07-22,Same Day,CU-1031,Divya Reddy,Corporate,United States,Atlanta,Georgia,75483,South,PR-0072,Technology,Accessories,Accessories Model 6,948.36,12,0.5,-137.63
+431,ORD-2023431,2023-11-04,2023-11-07,Second Class,CU-1018,Michael Patel,Home Office,United States,Dallas,Texas,17869,Central,PR-0067,Technology,Accessories,Accessories Model 1,3869.64,9,0.0,190.39
+432,ORD-2023432,2023-04-09,2023-04-13,First Class,CU-1028,Karan Wilson,Corporate,United States,Charlotte,North Carolina,55107,South,PR-0033,Office Supplies,Paper,Paper Model 3,2047.8,12,0.15,61.75
+433,ORD-2023433,2024-11-26,2024-12-01,Second Class,CU-1003,Vikram Taylor,Consumer,United States,Boston,Massachusetts,47304,East,PR-0053,Office Supplies,Labels,Labels Model 5,1162.16,4,0.4,202.87
+434,ORD-2023434,2024-04-02,2024-04-03,Second Class,CU-1046,Rohit Anderson,Consumer,United States,Charlotte,North Carolina,31964,South,PR-0042,Office Supplies,Storage,Storage Model 6,2161.32,7,0.2,358.47
+435,ORD-2023435,2024-09-19,2024-09-24,First Class,CU-1082,Aarav Patel,Home Office,United States,Charlotte,North Carolina,39912,South,PR-0044,Office Supplies,Art,Art Model 2,2976.47,7,0.0,-328.73
+436,ORD-2023436,2023-10-01,2023-10-06,First Class,CU-1041,Vikram Kumar,Home Office,United States,Houston,Texas,86928,Central,PR-0041,Office Supplies,Storage,Storage Model 5,2208.25,11,0.2,531.06
+437,ORD-2023437,2023-07-08,2023-07-15,Standard Class,CU-1067,Divya Sharma,Consumer,United States,Miami,Florida,37600,South,PR-0058,Technology,Phones,Phones Model 4,66.89,1,0.1,12.11
+438,ORD-2023438,2023-03-07,2023-03-11,Standard Class,CU-1022,Rohit Sharma,Home Office,United States,New York,New York,23622,East,PR-0051,Office Supplies,Labels,Labels Model 3,284.76,9,0.5,13.81
+439,ORD-2023439,2024-02-04,2024-02-07,Second Class,CU-1034,James Thomas,Consumer,United States,Philadelphia,Pennsylvania,27206,East,PR-0020,Furniture,Furnishings,Furnishings Model 2,509.84,4,0.15,36.49
+440,ORD-2023440,2024-11-10,2024-11-13,First Class,CU-1068,Chris Patel,Consumer,United States,New York,New York,81898,East,PR-0022,Furniture,Furnishings,Furnishings Model 4,2596.8,6,0.2,876.4
+441,ORD-2023441,2024-09-03,2024-09-07,First Class,CU-1057,Aarav Taylor,Home Office,United States,Seattle,Washington,55504,West,PR-0018,Furniture,Bookcases,Bookcases Model 6,4132.81,11,0.3,278.92
+442,ORD-2023442,2024-03-28,2024-03-31,Standard Class,CU-1062,Vikram Gupta,Consumer,United States,Los Angeles,California,78592,West,PR-0070,Technology,Accessories,Accessories Model 4,1254.24,6,0.1,2.24
+443,ORD-2023443,2024-04-25,2024-04-30,Same Day,CU-1098,Jessica Johnson,Consumer,United States,Dallas,Texas,49270,Central,PR-0018,Furniture,Bookcases,Bookcases Model 6,345.45,1,0.2,111.75
+444,ORD-2023444,2023-08-25,2023-09-01,Same Day,CU-1002,Arjun Kumar,Consumer,United States,Houston,Texas,61740,Central,PR-0056,Technology,Phones,Phones Model 2,276.37,1,0.1,15.44
+445,ORD-2023445,2023-08-14,2023-08-17,First Class,CU-1032,Michael Singh,Home Office,United States,Atlanta,Georgia,47313,South,PR-0021,Furniture,Furnishings,Furnishings Model 3,428.02,2,0.1,46.36
+446,ORD-2023446,2023-07-12,2023-07-19,Same Day,CU-1084,Priya Thomas,Corporate,United States,Dallas,Texas,90967,Central,PR-0069,Technology,Accessories,Accessories Model 3,190.58,2,0.15,-18.07
+447,ORD-2023447,2023-11-25,2023-11-26,Standard Class,CU-1058,Arjun Brown,Consumer,United States,Miami,Florida,46977,South,PR-0035,Office Supplies,Paper,Paper Model 5,88.71,3,0.3,-12.32
+448,ORD-2023448,2023-01-09,2023-01-11,Same Day,CU-1035,Divya Thomas,Consumer,United States,Charlotte,North Carolina,50838,South,PR-0017,Furniture,Bookcases,Bookcases Model 5,159.18,2,0.2,-6.59
+449,ORD-2023449,2023-02-02,2023-02-05,Same Day,CU-1064,Aarav Davis,Corporate,United States,Charlotte,North Carolina,19356,South,PR-0048,Office Supplies,Art,Art Model 6,845.12,2,0.1,-103.09
+450,ORD-2023450,2023-09-14,2023-09-21,Second Class,CU-1070,Jessica Anderson,Consumer,United States,Los Angeles,California,60436,West,PR-0061,Technology,Machines,Machines Model 1,2904.86,7,0.0,979.81
+451,ORD-2023451,2023-02-04,2023-02-06,Second Class,CU-1099,Sarah Reddy,Corporate,United States,Seattle,Washington,71974,West,PR-0057,Technology,Phones,Phones Model 3,2951.84,8,0.0,326.38
+452,ORD-2023452,2024-10-06,2024-10-12,First Class,CU-1050,Michael Smith,Home Office,United States,Chicago,Illinois,73075,Central,PR-0040,Office Supplies,Storage,Storage Model 4,373.64,1,0.3,41.27
+453,ORD-2023453,2023-02-23,2023-03-02,Same Day,CU-1082,Aarav Patel,Home Office,United States,San Francisco,California,52534,West,PR-0039,Office Supplies,Storage,Storage Model 3,1240.91,11,0.0,-39.73
+454,ORD-2023454,2023-05-03,2023-05-07,Same Day,CU-1002,Arjun Kumar,Consumer,United States,Houston,Texas,88146,Central,PR-0022,Furniture,Furnishings,Furnishings Model 4,37.68,4,0.0,5.3
+455,ORD-2023455,2023-06-11,2023-06-15,Standard Class,CU-1020,Amy Moore,Corporate,United States,New York,New York,17834,East,PR-0048,Office Supplies,Art,Art Model 6,689.08,2,0.15,217.35
+456,ORD-2023456,2024-05-14,2024-05-16,First Class,CU-1046,Rohit Anderson,Consumer,United States,New York,New York,67503,East,PR-0020,Furniture,Furnishings,Furnishings Model 2,2945.58,6,0.5,507.59
+457,ORD-2023457,2024-01-22,2024-01-25,Same Day,CU-1094,Priya Wilson,Home Office,United States,Philadelphia,Pennsylvania,83272,East,PR-0025,Office Supplies,Binders,Binders Model 1,860.28,12,0.0,79.71
+458,ORD-2023458,2024-08-03,2024-08-05,Second Class,CU-1038,James Kumar,Home Office,United States,Miami,Florida,19027,South,PR-0070,Technology,Accessories,Accessories Model 4,1593.81,9,0.4,134.19
+459,ORD-2023459,2023-09-27,2023-10-02,Same Day,CU-1068,Chris Patel,Consumer,United States,Atlanta,Georgia,34318,South,PR-0020,Furniture,Furnishings,Furnishings Model 2,1378.62,6,0.5,233.0
+460,ORD-2023460,2023-03-06,2023-03-12,Same Day,CU-1003,Vikram Taylor,Consumer,United States,San Francisco,California,82281,West,PR-0047,Office Supplies,Art,Art Model 5,3693.87,9,0.1,413.84
+461,ORD-2023461,2024-10-18,2024-10-21,Second Class,CU-1020,Amy Moore,Corporate,United States,Dallas,Texas,33414,Central,PR-0037,Office Supplies,Storage,Storage Model 1,105.3,2,0.4,-12.28
+462,ORD-2023462,2023-07-16,2023-07-17,Same Day,CU-1005,Sarah Sharma,Consumer,United States,Boston,Massachusetts,78920,East,PR-0026,Office Supplies,Binders,Binders Model 2,287.65,1,0.5,12.74
+463,ORD-2023463,2024-01-11,2024-01-13,Second Class,CU-1080,Aarav Davis,Home Office,United States,Chicago,Illinois,95950,Central,PR-0076,Technology,Copiers,Copiers Model 4,3603.3,10,0.0,1135.42
+464,ORD-2023464,2023-03-04,2023-03-07,Standard Class,CU-1063,Jessica Anderson,Home Office,United States,Charlotte,North Carolina,90862,South,PR-0011,Furniture,Tables,Tables Model 5,3357.18,9,0.2,876.27
+465,ORD-2023465,2023-03-14,2023-03-21,Standard Class,CU-1035,Divya Thomas,Consumer,United States,Philadelphia,Pennsylvania,23267,East,PR-0068,Technology,Accessories,Accessories Model 2,217.9,5,0.1,71.97
+466,ORD-2023466,2023-07-17,2023-07-22,Same Day,CU-1093,David Thomas,Home Office,United States,Miami,Florida,23829,South,PR-0030,Office Supplies,Binders,Binders Model 6,1409.54,11,0.4,456.34
+467,ORD-2023467,2024-04-14,2024-04-20,Second Class,CU-1099,Sarah Reddy,Corporate,United States,Houston,Texas,82085,Central,PR-0074,Technology,Copiers,Copiers Model 2,2380.4,11,0.0,-158.52
+468,ORD-2023468,2023-06-11,2023-06-16,First Class,CU-1052,Jessica Thomas,Consumer,United States,Houston,Texas,58722,Central,PR-0065,Technology,Machines,Machines Model 5,2242.9,10,0.15,675.66
+469,ORD-2023469,2023-09-04,2023-09-09,First Class,CU-1053,Sneha Wilson,Home Office,United States,Houston,Texas,57187,Central,PR-0056,Technology,Phones,Phones Model 2,998.01,9,0.5,124.87
+470,ORD-2023470,2023-02-05,2023-02-08,First Class,CU-1058,Arjun Brown,Consumer,United States,Miami,Florida,10860,South,PR-0058,Technology,Phones,Phones Model 4,130.7,10,0.1,45.31
+471,ORD-2023471,2023-01-23,2023-01-30,Second Class,CU-1039,Laura Smith,Home Office,United States,San Francisco,California,22358,West,PR-0029,Office Supplies,Binders,Binders Model 5,4944.72,12,0.3,522.34
+472,ORD-2023472,2023-05-22,2023-05-25,First Class,CU-1005,Sarah Sharma,Consumer,United States,Chicago,Illinois,22046,Central,PR-0059,Technology,Phones,Phones Model 5,2672.16,6,0.1,-89.53
+473,ORD-2023473,2023-03-21,2023-03-27,Standard Class,CU-1074,Sarah Kumar,Home Office,United States,Seattle,Washington,88018,West,PR-0052,Office Supplies,Labels,Labels Model 4,2384.94,6,0.1,224.51
+474,ORD-2023474,2024-08-13,2024-08-17,Same Day,CU-1083,Priya Kumar,Consumer,United States,Philadelphia,Pennsylvania,64594,East,PR-0039,Office Supplies,Storage,Storage Model 3,782.32,2,0.5,13.45
+475,ORD-2023475,2024-10-09,2024-10-13,Second Class,CU-1016,Amy Singh,Consumer,United States,Philadelphia,Pennsylvania,52838,East,PR-0030,Office Supplies,Binders,Binders Model 6,155.87,1,0.0,1.51
+476,ORD-2023476,2024-11-20,2024-11-26,Standard Class,CU-1065,Laura Sharma,Consumer,United States,Los Angeles,California,39109,West,PR-0029,Office Supplies,Binders,Binders Model 5,3399.62,7,0.5,501.67
+477,ORD-2023477,2023-05-16,2023-05-19,Same Day,CU-1056,Sarah Reddy,Corporate,United States,Miami,Florida,44413,South,PR-0038,Office Supplies,Storage,Storage Model 2,481.1,2,0.4,-60.3
+478,ORD-2023478,2023-05-14,2023-05-21,Second Class,CU-1011,Aarav Anderson,Consumer,United States,Charlotte,North Carolina,83553,South,PR-0052,Office Supplies,Labels,Labels Model 4,729.18,3,0.1,68.49
+479,ORD-2023479,2023-03-15,2023-03-18,Same Day,CU-1079,Divya Patel,Corporate,United States,Los Angeles,California,65514,West,PR-0068,Technology,Accessories,Accessories Model 2,1155.63,7,0.3,-121.58
+480,ORD-2023480,2023-12-19,2023-12-24,First Class,CU-1047,Sneha Reddy,Home Office,United States,San Francisco,California,90769,West,PR-0045,Office Supplies,Art,Art Model 3,186.78,11,0.15,-12.21
+481,ORD-2023481,2023-08-28,2023-08-30,Standard Class,CU-1057,Aarav Taylor,Home Office,United States,Miami,Florida,24728,South,PR-0019,Furniture,Furnishings,Furnishings Model 1,2090.44,11,0.5,447.86
+482,ORD-2023482,2023-06-01,2023-06-08,First Class,CU-1095,Sneha Sharma,Corporate,United States,Seattle,Washington,68990,West,PR-0007,Furniture,Tables,Tables Model 1,59.0,5,0.4,14.88
+483,ORD-2023483,2024-07-04,2024-07-06,Same Day,CU-1061,Daniel Davis,Consumer,United States,Chicago,Illinois,91663,Central,PR-0003,Furniture,Chairs,Chairs Model 3,1101.92,4,0.5,-22.78
+484,ORD-2023484,2024-08-19,2024-08-25,Second Class,CU-1094,Priya Wilson,Home Office,United States,Boston,Massachusetts,90997,East,PR-0019,Furniture,Furnishings,Furnishings Model 1,238.68,9,0.1,-28.63
+485,ORD-2023485,2023-01-09,2023-01-10,First Class,CU-1035,Divya Thomas,Consumer,United States,Charlotte,North Carolina,24141,South,PR-0007,Furniture,Tables,Tables Model 1,2323.16,7,0.4,641.29
+486,ORD-2023486,2024-01-25,2024-01-30,Standard Class,CU-1003,Vikram Taylor,Consumer,United States,Miami,Florida,34434,South,PR-0038,Office Supplies,Storage,Storage Model 2,651.6,12,0.15,60.16
+487,ORD-2023487,2023-01-23,2023-01-24,Same Day,CU-1026,David Wilson,Corporate,United States,Charlotte,North Carolina,30578,South,PR-0065,Technology,Machines,Machines Model 5,1846.08,4,0.15,30.99
+488,ORD-2023488,2024-10-02,2024-10-05,Standard Class,CU-1003,Vikram Taylor,Consumer,United States,Dallas,Texas,92023,Central,PR-0045,Office Supplies,Art,Art Model 3,1992.08,4,0.3,-24.03
+489,ORD-2023489,2023-10-14,2023-10-16,Standard Class,CU-1033,Jessica Kumar,Home Office,United States,Philadelphia,Pennsylvania,60096,East,PR-0050,Office Supplies,Labels,Labels Model 2,522.54,3,0.2,93.26
+490,ORD-2023490,2024-08-09,2024-08-11,Second Class,CU-1067,Divya Sharma,Consumer,United States,Miami,Florida,37100,South,PR-0030,Office Supplies,Binders,Binders Model 6,3397.94,7,0.3,49.75
+491,ORD-2023491,2023-11-13,2023-11-19,Second Class,CU-1084,Priya Thomas,Corporate,United States,Los Angeles,California,96013,West,PR-0018,Furniture,Bookcases,Bookcases Model 6,5397.96,12,0.1,351.04
+492,ORD-2023492,2024-07-24,2024-07-29,Second Class,CU-1073,Daniel Thomas,Home Office,United States,Chicago,Illinois,13864,Central,PR-0021,Furniture,Furnishings,Furnishings Model 3,763.2,12,0.15,205.88
+493,ORD-2023493,2023-11-07,2023-11-11,First Class,CU-1098,Jessica Johnson,Consumer,United States,Atlanta,Georgia,29917,South,PR-0041,Office Supplies,Storage,Storage Model 5,5606.64,12,0.4,1775.2
+494,ORD-2023494,2023-07-09,2023-07-10,Second Class,CU-1100,David Kumar,Consumer,United States,New York,New York,88166,East,PR-0025,Office Supplies,Binders,Binders Model 1,3103.9,10,0.3,414.44
+495,ORD-2023495,2023-03-23,2023-03-29,First Class,CU-1030,Anita Brown,Home Office,United States,Boston,Massachusetts,34114,East,PR-0030,Office Supplies,Binders,Binders Model 6,570.96,8,0.5,86.99
+496,ORD-2023496,2023-06-17,2023-06-19,First Class,CU-1050,Michael Smith,Home Office,United States,Miami,Florida,64138,South,PR-0063,Technology,Machines,Machines Model 3,83.8,4,0.5,28.02
+497,ORD-2023497,2023-07-01,2023-07-05,Second Class,CU-1029,Rohit Davis,Home Office,United States,Los Angeles,California,66040,West,PR-0026,Office Supplies,Binders,Binders Model 2,2475.2,10,0.15,701.44
+498,ORD-2023498,2023-11-17,2023-11-21,Standard Class,CU-1052,Jessica Thomas,Consumer,United States,Charlotte,North Carolina,78242,South,PR-0006,Furniture,Chairs,Chairs Model 6,4698.7,10,0.3,690.25
+499,ORD-2023499,2023-09-09,2023-09-14,Same Day,CU-1014,Sneha Patel,Corporate,United States,Miami,Florida,77649,South,PR-0058,Technology,Phones,Phones Model 4,1807.47,9,0.4,-235.65
+500,ORD-2023500,2024-03-26,2024-03-30,Same Day,CU-1098,Jessica Johnson,Consumer,United States,San Francisco,California,48590,West,PR-0007,Furniture,Tables,Tables Model 1,1939.85,5,0.15,156.49
+501,ORD-2023501,2024-10-23,2024-10-27,Second Class,CU-1079,Divya Patel,Corporate,United States,San Francisco,California,61520,West,PR-0007,Furniture,Tables,Tables Model 1,725.42,2,0.0,-43.61
+502,ORD-2023502,2023-07-03,2023-07-07,Standard Class,CU-1053,Sneha Wilson,Home Office,United States,Miami,Florida,42778,South,PR-0042,Office Supplies,Storage,Storage Model 6,4488.3,10,0.1,1307.33
+503,ORD-2023503,2023-04-27,2023-05-03,Same Day,CU-1042,Jessica Brown,Corporate,United States,New York,New York,77065,East,PR-0021,Furniture,Furnishings,Furnishings Model 3,2550.96,8,0.0,285.47
+504,ORD-2023504,2024-01-25,2024-01-26,Second Class,CU-1079,Divya Patel,Corporate,United States,Charlotte,North Carolina,31249,South,PR-0021,Furniture,Furnishings,Furnishings Model 3,1369.71,3,0.3,391.26
+505,ORD-2023505,2023-11-12,2023-11-15,Second Class,CU-1019,Neha Thomas,Home Office,United States,Boston,Massachusetts,25408,East,PR-0023,Furniture,Furnishings,Furnishings Model 5,4625.64,12,0.2,-25.95
+506,ORD-2023506,2023-09-17,2023-09-18,Standard Class,CU-1017,David Brown,Consumer,United States,Philadelphia,Pennsylvania,89689,East,PR-0026,Office Supplies,Binders,Binders Model 2,2010.64,8,0.2,244.8
+507,ORD-2023507,2024-11-06,2024-11-10,Standard Class,CU-1064,Aarav Davis,Corporate,United States,Seattle,Washington,42075,West,PR-0031,Office Supplies,Paper,Paper Model 1,1664.16,8,0.0,250.64
+508,ORD-2023508,2023-07-09,2023-07-11,Standard Class,CU-1071,Vikram Wilson,Corporate,United States,Los Angeles,California,97424,West,PR-0036,Office Supplies,Paper,Paper Model 6,328.37,1,0.0,-25.39
+509,ORD-2023509,2023-03-31,2023-04-01,First Class,CU-1074,Sarah Kumar,Home Office,United States,Dallas,Texas,90096,Central,PR-0078,Technology,Copiers,Copiers Model 6,422.78,2,0.1,-29.31
+510,ORD-2023510,2024-08-15,2024-08-18,Same Day,CU-1085,Rohit Brown,Consumer,United States,San Francisco,California,18869,West,PR-0077,Technology,Copiers,Copiers Model 5,51.1,1,0.15,0.58
+511,ORD-2023511,2024-04-27,2024-04-29,Same Day,CU-1098,Jessica Johnson,Consumer,United States,Boston,Massachusetts,78766,East,PR-0055,Technology,Phones,Phones Model 1,697.68,2,0.15,10.19
+512,ORD-2023512,2024-08-08,2024-08-14,First Class,CU-1027,Anita Gupta,Corporate,United States,New York,New York,65974,East,PR-0027,Office Supplies,Binders,Binders Model 3,2935.13,11,0.0,269.54
+513,ORD-2023513,2024-08-11,2024-08-16,Same Day,CU-1078,David Patel,Consumer,United States,Houston,Texas,74553,Central,PR-0041,Office Supplies,Storage,Storage Model 5,2783.52,6,0.3,365.52
+514,ORD-2023514,2023-01-02,2023-01-03,Second Class,CU-1024,Rohit Thomas,Consumer,United States,Chicago,Illinois,90649,Central,PR-0030,Office Supplies,Binders,Binders Model 6,235.12,1,0.5,-21.4
+515,ORD-2023515,2023-12-25,2023-12-30,First Class,CU-1054,Arjun Anderson,Home Office,United States,Boston,Massachusetts,43347,East,PR-0053,Office Supplies,Labels,Labels Model 5,1211.21,11,0.4,-59.84
+516,ORD-2023516,2024-07-17,2024-07-20,Standard Class,CU-1009,Jessica Smith,Consumer,United States,Houston,Texas,33020,Central,PR-0040,Office Supplies,Storage,Storage Model 4,61.35,1,0.15,1.27
+517,ORD-2023517,2024-05-05,2024-05-09,Same Day,CU-1025,Sneha Smith,Corporate,United States,Houston,Texas,80381,Central,PR-0043,Office Supplies,Art,Art Model 1,324.6,1,0.2,-23.47
+518,ORD-2023518,2023-02-27,2023-03-06,Standard Class,CU-1043,Chris Smith,Home Office,United States,Charlotte,North Carolina,37297,South,PR-0060,Technology,Phones,Phones Model 6,1378.62,9,0.4,260.7
+519,ORD-2023519,2023-06-02,2023-06-05,Second Class,CU-1074,Sarah Kumar,Home Office,United States,Chicago,Illinois,84839,Central,PR-0043,Office Supplies,Art,Art Model 1,172.88,1,0.2,28.22
+520,ORD-2023520,2023-04-30,2023-05-07,First Class,CU-1078,David Patel,Consumer,United States,Seattle,Washington,64246,West,PR-0050,Office Supplies,Labels,Labels Model 2,1770.55,5,0.15,362.82
+521,ORD-2023521,2024-04-07,2024-04-14,First Class,CU-1012,Sarah Gupta,Corporate,United States,San Francisco,California,14901,West,PR-0064,Technology,Machines,Machines Model 4,559.95,5,0.15,-34.99
+522,ORD-2023522,2024-06-02,2024-06-03,Same Day,CU-1100,David Kumar,Consumer,United States,Boston,Massachusetts,78632,East,PR-0026,Office Supplies,Binders,Binders Model 2,3623.6,8,0.1,-198.91
+523,ORD-2023523,2024-06-12,2024-06-18,Standard Class,CU-1040,David Reddy,Corporate,United States,Los Angeles,California,10538,West,PR-0042,Office Supplies,Storage,Storage Model 6,319.71,3,0.0,25.48
+524,ORD-2023524,2024-04-23,2024-04-24,Standard Class,CU-1040,David Reddy,Corporate,United States,Boston,Massachusetts,85701,East,PR-0006,Furniture,Chairs,Chairs Model 6,525.38,2,0.4,117.04
+525,ORD-2023525,2023-07-25,2023-07-27,Standard Class,CU-1098,Jessica Johnson,Consumer,United States,San Francisco,California,45737,West,PR-0040,Office Supplies,Storage,Storage Model 4,709.7,5,0.15,167.77
+526,ORD-2023526,2023-01-16,2023-01-21,First Class,CU-1020,Amy Moore,Corporate,United States,Chicago,Illinois,45527,Central,PR-0021,Furniture,Furnishings,Furnishings Model 3,2335.14,9,0.1,283.17
+527,ORD-2023527,2023-03-14,2023-03-17,Second Class,CU-1019,Neha Thomas,Home Office,United States,Los Angeles,California,13800,West,PR-0037,Office Supplies,Storage,Storage Model 1,4466.6,10,0.3,320.81
+528,ORD-2023528,2023-02-25,2023-02-26,Same Day,CU-1061,Daniel Davis,Consumer,United States,Boston,Massachusetts,90781,East,PR-0007,Furniture,Tables,Tables Model 1,1393.0,7,0.4,206.25
+529,ORD-2023529,2024-11-17,2024-11-24,Second Class,CU-1046,Rohit Anderson,Consumer,United States,Chicago,Illinois,22178,Central,PR-0040,Office Supplies,Storage,Storage Model 4,394.92,9,0.5,91.71
+530,ORD-2023530,2023-11-14,2023-11-20,Second Class,CU-1090,Sarah Kumar,Consumer,United States,Boston,Massachusetts,28837,East,PR-0060,Technology,Phones,Phones Model 6,3922.16,11,0.2,334.45
+531,ORD-2023531,2023-07-07,2023-07-13,Same Day,CU-1079,Divya Patel,Corporate,United States,Dallas,Texas,73898,Central,PR-0034,Office Supplies,Paper,Paper Model 4,1853.61,11,0.5,539.77
+532,ORD-2023532,2023-12-26,2023-12-30,Second Class,CU-1004,Jessica Patel,Home Office,United States,Miami,Florida,76577,South,PR-0009,Furniture,Tables,Tables Model 3,3389.2,8,0.15,792.97
+533,ORD-2023533,2024-07-23,2024-07-29,Same Day,CU-1014,Sneha Patel,Corporate,United States,Boston,Massachusetts,41270,East,PR-0052,Office Supplies,Labels,Labels Model 4,794.5,2,0.3,63.95
+534,ORD-2023534,2024-01-29,2024-01-30,Same Day,CU-1080,Aarav Davis,Home Office,United States,San Francisco,California,84345,West,PR-0032,Office Supplies,Paper,Paper Model 2,648.48,6,0.4,94.34
+535,ORD-2023535,2024-11-09,2024-11-15,Same Day,CU-1044,Michael Gupta,Consumer,United States,Los Angeles,California,24984,West,PR-0070,Technology,Accessories,Accessories Model 4,741.98,2,0.4,101.72
+536,ORD-2023536,2024-07-22,2024-07-23,Standard Class,CU-1076,Michael Wilson,Home Office,United States,Atlanta,Georgia,99850,South,PR-0077,Technology,Copiers,Copiers Model 5,737.68,8,0.2,-84.98
+537,ORD-2023537,2024-10-22,2024-10-28,Standard Class,CU-1077,Emily Johnson,Home Office,United States,Dallas,Texas,29231,Central,PR-0049,Office Supplies,Labels,Labels Model 1,49.81,1,0.5,-4.01
+538,ORD-2023538,2023-10-26,2023-10-30,First Class,CU-1085,Rohit Brown,Consumer,United States,Charlotte,North Carolina,49286,South,PR-0020,Furniture,Furnishings,Furnishings Model 2,2910.8,10,0.1,-137.3
+539,ORD-2023539,2023-12-19,2023-12-20,Second Class,CU-1073,Daniel Thomas,Home Office,United States,Charlotte,North Carolina,48559,South,PR-0039,Office Supplies,Storage,Storage Model 3,90.2,10,0.3,4.7
+540,ORD-2023540,2024-07-27,2024-08-03,Second Class,CU-1008,Jessica Kumar,Home Office,United States,New York,New York,66585,East,PR-0048,Office Supplies,Art,Art Model 6,355.8,6,0.15,100.63
+541,ORD-2023541,2023-11-22,2023-11-28,Second Class,CU-1090,Sarah Kumar,Consumer,United States,Charlotte,North Carolina,72242,South,PR-0076,Technology,Copiers,Copiers Model 4,1441.93,7,0.2,176.72
+542,ORD-2023542,2024-03-03,2024-03-05,Standard Class,CU-1018,Michael Patel,Home Office,United States,Atlanta,Georgia,19403,South,PR-0025,Office Supplies,Binders,Binders Model 1,2493.7,5,0.4,-217.51
+543,ORD-2023543,2024-05-13,2024-05-19,Same Day,CU-1083,Priya Kumar,Consumer,United States,Seattle,Washington,69772,West,PR-0003,Furniture,Chairs,Chairs Model 3,3413.27,7,0.1,-367.5
+544,ORD-2023544,2023-07-04,2023-07-08,First Class,CU-1090,Sarah Kumar,Consumer,United States,Charlotte,North Carolina,39588,South,PR-0078,Technology,Copiers,Copiers Model 6,1934.46,9,0.5,145.13
+545,ORD-2023545,2024-05-25,2024-06-01,First Class,CU-1024,Rohit Thomas,Consumer,United States,Philadelphia,Pennsylvania,14385,East,PR-0055,Technology,Phones,Phones Model 1,1466.28,12,0.3,-22.54
+546,ORD-2023546,2024-01-13,2024-01-14,First Class,CU-1005,Sarah Sharma,Consumer,United States,Charlotte,North Carolina,70940,South,PR-0073,Technology,Copiers,Copiers Model 1,2433.6,10,0.4,-267.62
+547,ORD-2023547,2024-04-28,2024-05-04,First Class,CU-1067,Divya Sharma,Consumer,United States,New York,New York,90352,East,PR-0011,Furniture,Tables,Tables Model 5,4002.6,12,0.4,-444.12
+548,ORD-2023548,2024-04-09,2024-04-14,First Class,CU-1007,Daniel Davis,Consumer,United States,Boston,Massachusetts,47907,East,PR-0044,Office Supplies,Art,Art Model 2,2312.88,8,0.15,139.95
+549,ORD-2023549,2024-07-31,2024-08-03,Standard Class,CU-1022,Rohit Sharma,Home Office,United States,Houston,Texas,96025,Central,PR-0005,Furniture,Chairs,Chairs Model 5,316.5,1,0.3,-20.72
+550,ORD-2023550,2023-03-26,2023-03-28,Second Class,CU-1038,James Kumar,Home Office,United States,Dallas,Texas,90713,Central,PR-0004,Furniture,Chairs,Chairs Model 4,387.45,9,0.5,-4.29
+551,ORD-2023551,2023-04-25,2023-04-30,Same Day,CU-1036,James Smith,Corporate,United States,Chicago,Illinois,58466,Central,PR-0036,Office Supplies,Paper,Paper Model 6,1366.56,3,0.4,-101.72
+552,ORD-2023552,2023-07-05,2023-07-12,Second Class,CU-1023,Divya Anderson,Corporate,United States,San Francisco,California,88059,West,PR-0034,Office Supplies,Paper,Paper Model 4,3885.3,9,0.15,1328.91
+553,ORD-2023553,2023-09-01,2023-09-07,First Class,CU-1020,Amy Moore,Corporate,United States,Atlanta,Georgia,17120,South,PR-0064,Technology,Machines,Machines Model 4,2914.96,8,0.1,-129.92
+554,ORD-2023554,2023-06-21,2023-06-25,Second Class,CU-1083,Priya Kumar,Consumer,United States,New York,New York,59781,East,PR-0034,Office Supplies,Paper,Paper Model 4,1685.11,7,0.2,375.91
+555,ORD-2023555,2023-05-29,2023-06-03,First Class,CU-1088,Chris Davis,Corporate,United States,Atlanta,Georgia,79501,South,PR-0050,Office Supplies,Labels,Labels Model 2,76.09,7,0.5,5.66
+556,ORD-2023556,2024-10-14,2024-10-17,First Class,CU-1088,Chris Davis,Corporate,United States,Philadelphia,Pennsylvania,45432,East,PR-0006,Furniture,Chairs,Chairs Model 6,2150.33,7,0.4,600.32
+557,ORD-2023557,2024-08-21,2024-08-25,Second Class,CU-1035,Divya Thomas,Consumer,United States,Houston,Texas,78151,Central,PR-0013,Furniture,Bookcases,Bookcases Model 1,3101.68,8,0.4,-90.26
+558,ORD-2023558,2023-01-11,2023-01-17,Standard Class,CU-1044,Michael Gupta,Consumer,United States,Houston,Texas,99849,Central,PR-0024,Furniture,Furnishings,Furnishings Model 6,416.69,1,0.0,23.18
+559,ORD-2023559,2023-10-18,2023-10-21,Second Class,CU-1058,Arjun Brown,Consumer,United States,Seattle,Washington,88562,West,PR-0045,Office Supplies,Art,Art Model 3,87.4,4,0.3,-9.09
+560,ORD-2023560,2024-09-11,2024-09-13,Second Class,CU-1082,Aarav Patel,Home Office,United States,New York,New York,24528,East,PR-0016,Furniture,Bookcases,Bookcases Model 4,2309.44,7,0.4,307.23
+561,ORD-2023561,2024-04-23,2024-04-29,First Class,CU-1090,Sarah Kumar,Consumer,United States,Dallas,Texas,43729,Central,PR-0024,Furniture,Furnishings,Furnishings Model 6,642.4,2,0.15,150.76
+562,ORD-2023562,2024-01-27,2024-01-31,First Class,CU-1021,Chris Kumar,Home Office,United States,Chicago,Illinois,33321,Central,PR-0010,Furniture,Tables,Tables Model 4,2988.0,6,0.15,979.47
+563,ORD-2023563,2024-09-16,2024-09-20,Same Day,CU-1057,Aarav Taylor,Home Office,United States,Miami,Florida,38624,South,PR-0009,Furniture,Tables,Tables Model 3,973.53,3,0.0,-76.0
+564,ORD-2023564,2023-09-23,2023-09-24,Same Day,CU-1079,Divya Patel,Corporate,United States,Charlotte,North Carolina,12459,South,PR-0014,Furniture,Bookcases,Bookcases Model 2,41.1,1,0.3,8.79
+565,ORD-2023565,2024-11-11,2024-11-15,Standard Class,CU-1064,Aarav Davis,Corporate,United States,New York,New York,77552,East,PR-0020,Furniture,Furnishings,Furnishings Model 2,400.25,5,0.15,121.0
+566,ORD-2023566,2024-02-18,2024-02-25,Second Class,CU-1091,Sneha Wilson,Corporate,United States,Atlanta,Georgia,10433,South,PR-0063,Technology,Machines,Machines Model 3,4698.72,12,0.5,-540.12
+567,ORD-2023567,2024-07-02,2024-07-05,Standard Class,CU-1050,Michael Smith,Home Office,United States,Philadelphia,Pennsylvania,57887,East,PR-0062,Technology,Machines,Machines Model 2,2055.06,6,0.2,-251.54
+568,ORD-2023568,2023-10-24,2023-10-30,Second Class,CU-1069,Laura Thomas,Consumer,United States,Boston,Massachusetts,49173,East,PR-0044,Office Supplies,Art,Art Model 2,369.72,4,0.0,123.4
+569,ORD-2023569,2024-01-03,2024-01-07,Second Class,CU-1090,Sarah Kumar,Consumer,United States,Philadelphia,Pennsylvania,14679,East,PR-0050,Office Supplies,Labels,Labels Model 2,886.36,2,0.2,192.93
+570,ORD-2023570,2024-02-03,2024-02-04,Same Day,CU-1025,Sneha Smith,Corporate,United States,San Francisco,California,12151,West,PR-0004,Furniture,Chairs,Chairs Model 4,2911.41,9,0.2,340.55
+571,ORD-2023571,2023-02-13,2023-02-17,Same Day,CU-1005,Sarah Sharma,Consumer,United States,Boston,Massachusetts,98877,East,PR-0044,Office Supplies,Art,Art Model 2,219.56,2,0.4,40.32
+572,ORD-2023572,2023-02-07,2023-02-13,Standard Class,CU-1069,Laura Thomas,Consumer,United States,Los Angeles,California,41808,West,PR-0020,Furniture,Furnishings,Furnishings Model 2,741.0,3,0.0,63.44
+573,ORD-2023573,2024-10-09,2024-10-10,Second Class,CU-1090,Sarah Kumar,Consumer,United States,New York,New York,87469,East,PR-0017,Furniture,Bookcases,Bookcases Model 5,2056.35,5,0.0,160.59
+574,ORD-2023574,2024-09-01,2024-09-08,First Class,CU-1009,Jessica Smith,Consumer,United States,Boston,Massachusetts,98918,East,PR-0014,Furniture,Bookcases,Bookcases Model 2,1141.8,10,0.5,-55.58
+575,ORD-2023575,2024-08-12,2024-08-17,Standard Class,CU-1052,Jessica Thomas,Consumer,United States,Philadelphia,Pennsylvania,87736,East,PR-0042,Office Supplies,Storage,Storage Model 6,492.57,3,0.5,-21.37
+576,ORD-2023576,2023-10-08,2023-10-10,Same Day,CU-1023,Divya Anderson,Corporate,United States,New York,New York,41934,East,PR-0043,Office Supplies,Art,Art Model 1,617.33,7,0.15,78.22
+577,ORD-2023577,2024-10-09,2024-10-14,Standard Class,CU-1075,Karan Taylor,Corporate,United States,Los Angeles,California,10832,West,PR-0006,Furniture,Chairs,Chairs Model 6,2729.58,7,0.0,791.07
+578,ORD-2023578,2024-10-29,2024-11-03,Same Day,CU-1001,Sneha Sharma,Home Office,United States,Philadelphia,Pennsylvania,26632,East,PR-0023,Furniture,Furnishings,Furnishings Model 5,1055.15,5,0.5,259.69
+579,ORD-2023579,2024-04-06,2024-04-10,Second Class,CU-1027,Anita Gupta,Corporate,United States,Houston,Texas,75521,Central,PR-0019,Furniture,Furnishings,Furnishings Model 1,1877.4,4,0.3,367.66
+580,ORD-2023580,2024-03-04,2024-03-05,Standard Class,CU-1079,Divya Patel,Corporate,United States,Dallas,Texas,91123,Central,PR-0012,Furniture,Tables,Tables Model 6,1094.76,9,0.0,375.83
+581,ORD-2023581,2024-10-03,2024-10-09,Second Class,CU-1047,Sneha Reddy,Home Office,United States,San Francisco,California,99816,West,PR-0070,Technology,Accessories,Accessories Model 4,567.32,4,0.1,-53.14
+582,ORD-2023582,2024-11-17,2024-11-18,First Class,CU-1061,Daniel Davis,Consumer,United States,Los Angeles,California,53816,West,PR-0064,Technology,Machines,Machines Model 4,324.21,1,0.15,-14.66
+583,ORD-2023583,2023-02-23,2023-02-28,Standard Class,CU-1079,Divya Patel,Corporate,United States,New York,New York,19287,East,PR-0059,Technology,Phones,Phones Model 5,249.69,3,0.0,23.1
+584,ORD-2023584,2023-07-23,2023-07-29,First Class,CU-1031,Divya Reddy,Corporate,United States,Dallas,Texas,39855,Central,PR-0057,Technology,Phones,Phones Model 3,4946.59,11,0.1,1184.65
+585,ORD-2023585,2024-01-20,2024-01-22,Same Day,CU-1013,Vikram Kumar,Corporate,United States,Miami,Florida,28997,South,PR-0031,Office Supplies,Paper,Paper Model 1,476.28,2,0.2,-58.5
+586,ORD-2023586,2024-01-18,2024-01-20,First Class,CU-1028,Karan Wilson,Corporate,United States,San Francisco,California,36504,West,PR-0059,Technology,Phones,Phones Model 5,2890.48,8,0.4,84.68
+587,ORD-2023587,2024-08-05,2024-08-06,Same Day,CU-1043,Chris Smith,Home Office,United States,Philadelphia,Pennsylvania,32439,East,PR-0017,Furniture,Bookcases,Bookcases Model 5,362.85,5,0.5,30.03
+588,ORD-2023588,2024-09-10,2024-09-12,Second Class,CU-1098,Jessica Johnson,Consumer,United States,San Francisco,California,21334,West,PR-0044,Office Supplies,Art,Art Model 2,5242.82,11,0.1,729.07
+589,ORD-2023589,2024-08-28,2024-09-01,Second Class,CU-1053,Sneha Wilson,Home Office,United States,Miami,Florida,42483,South,PR-0067,Technology,Accessories,Accessories Model 1,1145.52,8,0.4,73.38
+590,ORD-2023590,2023-06-02,2023-06-07,Same Day,CU-1042,Jessica Brown,Corporate,United States,Seattle,Washington,76088,West,PR-0056,Technology,Phones,Phones Model 2,211.8,1,0.0,-27.53
+591,ORD-2023591,2023-04-11,2023-04-15,Same Day,CU-1005,Sarah Sharma,Consumer,United States,Atlanta,Georgia,38574,South,PR-0055,Technology,Phones,Phones Model 1,992.4,8,0.3,224.82
+592,ORD-2023592,2024-10-25,2024-10-26,Same Day,CU-1017,David Brown,Consumer,United States,Chicago,Illinois,84760,Central,PR-0046,Office Supplies,Art,Art Model 4,242.49,1,0.15,-16.76
+593,ORD-2023593,2024-04-19,2024-04-26,First Class,CU-1096,James Anderson,Consumer,United States,Boston,Massachusetts,92157,East,PR-0075,Technology,Copiers,Copiers Model 3,1313.19,3,0.2,-75.54
+594,ORD-2023594,2023-12-07,2023-12-12,Second Class,CU-1060,Neha Thomas,Home Office,United States,Boston,Massachusetts,99740,East,PR-0001,Furniture,Chairs,Chairs Model 1,151.81,1,0.5,-2.29
+595,ORD-2023595,2024-11-21,2024-11-24,Standard Class,CU-1011,Aarav Anderson,Consumer,United States,Philadelphia,Pennsylvania,57916,East,PR-0043,Office Supplies,Art,Art Model 1,59.93,1,0.15,4.95
+596,ORD-2023596,2023-07-29,2023-07-31,Second Class,CU-1047,Sneha Reddy,Home Office,United States,Philadelphia,Pennsylvania,39548,East,PR-0023,Furniture,Furnishings,Furnishings Model 5,738.72,6,0.0,128.92
+597,ORD-2023597,2024-11-27,2024-12-01,Same Day,CU-1042,Jessica Brown,Corporate,United States,Houston,Texas,75726,Central,PR-0046,Office Supplies,Art,Art Model 4,159.8,5,0.15,3.61
+598,ORD-2023598,2024-06-28,2024-07-04,Standard Class,CU-1068,Chris Patel,Consumer,United States,Charlotte,North Carolina,34687,South,PR-0016,Furniture,Bookcases,Bookcases Model 4,4052.07,9,0.2,650.26
+599,ORD-2023599,2023-07-03,2023-07-06,Second Class,CU-1059,Daniel Moore,Consumer,United States,Boston,Massachusetts,75054,East,PR-0012,Furniture,Tables,Tables Model 6,118.28,2,0.15,-11.12
+600,ORD-2023600,2024-03-02,2024-03-08,Same Day,CU-1020,Amy Moore,Corporate,United States,Boston,Massachusetts,94500,East,PR-0027,Office Supplies,Binders,Binders Model 3,4195.8,9,0.2,97.97
+601,ORD-2023601,2023-01-23,2023-01-30,Same Day,CU-1003,Vikram Taylor,Consumer,United States,Los Angeles,California,85851,West,PR-0038,Office Supplies,Storage,Storage Model 2,1673.2,4,0.3,288.35
+602,ORD-2023602,2024-11-12,2024-11-18,Second Class,CU-1044,Michael Gupta,Consumer,United States,Charlotte,North Carolina,50172,South,PR-0042,Office Supplies,Storage,Storage Model 6,3795.66,9,0.2,299.87
+603,ORD-2023603,2024-01-16,2024-01-19,Second Class,CU-1022,Rohit Sharma,Home Office,United States,San Francisco,California,91085,West,PR-0034,Office Supplies,Paper,Paper Model 4,78.43,1,0.15,6.11
+604,ORD-2023604,2023-06-29,2023-07-06,Second Class,CU-1021,Chris Kumar,Home Office,United States,Chicago,Illinois,41182,Central,PR-0069,Technology,Accessories,Accessories Model 3,4175.64,12,0.4,1032.34
+605,ORD-2023605,2023-05-10,2023-05-14,Standard Class,CU-1015,Sneha Gupta,Corporate,United States,Houston,Texas,97235,Central,PR-0006,Furniture,Chairs,Chairs Model 6,939.95,5,0.1,123.36
+606,ORD-2023606,2024-04-04,2024-04-09,Same Day,CU-1041,Vikram Kumar,Home Office,United States,San Francisco,California,75459,West,PR-0045,Office Supplies,Art,Art Model 3,807.45,3,0.0,250.48
+607,ORD-2023607,2023-06-09,2023-06-10,First Class,CU-1099,Sarah Reddy,Corporate,United States,Atlanta,Georgia,72116,South,PR-0019,Furniture,Furnishings,Furnishings Model 1,3304.08,12,0.3,51.68
+608,ORD-2023608,2024-03-28,2024-03-31,Second Class,CU-1038,James Kumar,Home Office,United States,Seattle,Washington,98867,West,PR-0074,Technology,Copiers,Copiers Model 2,727.2,12,0.2,218.22
+609,ORD-2023609,2024-02-16,2024-02-21,Second Class,CU-1071,Vikram Wilson,Corporate,United States,Chicago,Illinois,86471,Central,PR-0015,Furniture,Bookcases,Bookcases Model 3,903.04,4,0.0,11.9
+610,ORD-2023610,2023-01-24,2023-01-25,Standard Class,CU-1068,Chris Patel,Consumer,United States,Chicago,Illinois,77081,Central,PR-0029,Office Supplies,Binders,Binders Model 5,3829.32,9,0.4,711.41
+611,ORD-2023611,2024-09-09,2024-09-14,Second Class,CU-1051,David Brown,Corporate,United States,Atlanta,Georgia,66051,South,PR-0025,Office Supplies,Binders,Binders Model 1,4247.82,9,0.4,129.7
+612,ORD-2023612,2023-10-19,2023-10-22,Standard Class,CU-1048,Anita Anderson,Home Office,United States,Chicago,Illinois,38271,Central,PR-0050,Office Supplies,Labels,Labels Model 2,945.0,6,0.2,271.36
+613,ORD-2023613,2023-10-23,2023-10-25,Same Day,CU-1094,Priya Wilson,Home Office,United States,Atlanta,Georgia,28293,South,PR-0057,Technology,Phones,Phones Model 3,5823.96,12,0.2,1248.09
+614,ORD-2023614,2023-08-01,2023-08-04,Standard Class,CU-1076,Michael Wilson,Home Office,United States,New York,New York,87421,East,PR-0077,Technology,Copiers,Copiers Model 5,3954.0,8,0.3,1357.48
+615,ORD-2023615,2024-02-24,2024-03-01,Second Class,CU-1097,Divya Kumar,Consumer,United States,New York,New York,36117,East,PR-0049,Office Supplies,Labels,Labels Model 1,1050.9,5,0.3,85.19
+616,ORD-2023616,2024-05-17,2024-05-18,Same Day,CU-1024,Rohit Thomas,Consumer,United States,Houston,Texas,39428,Central,PR-0049,Office Supplies,Labels,Labels Model 1,2090.6,5,0.15,202.89
+617,ORD-2023617,2023-11-04,2023-11-10,First Class,CU-1004,Jessica Patel,Home Office,United States,San Francisco,California,64677,West,PR-0001,Furniture,Chairs,Chairs Model 1,2628.01,11,0.4,480.81
+618,ORD-2023618,2023-05-03,2023-05-10,First Class,CU-1023,Divya Anderson,Corporate,United States,Los Angeles,California,86161,West,PR-0063,Technology,Machines,Machines Model 3,1245.3,5,0.0,186.1
+619,ORD-2023619,2024-10-05,2024-10-11,Standard Class,CU-1062,Vikram Gupta,Consumer,United States,Atlanta,Georgia,44018,South,PR-0073,Technology,Copiers,Copiers Model 1,3898.08,8,0.5,-351.64
+620,ORD-2023620,2023-11-24,2023-11-28,First Class,CU-1021,Chris Kumar,Home Office,United States,New York,New York,64986,East,PR-0075,Technology,Copiers,Copiers Model 3,864.84,12,0.1,-106.86
+621,ORD-2023621,2023-10-26,2023-10-31,Second Class,CU-1082,Aarav Patel,Home Office,United States,Boston,Massachusetts,22387,East,PR-0046,Office Supplies,Art,Art Model 4,5153.28,11,0.3,-273.6
+622,ORD-2023622,2023-11-05,2023-11-08,First Class,CU-1077,Emily Johnson,Home Office,United States,Dallas,Texas,28837,Central,PR-0022,Furniture,Furnishings,Furnishings Model 4,3855.39,11,0.15,-393.57
+623,ORD-2023623,2024-05-11,2024-05-15,Second Class,CU-1002,Arjun Kumar,Consumer,United States,Dallas,Texas,75979,Central,PR-0018,Furniture,Bookcases,Bookcases Model 6,2765.1,6,0.1,-273.17
+624,ORD-2023624,2024-04-16,2024-04-17,First Class,CU-1029,Rohit Davis,Home Office,United States,Boston,Massachusetts,57522,East,PR-0025,Office Supplies,Binders,Binders Model 1,820.66,2,0.0,73.66
+625,ORD-2023625,2023-11-08,2023-11-09,Second Class,CU-1018,Michael Patel,Home Office,United States,Chicago,Illinois,39697,Central,PR-0057,Technology,Phones,Phones Model 3,4898.52,12,0.1,-419.52
+626,ORD-2023626,2023-03-22,2023-03-26,Same Day,CU-1040,David Reddy,Corporate,United States,Los Angeles,California,66524,West,PR-0017,Furniture,Bookcases,Bookcases Model 5,4592.4,12,0.0,-510.36
+627,ORD-2023627,2024-11-06,2024-11-11,Standard Class,CU-1006,Rohit Kumar,Consumer,United States,New York,New York,18683,East,PR-0026,Office Supplies,Binders,Binders Model 2,343.4,10,0.0,104.48
+628,ORD-2023628,2024-09-08,2024-09-10,Standard Class,CU-1039,Laura Smith,Home Office,United States,New York,New York,21898,East,PR-0002,Furniture,Chairs,Chairs Model 2,4510.8,10,0.1,835.85
+629,ORD-2023629,2023-06-14,2023-06-21,Standard Class,CU-1019,Neha Thomas,Home Office,United States,Dallas,Texas,22989,Central,PR-0036,Office Supplies,Paper,Paper Model 6,3523.5,9,0.3,-102.49
+630,ORD-2023630,2023-07-16,2023-07-19,Standard Class,CU-1075,Karan Taylor,Corporate,United States,Seattle,Washington,38051,West,PR-0002,Furniture,Chairs,Chairs Model 2,1353.96,3,0.3,-200.16
+631,ORD-2023631,2024-08-26,2024-08-28,First Class,CU-1065,Laura Sharma,Consumer,United States,Houston,Texas,59756,Central,PR-0061,Technology,Machines,Machines Model 1,2707.2,8,0.0,-161.28
+632,ORD-2023632,2023-04-26,2023-05-03,Same Day,CU-1055,James Patel,Corporate,United States,San Francisco,California,57349,West,PR-0028,Office Supplies,Binders,Binders Model 4,397.14,6,0.0,43.63
+633,ORD-2023633,2023-12-02,2023-12-06,First Class,CU-1091,Sneha Wilson,Corporate,United States,New York,New York,68190,East,PR-0037,Office Supplies,Storage,Storage Model 1,390.94,2,0.2,58.72
+634,ORD-2023634,2024-03-14,2024-03-16,First Class,CU-1029,Rohit Davis,Home Office,United States,Atlanta,Georgia,33500,South,PR-0071,Technology,Accessories,Accessories Model 5,895.8,2,0.5,78.69
+635,ORD-2023635,2024-03-24,2024-03-29,Same Day,CU-1002,Arjun Kumar,Consumer,United States,Boston,Massachusetts,87405,East,PR-0063,Technology,Machines,Machines Model 3,3738.68,11,0.0,-292.8
+636,ORD-2023636,2023-07-23,2023-07-26,Same Day,CU-1014,Sneha Patel,Corporate,United States,Boston,Massachusetts,75419,East,PR-0022,Furniture,Furnishings,Furnishings Model 4,1198.04,4,0.2,-106.17
+637,ORD-2023637,2024-02-14,2024-02-17,First Class,CU-1036,James Smith,Corporate,United States,Houston,Texas,29316,Central,PR-0075,Technology,Copiers,Copiers Model 3,2680.08,8,0.2,921.31
+638,ORD-2023638,2023-09-14,2023-09-18,Standard Class,CU-1099,Sarah Reddy,Corporate,United States,New York,New York,18942,East,PR-0059,Technology,Phones,Phones Model 5,954.08,8,0.1,-128.93
+639,ORD-2023639,2024-09-11,2024-09-17,Standard Class,CU-1064,Aarav Davis,Corporate,United States,San Francisco,California,96649,West,PR-0004,Furniture,Chairs,Chairs Model 4,483.6,6,0.3,78.16
+640,ORD-2023640,2023-07-26,2023-07-29,First Class,CU-1097,Divya Kumar,Consumer,United States,Atlanta,Georgia,80848,South,PR-0067,Technology,Accessories,Accessories Model 1,2766.06,11,0.3,-53.02
+641,ORD-2023641,2023-05-02,2023-05-06,Standard Class,CU-1070,Jessica Anderson,Consumer,United States,Boston,Massachusetts,14306,East,PR-0003,Furniture,Chairs,Chairs Model 3,1285.68,8,0.2,91.64
+642,ORD-2023642,2023-06-18,2023-06-22,Standard Class,CU-1023,Divya Anderson,Corporate,United States,Houston,Texas,84560,Central,PR-0072,Technology,Accessories,Accessories Model 6,500.99,7,0.4,22.31
+643,ORD-2023643,2024-07-29,2024-08-05,Same Day,CU-1087,Karan Brown,Consumer,United States,Atlanta,Georgia,90863,South,PR-0063,Technology,Machines,Machines Model 3,767.43,3,0.2,-14.05
+644,ORD-2023644,2023-03-04,2023-03-05,Standard Class,CU-1087,Karan Brown,Consumer,United States,Dallas,Texas,91940,Central,PR-0046,Office Supplies,Art,Art Model 4,273.3,10,0.5,9.07
+645,ORD-2023645,2023-12-20,2023-12-23,Second Class,CU-1044,Michael Gupta,Consumer,United States,Boston,Massachusetts,94945,East,PR-0049,Office Supplies,Labels,Labels Model 1,1252.16,7,0.4,-34.92
+646,ORD-2023646,2023-03-09,2023-03-16,First Class,CU-1040,David Reddy,Corporate,United States,Philadelphia,Pennsylvania,14899,East,PR-0076,Technology,Copiers,Copiers Model 4,308.3,5,0.1,-43.21
+647,ORD-2023647,2023-01-21,2023-01-27,Same Day,CU-1059,Daniel Moore,Consumer,United States,Atlanta,Georgia,52260,South,PR-0055,Technology,Phones,Phones Model 1,2368.4,8,0.15,92.06
+648,ORD-2023648,2024-11-22,2024-11-24,First Class,CU-1074,Sarah Kumar,Home Office,United States,Miami,Florida,31840,South,PR-0013,Furniture,Bookcases,Bookcases Model 1,1505.28,6,0.5,349.91
+649,ORD-2023649,2023-07-26,2023-07-30,Second Class,CU-1079,Divya Patel,Corporate,United States,Dallas,Texas,47664,Central,PR-0039,Office Supplies,Storage,Storage Model 3,4668.73,11,0.5,-524.48
+650,ORD-2023650,2024-02-16,2024-02-23,Standard Class,CU-1034,James Thomas,Consumer,United States,Houston,Texas,87576,Central,PR-0007,Furniture,Tables,Tables Model 1,1256.64,4,0.0,262.45
+651,ORD-2023651,2024-06-27,2024-07-01,First Class,CU-1044,Michael Gupta,Consumer,United States,Philadelphia,Pennsylvania,76144,East,PR-0035,Office Supplies,Paper,Paper Model 5,761.74,7,0.5,-85.06
+652,ORD-2023652,2024-02-29,2024-03-04,Second Class,CU-1039,Laura Smith,Home Office,United States,Chicago,Illinois,12438,Central,PR-0056,Technology,Phones,Phones Model 2,1571.8,5,0.2,292.01
+653,ORD-2023653,2024-05-26,2024-05-28,First Class,CU-1081,Divya Davis,Consumer,United States,Seattle,Washington,93614,West,PR-0067,Technology,Accessories,Accessories Model 1,5293.75,11,0.4,1688.98
+654,ORD-2023654,2023-07-25,2023-07-28,First Class,CU-1069,Laura Thomas,Consumer,United States,Philadelphia,Pennsylvania,67067,East,PR-0056,Technology,Phones,Phones Model 2,625.04,8,0.1,139.52
+655,ORD-2023655,2023-07-28,2023-08-04,First Class,CU-1053,Sneha Wilson,Home Office,United States,Philadelphia,Pennsylvania,88804,East,PR-0041,Office Supplies,Storage,Storage Model 5,959.91,7,0.15,166.08
+656,ORD-2023656,2023-06-03,2023-06-05,Same Day,CU-1031,Divya Reddy,Corporate,United States,Los Angeles,California,83377,West,PR-0052,Office Supplies,Labels,Labels Model 4,126.57,1,0.5,0.67
+657,ORD-2023657,2023-06-13,2023-06-16,Second Class,CU-1056,Sarah Reddy,Corporate,United States,New York,New York,94448,East,PR-0055,Technology,Phones,Phones Model 1,58.29,3,0.5,14.68
+658,ORD-2023658,2023-03-27,2023-03-30,Same Day,CU-1006,Rohit Kumar,Consumer,United States,New York,New York,57636,East,PR-0063,Technology,Machines,Machines Model 3,1525.0,10,0.0,457.94
+659,ORD-2023659,2023-05-24,2023-05-26,First Class,CU-1086,Arjun Wilson,Corporate,United States,Charlotte,North Carolina,75070,South,PR-0012,Furniture,Tables,Tables Model 6,575.26,2,0.3,182.05
+660,ORD-2023660,2023-12-04,2023-12-11,Second Class,CU-1012,Sarah Gupta,Corporate,United States,Boston,Massachusetts,65426,East,PR-0031,Office Supplies,Paper,Paper Model 1,3699.3,10,0.5,829.34
+661,ORD-2023661,2023-08-08,2023-08-11,Same Day,CU-1028,Karan Wilson,Corporate,United States,New York,New York,79922,East,PR-0019,Furniture,Furnishings,Furnishings Model 1,1657.2,8,0.5,239.86
+662,ORD-2023662,2024-03-09,2024-03-13,Second Class,CU-1048,Anita Anderson,Home Office,United States,Houston,Texas,57578,Central,PR-0015,Furniture,Bookcases,Bookcases Model 3,1396.34,11,0.15,404.54
+663,ORD-2023663,2024-10-22,2024-10-27,Standard Class,CU-1061,Daniel Davis,Consumer,United States,Chicago,Illinois,98027,Central,PR-0048,Office Supplies,Art,Art Model 6,421.53,1,0.4,105.16
+664,ORD-2023664,2024-10-16,2024-10-22,Second Class,CU-1031,Divya Reddy,Corporate,United States,Atlanta,Georgia,67986,South,PR-0033,Office Supplies,Paper,Paper Model 3,2712.36,6,0.4,-241.33
+665,ORD-2023665,2023-11-05,2023-11-06,Same Day,CU-1050,Michael Smith,Home Office,United States,Atlanta,Georgia,92752,South,PR-0002,Furniture,Chairs,Chairs Model 2,608.88,4,0.5,179.69
+666,ORD-2023666,2023-03-24,2023-03-31,First Class,CU-1041,Vikram Kumar,Home Office,United States,Boston,Massachusetts,65360,East,PR-0053,Office Supplies,Labels,Labels Model 5,1905.52,8,0.2,596.9
+667,ORD-2023667,2023-03-09,2023-03-12,First Class,CU-1013,Vikram Kumar,Corporate,United States,Houston,Texas,69409,Central,PR-0021,Furniture,Furnishings,Furnishings Model 3,2121.35,7,0.5,262.76
+668,ORD-2023668,2024-10-18,2024-10-20,Same Day,CU-1089,Divya Anderson,Corporate,United States,Philadelphia,Pennsylvania,36224,East,PR-0004,Furniture,Chairs,Chairs Model 4,2469.39,11,0.4,-202.38
+669,ORD-2023669,2023-03-26,2023-03-27,Second Class,CU-1081,Divya Davis,Consumer,United States,Houston,Texas,87858,Central,PR-0040,Office Supplies,Storage,Storage Model 4,385.65,3,0.4,129.13
+670,ORD-2023670,2024-05-04,2024-05-11,First Class,CU-1088,Chris Davis,Corporate,United States,Dallas,Texas,46935,Central,PR-0053,Office Supplies,Labels,Labels Model 5,853.08,12,0.1,165.27
+671,ORD-2023671,2023-07-06,2023-07-10,Standard Class,CU-1026,David Wilson,Corporate,United States,Atlanta,Georgia,83207,South,PR-0011,Furniture,Tables,Tables Model 5,3308.55,7,0.3,-124.92
+672,ORD-2023672,2023-07-23,2023-07-26,Same Day,CU-1083,Priya Kumar,Consumer,United States,Boston,Massachusetts,88694,East,PR-0030,Office Supplies,Binders,Binders Model 6,5119.92,12,0.0,258.65
+673,ORD-2023673,2023-06-24,2023-06-29,Same Day,CU-1034,James Thomas,Consumer,United States,Boston,Massachusetts,98291,East,PR-0020,Furniture,Furnishings,Furnishings Model 2,23.98,2,0.3,1.62
+674,ORD-2023674,2023-07-28,2023-07-30,Same Day,CU-1064,Aarav Davis,Corporate,United States,Seattle,Washington,37080,West,PR-0016,Furniture,Bookcases,Bookcases Model 4,737.7,5,0.2,30.27
+675,ORD-2023675,2024-11-24,2024-11-26,First Class,CU-1077,Emily Johnson,Home Office,United States,Houston,Texas,44314,Central,PR-0028,Office Supplies,Binders,Binders Model 4,659.96,7,0.5,-50.84
+676,ORD-2023676,2024-08-19,2024-08-25,First Class,CU-1031,Divya Reddy,Corporate,United States,San Francisco,California,62108,West,PR-0058,Technology,Phones,Phones Model 4,2549.69,11,0.0,215.3
+677,ORD-2023677,2024-03-09,2024-03-15,Standard Class,CU-1088,Chris Davis,Corporate,United States,Charlotte,North Carolina,53628,South,PR-0028,Office Supplies,Binders,Binders Model 4,1318.3,10,0.0,169.4
+678,ORD-2023678,2024-11-17,2024-11-24,First Class,CU-1031,Divya Reddy,Corporate,United States,Houston,Texas,76131,Central,PR-0061,Technology,Machines,Machines Model 1,3562.4,10,0.5,-453.29
+679,ORD-2023679,2024-11-18,2024-11-21,Second Class,CU-1080,Aarav Davis,Home Office,United States,Dallas,Texas,44116,Central,PR-0049,Office Supplies,Labels,Labels Model 1,1452.57,3,0.3,-188.02
+680,ORD-2023680,2024-04-24,2024-04-26,First Class,CU-1022,Rohit Sharma,Home Office,United States,Atlanta,Georgia,25314,South,PR-0065,Technology,Machines,Machines Model 5,324.14,2,0.3,21.54
+681,ORD-2023681,2023-10-15,2023-10-21,First Class,CU-1041,Vikram Kumar,Home Office,United States,San Francisco,California,90338,West,PR-0006,Furniture,Chairs,Chairs Model 6,2780.94,6,0.15,838.17
+682,ORD-2023682,2023-06-18,2023-06-21,Same Day,CU-1098,Jessica Johnson,Consumer,United States,Dallas,Texas,16975,Central,PR-0034,Office Supplies,Paper,Paper Model 4,5967.72,12,0.5,1939.66
+683,ORD-2023683,2023-07-07,2023-07-08,Standard Class,CU-1025,Sneha Smith,Corporate,United States,New York,New York,74868,East,PR-0020,Furniture,Furnishings,Furnishings Model 2,1070.48,8,0.4,89.46
+684,ORD-2023684,2024-07-28,2024-08-01,Second Class,CU-1006,Rohit Kumar,Consumer,United States,Houston,Texas,26207,Central,PR-0057,Technology,Phones,Phones Model 3,1992.24,8,0.5,418.14
+685,ORD-2023685,2023-07-04,2023-07-11,Second Class,CU-1045,Vikram Brown,Corporate,United States,San Francisco,California,86486,West,PR-0012,Furniture,Tables,Tables Model 6,1128.66,3,0.5,-15.35
+686,ORD-2023686,2023-03-20,2023-03-22,Standard Class,CU-1001,Sneha Sharma,Home Office,United States,San Francisco,California,61664,West,PR-0068,Technology,Accessories,Accessories Model 2,2720.56,8,0.15,-372.77
+687,ORD-2023687,2023-06-07,2023-06-08,Same Day,CU-1048,Anita Anderson,Home Office,United States,Boston,Massachusetts,92359,East,PR-0076,Technology,Copiers,Copiers Model 4,465.64,2,0.4,83.71
+688,ORD-2023688,2023-02-14,2023-02-20,Second Class,CU-1035,Divya Thomas,Consumer,United States,Boston,Massachusetts,37704,East,PR-0077,Technology,Copiers,Copiers Model 5,4756.9,10,0.15,1539.85
+689,ORD-2023689,2023-03-14,2023-03-19,Second Class,CU-1007,Daniel Davis,Consumer,United States,Chicago,Illinois,62286,Central,PR-0037,Office Supplies,Storage,Storage Model 1,1937.9,10,0.2,-43.44
+690,ORD-2023690,2024-02-02,2024-02-09,Second Class,CU-1012,Sarah Gupta,Corporate,United States,Los Angeles,California,25807,West,PR-0003,Furniture,Chairs,Chairs Model 3,1022.28,7,0.5,334.51
+691,ORD-2023691,2023-11-14,2023-11-20,First Class,CU-1039,Laura Smith,Home Office,United States,Charlotte,North Carolina,77194,South,PR-0063,Technology,Machines,Machines Model 3,699.9,10,0.4,-71.35
+692,ORD-2023692,2024-05-02,2024-05-05,First Class,CU-1026,David Wilson,Corporate,United States,Atlanta,Georgia,90460,South,PR-0063,Technology,Machines,Machines Model 3,3021.7,10,0.0,689.69
+693,ORD-2023693,2023-02-11,2023-02-16,Second Class,CU-1024,Rohit Thomas,Consumer,United States,Miami,Florida,74922,South,PR-0056,Technology,Phones,Phones Model 2,2920.62,6,0.4,-110.65
+694,ORD-2023694,2024-04-24,2024-04-28,Second Class,CU-1068,Chris Patel,Consumer,United States,Boston,Massachusetts,99694,East,PR-0068,Technology,Accessories,Accessories Model 2,908.14,2,0.2,0.18
+695,ORD-2023695,2024-08-05,2024-08-06,Same Day,CU-1039,Laura Smith,Home Office,United States,Atlanta,Georgia,64135,South,PR-0032,Office Supplies,Paper,Paper Model 2,385.92,9,0.0,41.18
+696,ORD-2023696,2023-09-18,2023-09-23,Same Day,CU-1013,Vikram Kumar,Corporate,United States,Dallas,Texas,33534,Central,PR-0060,Technology,Phones,Phones Model 6,770.96,2,0.0,-71.72
+697,ORD-2023697,2024-03-02,2024-03-08,Same Day,CU-1024,Rohit Thomas,Consumer,United States,New York,New York,91764,East,PR-0051,Office Supplies,Labels,Labels Model 3,802.0,5,0.4,62.15
+698,ORD-2023698,2023-07-09,2023-07-10,Standard Class,CU-1034,James Thomas,Consumer,United States,Los Angeles,California,66858,West,PR-0044,Office Supplies,Art,Art Model 2,5894.16,12,0.15,1684.6
+699,ORD-2023699,2023-04-30,2023-05-01,Same Day,CU-1069,Laura Thomas,Consumer,United States,Boston,Massachusetts,49688,East,PR-0003,Furniture,Chairs,Chairs Model 3,988.86,3,0.2,193.72
+700,ORD-2023700,2023-03-31,2023-04-02,Second Class,CU-1080,Aarav Davis,Home Office,United States,Atlanta,Georgia,13514,South,PR-0047,Office Supplies,Art,Art Model 5,35.61,3,0.0,9.19
+701,ORD-2023701,2023-09-05,2023-09-09,First Class,CU-1027,Anita Gupta,Corporate,United States,Seattle,Washington,70742,West,PR-0062,Technology,Machines,Machines Model 2,4727.8,11,0.3,-257.87
+702,ORD-2023702,2023-04-30,2023-05-02,Same Day,CU-1019,Neha Thomas,Home Office,United States,Miami,Florida,12572,South,PR-0061,Technology,Machines,Machines Model 1,1112.1,3,0.2,369.14
+703,ORD-2023703,2023-10-29,2023-11-03,Same Day,CU-1058,Arjun Brown,Consumer,United States,Los Angeles,California,64484,West,PR-0075,Technology,Copiers,Copiers Model 3,211.47,7,0.0,-20.87
+704,ORD-2023704,2024-05-14,2024-05-18,Same Day,CU-1064,Aarav Davis,Corporate,United States,Chicago,Illinois,40396,Central,PR-0075,Technology,Copiers,Copiers Model 3,2072.88,8,0.4,322.85
+705,ORD-2023705,2024-08-13,2024-08-16,Same Day,CU-1092,Emily Smith,Corporate,United States,Boston,Massachusetts,25327,East,PR-0008,Furniture,Tables,Tables Model 2,327.96,9,0.4,19.21
+706,ORD-2023706,2024-03-22,2024-03-23,Same Day,CU-1064,Aarav Davis,Corporate,United States,Charlotte,North Carolina,40422,South,PR-0045,Office Supplies,Art,Art Model 3,442.71,3,0.1,37.46
+707,ORD-2023707,2024-11-03,2024-11-07,Same Day,CU-1065,Laura Sharma,Consumer,United States,Houston,Texas,98225,Central,PR-0029,Office Supplies,Binders,Binders Model 5,1326.51,3,0.4,272.85
+708,ORD-2023708,2024-09-28,2024-09-30,Second Class,CU-1084,Priya Thomas,Corporate,United States,Miami,Florida,32713,South,PR-0047,Office Supplies,Art,Art Model 5,1734.5,5,0.0,318.33
+709,ORD-2023709,2024-03-01,2024-03-05,Standard Class,CU-1026,David Wilson,Corporate,United States,Miami,Florida,57026,South,PR-0021,Furniture,Furnishings,Furnishings Model 3,605.95,5,0.3,-76.64
+710,ORD-2023710,2024-05-30,2024-05-31,Standard Class,CU-1034,James Thomas,Consumer,United States,Los Angeles,California,83660,West,PR-0046,Office Supplies,Art,Art Model 4,344.36,2,0.0,54.68
+711,ORD-2023711,2023-12-30,2024-01-06,Second Class,CU-1029,Rohit Davis,Home Office,United States,Dallas,Texas,77552,Central,PR-0063,Technology,Machines,Machines Model 3,386.2,1,0.3,-6.28
+712,ORD-2023712,2024-04-13,2024-04-20,Standard Class,CU-1078,David Patel,Consumer,United States,Boston,Massachusetts,83724,East,PR-0014,Furniture,Bookcases,Bookcases Model 2,974.92,2,0.5,151.39
+713,ORD-2023713,2024-10-07,2024-10-08,Same Day,CU-1006,Rohit Kumar,Consumer,United States,New York,New York,76308,East,PR-0065,Technology,Machines,Machines Model 5,1823.76,4,0.1,390.6
+714,ORD-2023714,2024-01-08,2024-01-11,Same Day,CU-1064,Aarav Davis,Corporate,United States,Seattle,Washington,10863,West,PR-0013,Furniture,Bookcases,Bookcases Model 1,197.64,3,0.1,13.75
+715,ORD-2023715,2024-06-01,2024-06-03,First Class,CU-1032,Michael Singh,Home Office,United States,Dallas,Texas,92502,Central,PR-0061,Technology,Machines,Machines Model 1,273.36,2,0.4,62.17
+716,ORD-2023716,2024-03-07,2024-03-14,Same Day,CU-1086,Arjun Wilson,Corporate,United States,Seattle,Washington,70129,West,PR-0032,Office Supplies,Paper,Paper Model 2,293.24,4,0.2,16.63
+717,ORD-2023717,2023-05-30,2023-06-06,Standard Class,CU-1067,Divya Sharma,Consumer,United States,Boston,Massachusetts,54342,East,PR-0047,Office Supplies,Art,Art Model 5,360.22,1,0.3,115.93
+718,ORD-2023718,2023-03-04,2023-03-08,Standard Class,CU-1041,Vikram Kumar,Home Office,United States,San Francisco,California,92786,West,PR-0052,Office Supplies,Labels,Labels Model 4,331.79,1,0.4,-24.73
+719,ORD-2023719,2024-02-16,2024-02-22,First Class,CU-1092,Emily Smith,Corporate,United States,Dallas,Texas,55109,Central,PR-0067,Technology,Accessories,Accessories Model 1,3348.48,12,0.15,705.78
+720,ORD-2023720,2024-02-18,2024-02-22,Same Day,CU-1002,Arjun Kumar,Consumer,United States,Seattle,Washington,55252,West,PR-0036,Office Supplies,Paper,Paper Model 6,1171.94,11,0.3,190.07
+721,ORD-2023721,2023-03-28,2023-03-29,Second Class,CU-1084,Priya Thomas,Corporate,United States,San Francisco,California,78219,West,PR-0052,Office Supplies,Labels,Labels Model 4,1535.13,9,0.4,321.52
+722,ORD-2023722,2024-06-07,2024-06-12,Standard Class,CU-1070,Jessica Anderson,Consumer,United States,Los Angeles,California,13655,West,PR-0037,Office Supplies,Storage,Storage Model 1,1315.3,5,0.5,220.76
+723,ORD-2023723,2023-11-08,2023-11-14,First Class,CU-1070,Jessica Anderson,Consumer,United States,Chicago,Illinois,44046,Central,PR-0076,Technology,Copiers,Copiers Model 4,3454.78,7,0.0,746.21
+724,ORD-2023724,2023-02-18,2023-02-25,Standard Class,CU-1081,Divya Davis,Consumer,United States,Chicago,Illinois,69394,Central,PR-0065,Technology,Machines,Machines Model 5,5180.56,11,0.2,-5.28
+725,ORD-2023725,2023-11-03,2023-11-06,Second Class,CU-1044,Michael Gupta,Consumer,United States,San Francisco,California,59501,West,PR-0031,Office Supplies,Paper,Paper Model 1,4328.17,11,0.4,590.29
+726,ORD-2023726,2024-06-12,2024-06-17,Second Class,CU-1067,Divya Sharma,Consumer,United States,Boston,Massachusetts,65796,East,PR-0032,Office Supplies,Paper,Paper Model 2,1649.24,4,0.15,127.25
+727,ORD-2023727,2024-03-11,2024-03-13,Same Day,CU-1053,Sneha Wilson,Home Office,United States,New York,New York,87101,East,PR-0011,Furniture,Tables,Tables Model 5,890.56,8,0.0,30.86
+728,ORD-2023728,2024-08-21,2024-08-25,Same Day,CU-1072,Jessica Reddy,Corporate,United States,Atlanta,Georgia,64646,South,PR-0067,Technology,Accessories,Accessories Model 1,2360.49,11,0.2,459.14
+729,ORD-2023729,2024-04-13,2024-04-15,Second Class,CU-1021,Chris Kumar,Home Office,United States,San Francisco,California,69694,West,PR-0019,Furniture,Furnishings,Furnishings Model 1,3108.36,12,0.3,-282.77
+730,ORD-2023730,2024-01-14,2024-01-15,First Class,CU-1061,Daniel Davis,Consumer,United States,Seattle,Washington,15279,West,PR-0005,Furniture,Chairs,Chairs Model 5,4269.0,10,0.0,-382.36
+731,ORD-2023731,2023-11-09,2023-11-12,Second Class,CU-1067,Divya Sharma,Consumer,United States,Boston,Massachusetts,87283,East,PR-0020,Furniture,Furnishings,Furnishings Model 2,752.6,5,0.0,184.84
+732,ORD-2023732,2023-08-09,2023-08-11,Standard Class,CU-1054,Arjun Anderson,Home Office,United States,Dallas,Texas,15856,Central,PR-0007,Furniture,Tables,Tables Model 1,2963.4,12,0.0,366.78
+733,ORD-2023733,2024-04-08,2024-04-11,Second Class,CU-1054,Arjun Anderson,Home Office,United States,Houston,Texas,28156,Central,PR-0062,Technology,Machines,Machines Model 2,1681.68,7,0.4,448.74
+734,ORD-2023734,2024-04-04,2024-04-06,Same Day,CU-1065,Laura Sharma,Consumer,United States,Charlotte,North Carolina,60755,South,PR-0059,Technology,Phones,Phones Model 5,1991.76,12,0.5,323.43
+735,ORD-2023735,2023-02-16,2023-02-22,Second Class,CU-1030,Anita Brown,Home Office,United States,Houston,Texas,13251,Central,PR-0051,Office Supplies,Labels,Labels Model 3,2954.24,8,0.4,-312.37
+736,ORD-2023736,2024-07-26,2024-07-27,Standard Class,CU-1074,Sarah Kumar,Home Office,United States,Philadelphia,Pennsylvania,84743,East,PR-0040,Office Supplies,Storage,Storage Model 4,1911.24,4,0.3,264.57
+737,ORD-2023737,2023-01-20,2023-01-21,First Class,CU-1067,Divya Sharma,Consumer,United States,Charlotte,North Carolina,36975,South,PR-0025,Office Supplies,Binders,Binders Model 1,5152.51,11,0.1,1706.45
+738,ORD-2023738,2024-06-30,2024-07-05,Standard Class,CU-1032,Michael Singh,Home Office,United States,Miami,Florida,54558,South,PR-0075,Technology,Copiers,Copiers Model 3,1223.34,6,0.0,117.12
+739,ORD-2023739,2024-06-24,2024-06-27,Second Class,CU-1056,Sarah Reddy,Corporate,United States,Miami,Florida,47401,South,PR-0024,Furniture,Furnishings,Furnishings Model 6,926.1,7,0.0,314.77
+740,ORD-2023740,2023-06-07,2023-06-10,First Class,CU-1019,Neha Thomas,Home Office,United States,Chicago,Illinois,33784,Central,PR-0024,Furniture,Furnishings,Furnishings Model 6,2386.37,7,0.0,375.23
+741,ORD-2023741,2023-04-12,2023-04-15,Standard Class,CU-1004,Jessica Patel,Home Office,United States,Dallas,Texas,16799,Central,PR-0008,Furniture,Tables,Tables Model 2,628.05,3,0.15,-13.21
+742,ORD-2023742,2024-06-04,2024-06-11,First Class,CU-1026,David Wilson,Corporate,United States,San Francisco,California,70925,West,PR-0031,Office Supplies,Paper,Paper Model 1,1760.4,9,0.0,-27.03
+743,ORD-2023743,2023-01-30,2023-02-03,Standard Class,CU-1071,Vikram Wilson,Corporate,United States,Boston,Massachusetts,42285,East,PR-0053,Office Supplies,Labels,Labels Model 5,1327.7,11,0.0,-20.47
+744,ORD-2023744,2024-08-04,2024-08-08,Second Class,CU-1098,Jessica Johnson,Consumer,United States,San Francisco,California,58929,West,PR-0072,Technology,Accessories,Accessories Model 6,372.24,8,0.4,37.3
+745,ORD-2023745,2024-03-09,2024-03-14,First Class,CU-1070,Jessica Anderson,Consumer,United States,Seattle,Washington,95597,West,PR-0022,Furniture,Furnishings,Furnishings Model 4,205.52,8,0.5,16.92
+746,ORD-2023746,2023-10-07,2023-10-12,Second Class,CU-1022,Rohit Sharma,Home Office,United States,Boston,Massachusetts,86697,East,PR-0001,Furniture,Chairs,Chairs Model 1,2102.75,5,0.2,735.17
+747,ORD-2023747,2024-06-30,2024-07-05,Second Class,CU-1066,Emily Moore,Corporate,United States,New York,New York,82938,East,PR-0037,Office Supplies,Storage,Storage Model 1,307.64,2,0.2,61.29
+748,ORD-2023748,2024-05-31,2024-06-07,Same Day,CU-1036,James Smith,Corporate,United States,Seattle,Washington,45784,West,PR-0056,Technology,Phones,Phones Model 2,2655.3,6,0.15,444.99
+749,ORD-2023749,2024-04-15,2024-04-20,Standard Class,CU-1032,Michael Singh,Home Office,United States,Chicago,Illinois,89794,Central,PR-0042,Office Supplies,Storage,Storage Model 6,77.16,6,0.4,-6.41
+750,ORD-2023750,2023-06-27,2023-07-01,Same Day,CU-1061,Daniel Davis,Consumer,United States,Philadelphia,Pennsylvania,80533,East,PR-0001,Furniture,Chairs,Chairs Model 1,4033.44,9,0.4,381.11
+751,ORD-2023751,2024-03-31,2024-04-06,First Class,CU-1011,Aarav Anderson,Consumer,United States,Philadelphia,Pennsylvania,60692,East,PR-0010,Furniture,Tables,Tables Model 4,359.46,2,0.5,13.73
+752,ORD-2023752,2024-01-15,2024-01-17,First Class,CU-1023,Divya Anderson,Corporate,United States,Boston,Massachusetts,99201,East,PR-0002,Furniture,Chairs,Chairs Model 2,77.04,8,0.4,-10.79
+753,ORD-2023753,2024-09-20,2024-09-26,Same Day,CU-1091,Sneha Wilson,Corporate,United States,Los Angeles,California,57579,West,PR-0046,Office Supplies,Art,Art Model 4,2025.85,5,0.1,-66.59
+754,ORD-2023754,2024-09-12,2024-09-14,Standard Class,CU-1005,Sarah Sharma,Consumer,United States,Charlotte,North Carolina,46352,South,PR-0036,Office Supplies,Paper,Paper Model 6,102.06,1,0.5,17.27
+755,ORD-2023755,2024-07-19,2024-07-21,Second Class,CU-1073,Daniel Thomas,Home Office,United States,Miami,Florida,18566,South,PR-0065,Technology,Machines,Machines Model 5,4077.81,11,0.4,779.64
+756,ORD-2023756,2023-09-23,2023-09-28,Second Class,CU-1076,Michael Wilson,Home Office,United States,New York,New York,98864,East,PR-0017,Furniture,Bookcases,Bookcases Model 5,1764.4,4,0.4,425.44
+757,ORD-2023757,2024-07-27,2024-07-31,Standard Class,CU-1003,Vikram Taylor,Consumer,United States,Houston,Texas,52336,Central,PR-0069,Technology,Accessories,Accessories Model 3,469.26,1,0.4,87.54
+758,ORD-2023758,2024-11-27,2024-12-02,Second Class,CU-1056,Sarah Reddy,Corporate,United States,Chicago,Illinois,16155,Central,PR-0053,Office Supplies,Labels,Labels Model 5,2002.48,8,0.3,459.59
+759,ORD-2023759,2023-01-06,2023-01-10,Second Class,CU-1036,James Smith,Corporate,United States,Atlanta,Georgia,65550,South,PR-0054,Office Supplies,Labels,Labels Model 6,682.72,4,0.3,173.3
+760,ORD-2023760,2023-12-04,2023-12-07,Same Day,CU-1010,David Davis,Corporate,United States,Los Angeles,California,13148,West,PR-0032,Office Supplies,Paper,Paper Model 2,629.74,2,0.0,-85.68
+761,ORD-2023761,2023-04-21,2023-04-25,First Class,CU-1076,Michael Wilson,Home Office,United States,Chicago,Illinois,78114,Central,PR-0043,Office Supplies,Art,Art Model 1,1918.44,4,0.5,-235.55
+762,ORD-2023762,2024-10-02,2024-10-06,Same Day,CU-1031,Divya Reddy,Corporate,United States,Miami,Florida,51062,South,PR-0010,Furniture,Tables,Tables Model 4,667.9,10,0.0,205.95
+763,ORD-2023763,2024-03-28,2024-03-29,Standard Class,CU-1089,Divya Anderson,Corporate,United States,Los Angeles,California,83303,West,PR-0009,Furniture,Tables,Tables Model 3,1536.6,5,0.2,-179.94
+764,ORD-2023764,2023-04-09,2023-04-14,Standard Class,CU-1007,Daniel Davis,Consumer,United States,Atlanta,Georgia,69429,South,PR-0038,Office Supplies,Storage,Storage Model 2,842.73,7,0.3,205.4
+765,ORD-2023765,2024-09-26,2024-09-27,Same Day,CU-1050,Michael Smith,Home Office,United States,Charlotte,North Carolina,77792,South,PR-0060,Technology,Phones,Phones Model 6,1963.26,6,0.4,474.06
+766,ORD-2023766,2023-04-16,2023-04-17,Second Class,CU-1043,Chris Smith,Home Office,United States,Los Angeles,California,85132,West,PR-0076,Technology,Copiers,Copiers Model 4,3580.8,10,0.3,876.25
+767,ORD-2023767,2024-03-07,2024-03-11,Standard Class,CU-1017,David Brown,Consumer,United States,Dallas,Texas,17928,Central,PR-0066,Technology,Machines,Machines Model 6,3747.84,12,0.1,-106.53
+768,ORD-2023768,2024-10-29,2024-11-05,Second Class,CU-1017,David Brown,Consumer,United States,Charlotte,North Carolina,71541,South,PR-0040,Office Supplies,Storage,Storage Model 4,954.24,6,0.3,226.87
+769,ORD-2023769,2024-01-13,2024-01-14,Second Class,CU-1040,David Reddy,Corporate,United States,Dallas,Texas,76467,Central,PR-0078,Technology,Copiers,Copiers Model 6,2657.61,9,0.4,-206.5
+770,ORD-2023770,2023-07-20,2023-07-22,Second Class,CU-1072,Jessica Reddy,Corporate,United States,Atlanta,Georgia,97537,South,PR-0007,Furniture,Tables,Tables Model 1,5001.81,11,0.5,-579.2
+771,ORD-2023771,2024-08-02,2024-08-05,Same Day,CU-1061,Daniel Davis,Consumer,United States,Houston,Texas,15530,Central,PR-0060,Technology,Phones,Phones Model 6,1533.2,10,0.15,-105.58
+772,ORD-2023772,2023-08-17,2023-08-23,First Class,CU-1064,Aarav Davis,Corporate,United States,Philadelphia,Pennsylvania,59271,East,PR-0029,Office Supplies,Binders,Binders Model 5,943.76,4,0.1,-28.78
+773,ORD-2023773,2024-01-07,2024-01-08,First Class,CU-1027,Anita Gupta,Corporate,United States,Los Angeles,California,67725,West,PR-0052,Office Supplies,Labels,Labels Model 4,364.3,2,0.3,-33.66
+774,ORD-2023774,2023-01-31,2023-02-02,Second Class,CU-1025,Sneha Smith,Corporate,United States,Chicago,Illinois,54540,Central,PR-0075,Technology,Copiers,Copiers Model 3,582.52,4,0.1,170.5
+775,ORD-2023775,2023-01-23,2023-01-25,Second Class,CU-1071,Vikram Wilson,Corporate,United States,Los Angeles,California,59666,West,PR-0032,Office Supplies,Paper,Paper Model 2,2278.85,5,0.0,605.54
+776,ORD-2023776,2023-11-09,2023-11-13,Same Day,CU-1084,Priya Thomas,Corporate,United States,Chicago,Illinois,18569,Central,PR-0015,Furniture,Bookcases,Bookcases Model 3,751.88,4,0.15,135.68
+777,ORD-2023777,2023-07-16,2023-07-21,Second Class,CU-1016,Amy Singh,Consumer,United States,Los Angeles,California,16054,West,PR-0019,Furniture,Furnishings,Furnishings Model 1,2440.97,7,0.15,365.6
+778,ORD-2023778,2023-10-29,2023-11-05,First Class,CU-1098,Jessica Johnson,Consumer,United States,Seattle,Washington,26575,West,PR-0076,Technology,Copiers,Copiers Model 4,501.6,3,0.0,82.63
+779,ORD-2023779,2023-03-25,2023-04-01,Same Day,CU-1066,Emily Moore,Corporate,United States,Miami,Florida,94550,South,PR-0075,Technology,Copiers,Copiers Model 3,3172.32,8,0.3,-372.95
+780,ORD-2023780,2024-06-15,2024-06-19,Same Day,CU-1097,Divya Kumar,Consumer,United States,Dallas,Texas,74853,Central,PR-0066,Technology,Machines,Machines Model 6,492.9,3,0.15,55.57
+781,ORD-2023781,2024-08-20,2024-08-26,Second Class,CU-1061,Daniel Davis,Consumer,United States,Charlotte,North Carolina,61891,South,PR-0035,Office Supplies,Paper,Paper Model 5,107.56,1,0.1,8.18
+782,ORD-2023782,2024-08-08,2024-08-10,Standard Class,CU-1028,Karan Wilson,Corporate,United States,Atlanta,Georgia,48672,South,PR-0040,Office Supplies,Storage,Storage Model 4,785.94,6,0.0,-65.1
+783,ORD-2023783,2024-08-20,2024-08-21,Same Day,CU-1057,Aarav Taylor,Home Office,United States,Chicago,Illinois,66689,Central,PR-0067,Technology,Accessories,Accessories Model 1,2068.56,8,0.15,130.43
+784,ORD-2023784,2023-10-07,2023-10-11,Standard Class,CU-1053,Sneha Wilson,Home Office,United States,Atlanta,Georgia,57067,South,PR-0048,Office Supplies,Art,Art Model 6,93.89,1,0.1,-1.61
+785,ORD-2023785,2023-08-22,2023-08-23,First Class,CU-1011,Aarav Anderson,Consumer,United States,Boston,Massachusetts,35774,East,PR-0038,Office Supplies,Storage,Storage Model 2,80.64,2,0.0,9.92
+786,ORD-2023786,2024-11-30,2024-12-07,First Class,CU-1087,Karan Brown,Consumer,United States,Dallas,Texas,11118,Central,PR-0043,Office Supplies,Art,Art Model 1,496.85,5,0.3,173.4
+787,ORD-2023787,2024-02-18,2024-02-22,Second Class,CU-1099,Sarah Reddy,Corporate,United States,Dallas,Texas,62101,Central,PR-0039,Office Supplies,Storage,Storage Model 3,3801.1,10,0.0,326.9
+788,ORD-2023788,2023-08-28,2023-09-02,Same Day,CU-1030,Anita Brown,Home Office,United States,San Francisco,California,54650,West,PR-0030,Office Supplies,Binders,Binders Model 6,3940.6,10,0.5,332.47
+789,ORD-2023789,2024-03-03,2024-03-05,Second Class,CU-1011,Aarav Anderson,Consumer,United States,San Francisco,California,85695,West,PR-0041,Office Supplies,Storage,Storage Model 5,1821.92,8,0.3,-245.86
+790,ORD-2023790,2024-11-05,2024-11-12,Same Day,CU-1017,David Brown,Consumer,United States,Boston,Massachusetts,80464,East,PR-0040,Office Supplies,Storage,Storage Model 4,1039.26,6,0.2,65.33
+791,ORD-2023791,2023-02-02,2023-02-04,Same Day,CU-1039,Laura Smith,Home Office,United States,Philadelphia,Pennsylvania,59980,East,PR-0042,Office Supplies,Storage,Storage Model 6,1466.22,3,0.15,196.61
+792,ORD-2023792,2024-01-31,2024-02-02,First Class,CU-1027,Anita Gupta,Corporate,United States,Philadelphia,Pennsylvania,22221,East,PR-0051,Office Supplies,Labels,Labels Model 3,470.24,8,0.3,155.63
+793,ORD-2023793,2024-09-09,2024-09-13,Same Day,CU-1022,Rohit Sharma,Home Office,United States,Los Angeles,California,47200,West,PR-0014,Furniture,Bookcases,Bookcases Model 2,97.41,1,0.0,29.78
+794,ORD-2023794,2024-06-20,2024-06-21,First Class,CU-1027,Anita Gupta,Corporate,United States,Houston,Texas,63852,Central,PR-0030,Office Supplies,Binders,Binders Model 6,267.52,8,0.3,-38.65
+795,ORD-2023795,2024-07-03,2024-07-07,Second Class,CU-1051,David Brown,Corporate,United States,New York,New York,27030,East,PR-0021,Furniture,Furnishings,Furnishings Model 3,2982.88,8,0.2,977.04
+796,ORD-2023796,2024-11-11,2024-11-15,Same Day,CU-1027,Anita Gupta,Corporate,United States,Charlotte,North Carolina,46102,South,PR-0040,Office Supplies,Storage,Storage Model 4,911.52,3,0.15,131.03
+797,ORD-2023797,2023-03-07,2023-03-14,Same Day,CU-1026,David Wilson,Corporate,United States,San Francisco,California,70319,West,PR-0001,Furniture,Chairs,Chairs Model 1,2130.8,7,0.1,240.63
+798,ORD-2023798,2023-04-04,2023-04-07,First Class,CU-1060,Neha Thomas,Home Office,United States,Philadelphia,Pennsylvania,61260,East,PR-0074,Technology,Copiers,Copiers Model 2,4851.99,11,0.2,113.49
+799,ORD-2023799,2023-07-03,2023-07-08,Second Class,CU-1079,Divya Patel,Corporate,United States,Miami,Florida,84529,South,PR-0023,Furniture,Furnishings,Furnishings Model 5,2626.56,12,0.2,802.19
+800,ORD-2023800,2023-06-11,2023-06-14,Second Class,CU-1013,Vikram Kumar,Corporate,United States,New York,New York,74682,East,PR-0051,Office Supplies,Labels,Labels Model 3,2982.98,11,0.4,919.2
+801,ORD-2023801,2023-03-20,2023-03-27,Same Day,CU-1053,Sneha Wilson,Home Office,United States,Boston,Massachusetts,31605,East,PR-0071,Technology,Accessories,Accessories Model 5,509.36,2,0.5,6.63
+802,ORD-2023802,2023-01-28,2023-01-29,First Class,CU-1033,Jessica Kumar,Home Office,United States,Boston,Massachusetts,62342,East,PR-0027,Office Supplies,Binders,Binders Model 3,3836.47,11,0.4,310.57
+803,ORD-2023803,2023-09-14,2023-09-15,Same Day,CU-1025,Sneha Smith,Corporate,United States,New York,New York,73538,East,PR-0051,Office Supplies,Labels,Labels Model 3,5507.76,12,0.15,1019.75
+804,ORD-2023804,2024-11-03,2024-11-05,First Class,CU-1060,Neha Thomas,Home Office,United States,Philadelphia,Pennsylvania,31150,East,PR-0009,Furniture,Tables,Tables Model 3,5703.12,12,0.1,487.01
+805,ORD-2023805,2023-10-29,2023-10-30,Standard Class,CU-1022,Rohit Sharma,Home Office,United States,New York,New York,98785,East,PR-0003,Furniture,Chairs,Chairs Model 3,3348.18,9,0.1,-372.34
+806,ORD-2023806,2023-07-02,2023-07-04,Same Day,CU-1035,Divya Thomas,Consumer,United States,Atlanta,Georgia,16259,South,PR-0020,Furniture,Furnishings,Furnishings Model 2,264.6,12,0.4,30.73
+807,ORD-2023807,2023-11-12,2023-11-16,Second Class,CU-1082,Aarav Patel,Home Office,United States,Boston,Massachusetts,42728,East,PR-0067,Technology,Accessories,Accessories Model 1,301.11,1,0.0,71.12
+808,ORD-2023808,2023-01-17,2023-01-21,Standard Class,CU-1048,Anita Anderson,Home Office,United States,Los Angeles,California,38910,West,PR-0031,Office Supplies,Paper,Paper Model 1,494.7,1,0.15,128.75
+809,ORD-2023809,2024-03-01,2024-03-06,Second Class,CU-1013,Vikram Kumar,Corporate,United States,Los Angeles,California,91877,West,PR-0022,Furniture,Furnishings,Furnishings Model 4,817.46,2,0.15,107.11
+810,ORD-2023810,2023-05-04,2023-05-06,Same Day,CU-1027,Anita Gupta,Corporate,United States,Atlanta,Georgia,95720,South,PR-0070,Technology,Accessories,Accessories Model 4,229.64,4,0.15,-14.51
+811,ORD-2023811,2024-04-14,2024-04-16,First Class,CU-1041,Vikram Kumar,Home Office,United States,Miami,Florida,15759,South,PR-0002,Furniture,Chairs,Chairs Model 2,661.38,2,0.15,115.72
+812,ORD-2023812,2024-09-05,2024-09-09,Second Class,CU-1009,Jessica Smith,Consumer,United States,Atlanta,Georgia,43022,South,PR-0028,Office Supplies,Binders,Binders Model 4,715.4,2,0.5,247.0
+813,ORD-2023813,2024-02-02,2024-02-08,First Class,CU-1013,Vikram Kumar,Corporate,United States,Houston,Texas,97342,Central,PR-0077,Technology,Copiers,Copiers Model 5,849.6,12,0.1,142.46
+814,ORD-2023814,2024-09-15,2024-09-20,Standard Class,CU-1062,Vikram Gupta,Consumer,United States,Chicago,Illinois,40488,Central,PR-0009,Furniture,Tables,Tables Model 3,1554.16,8,0.4,343.32
+815,ORD-2023815,2024-03-14,2024-03-21,Same Day,CU-1003,Vikram Taylor,Consumer,United States,Chicago,Illinois,48877,Central,PR-0016,Furniture,Bookcases,Bookcases Model 4,1247.12,4,0.0,-101.29
+816,ORD-2023816,2024-10-19,2024-10-20,Same Day,CU-1026,David Wilson,Corporate,United States,Miami,Florida,53082,South,PR-0020,Furniture,Furnishings,Furnishings Model 2,1848.36,4,0.3,636.35
+817,ORD-2023817,2023-02-10,2023-02-15,Second Class,CU-1018,Michael Patel,Home Office,United States,Houston,Texas,53420,Central,PR-0036,Office Supplies,Paper,Paper Model 6,2280.46,7,0.15,513.73
+818,ORD-2023818,2023-02-25,2023-03-03,Same Day,CU-1044,Michael Gupta,Consumer,United States,Seattle,Washington,78350,West,PR-0032,Office Supplies,Paper,Paper Model 2,1606.88,4,0.4,337.04
+819,ORD-2023819,2023-01-07,2023-01-08,Second Class,CU-1042,Jessica Brown,Corporate,United States,Charlotte,North Carolina,36767,South,PR-0024,Furniture,Furnishings,Furnishings Model 6,317.12,8,0.1,-39.31
+820,ORD-2023820,2024-07-16,2024-07-23,Same Day,CU-1017,David Brown,Consumer,United States,Seattle,Washington,50824,West,PR-0012,Furniture,Tables,Tables Model 6,487.88,4,0.0,30.79
+821,ORD-2023821,2023-06-30,2023-07-05,Second Class,CU-1022,Rohit Sharma,Home Office,United States,San Francisco,California,45633,West,PR-0026,Office Supplies,Binders,Binders Model 2,620.12,4,0.3,45.97
+822,ORD-2023822,2024-01-22,2024-01-24,Same Day,CU-1062,Vikram Gupta,Consumer,United States,Dallas,Texas,30431,Central,PR-0011,Furniture,Tables,Tables Model 5,1787.84,8,0.3,276.57
+823,ORD-2023823,2023-03-27,2023-04-03,Second Class,CU-1062,Vikram Gupta,Consumer,United States,Atlanta,Georgia,43723,South,PR-0003,Furniture,Chairs,Chairs Model 3,1498.1,5,0.1,189.4
+824,ORD-2023824,2023-10-18,2023-10-22,Same Day,CU-1049,Sarah Davis,Consumer,United States,Dallas,Texas,35652,Central,PR-0060,Technology,Phones,Phones Model 6,2744.82,9,0.0,45.61
+825,ORD-2023825,2024-05-27,2024-06-02,Same Day,CU-1020,Amy Moore,Corporate,United States,New York,New York,58908,East,PR-0025,Office Supplies,Binders,Binders Model 1,2283.12,12,0.2,714.26
+826,ORD-2023826,2024-08-25,2024-08-26,Second Class,CU-1050,Michael Smith,Home Office,United States,Houston,Texas,35457,Central,PR-0063,Technology,Machines,Machines Model 3,3101.49,7,0.0,131.54
+827,ORD-2023827,2023-12-23,2023-12-28,Standard Class,CU-1098,Jessica Johnson,Consumer,United States,Houston,Texas,95315,Central,PR-0056,Technology,Phones,Phones Model 2,2962.44,12,0.4,100.99
+828,ORD-2023828,2024-05-04,2024-05-05,Second Class,CU-1050,Michael Smith,Home Office,United States,Los Angeles,California,44253,West,PR-0055,Technology,Phones,Phones Model 1,1903.92,6,0.4,-258.69
+829,ORD-2023829,2023-09-11,2023-09-16,Standard Class,CU-1078,David Patel,Consumer,United States,San Francisco,California,22098,West,PR-0059,Technology,Phones,Phones Model 5,4761.3,10,0.5,-329.89
+830,ORD-2023830,2024-08-23,2024-08-24,Same Day,CU-1083,Priya Kumar,Consumer,United States,Charlotte,North Carolina,43144,South,PR-0050,Office Supplies,Labels,Labels Model 2,4098.78,9,0.2,-274.98
+831,ORD-2023831,2023-11-12,2023-11-18,Standard Class,CU-1089,Divya Anderson,Corporate,United States,Charlotte,North Carolina,93385,South,PR-0039,Office Supplies,Storage,Storage Model 3,2642.29,7,0.4,752.28
+832,ORD-2023832,2023-08-03,2023-08-09,Same Day,CU-1074,Sarah Kumar,Home Office,United States,San Francisco,California,10206,West,PR-0045,Office Supplies,Art,Art Model 3,2457.07,7,0.0,844.03
+833,ORD-2023833,2024-03-02,2024-03-08,Second Class,CU-1013,Vikram Kumar,Corporate,United States,Charlotte,North Carolina,27607,South,PR-0009,Furniture,Tables,Tables Model 3,1839.3,5,0.1,-113.67
+834,ORD-2023834,2023-04-23,2023-04-27,Second Class,CU-1026,David Wilson,Corporate,United States,Seattle,Washington,35150,West,PR-0063,Technology,Machines,Machines Model 3,4081.1,10,0.1,-202.14
+835,ORD-2023835,2024-10-01,2024-10-02,Standard Class,CU-1034,James Thomas,Consumer,United States,Charlotte,North Carolina,46275,South,PR-0053,Office Supplies,Labels,Labels Model 5,959.53,11,0.15,-102.81
+836,ORD-2023836,2023-08-29,2023-09-02,First Class,CU-1009,Jessica Smith,Consumer,United States,Philadelphia,Pennsylvania,10947,East,PR-0044,Office Supplies,Art,Art Model 2,2704.32,8,0.0,-392.79
+837,ORD-2023837,2023-08-05,2023-08-10,First Class,CU-1086,Arjun Wilson,Corporate,United States,New York,New York,73691,East,PR-0075,Technology,Copiers,Copiers Model 3,190.95,1,0.3,65.58
+838,ORD-2023838,2024-01-15,2024-01-21,First Class,CU-1061,Daniel Davis,Consumer,United States,Atlanta,Georgia,97173,South,PR-0044,Office Supplies,Art,Art Model 2,2998.38,6,0.5,-90.56
+839,ORD-2023839,2023-12-05,2023-12-12,Second Class,CU-1052,Jessica Thomas,Consumer,United States,Boston,Massachusetts,13365,East,PR-0049,Office Supplies,Labels,Labels Model 1,13.06,2,0.5,2.6
+840,ORD-2023840,2023-09-12,2023-09-15,Same Day,CU-1078,David Patel,Consumer,United States,Houston,Texas,96537,Central,PR-0016,Furniture,Bookcases,Bookcases Model 4,2488.64,8,0.4,709.08
+841,ORD-2023841,2024-10-10,2024-10-13,Same Day,CU-1025,Sneha Smith,Corporate,United States,Chicago,Illinois,40612,Central,PR-0001,Furniture,Chairs,Chairs Model 1,484.95,1,0.4,6.19
+842,ORD-2023842,2024-09-19,2024-09-26,Standard Class,CU-1078,David Patel,Consumer,United States,Charlotte,North Carolina,60444,South,PR-0063,Technology,Machines,Machines Model 3,354.86,2,0.2,121.87
+843,ORD-2023843,2023-05-27,2023-06-03,Standard Class,CU-1038,James Kumar,Home Office,United States,Seattle,Washington,26759,West,PR-0078,Technology,Copiers,Copiers Model 6,3948.66,9,0.5,1099.31
+844,ORD-2023844,2024-07-15,2024-07-22,Same Day,CU-1064,Aarav Davis,Corporate,United States,Houston,Texas,96853,Central,PR-0012,Furniture,Tables,Tables Model 6,705.52,8,0.2,231.08
+845,ORD-2023845,2023-06-24,2023-07-01,Standard Class,CU-1070,Jessica Anderson,Consumer,United States,Los Angeles,California,31002,West,PR-0031,Office Supplies,Paper,Paper Model 1,3865.95,11,0.0,260.75
+846,ORD-2023846,2023-09-21,2023-09-27,Second Class,CU-1042,Jessica Brown,Corporate,United States,Chicago,Illinois,80063,Central,PR-0050,Office Supplies,Labels,Labels Model 2,3807.92,8,0.4,-336.81
+847,ORD-2023847,2023-12-07,2023-12-14,Standard Class,CU-1082,Aarav Patel,Home Office,United States,Philadelphia,Pennsylvania,94408,East,PR-0063,Technology,Machines,Machines Model 3,1864.92,4,0.5,581.71
+848,ORD-2023848,2024-10-19,2024-10-26,Second Class,CU-1044,Michael Gupta,Consumer,United States,Charlotte,North Carolina,43959,South,PR-0049,Office Supplies,Labels,Labels Model 1,4349.61,9,0.2,1105.77
+849,ORD-2023849,2023-04-02,2023-04-05,Standard Class,CU-1015,Sneha Gupta,Corporate,United States,New York,New York,85083,East,PR-0038,Office Supplies,Storage,Storage Model 2,3577.68,12,0.1,795.35
+850,ORD-2023850,2024-08-13,2024-08-19,Same Day,CU-1048,Anita Anderson,Home Office,United States,Dallas,Texas,65535,Central,PR-0017,Furniture,Bookcases,Bookcases Model 5,158.85,1,0.3,18.71
+851,ORD-2023851,2024-11-10,2024-11-15,Same Day,CU-1041,Vikram Kumar,Home Office,United States,Seattle,Washington,51409,West,PR-0047,Office Supplies,Art,Art Model 5,1149.6,10,0.2,-167.16
+852,ORD-2023852,2024-11-27,2024-12-01,Standard Class,CU-1019,Neha Thomas,Home Office,United States,San Francisco,California,88496,West,PR-0038,Office Supplies,Storage,Storage Model 2,908.19,3,0.1,203.01
+853,ORD-2023853,2024-08-10,2024-08-14,Same Day,CU-1041,Vikram Kumar,Home Office,United States,Boston,Massachusetts,17708,East,PR-0040,Office Supplies,Storage,Storage Model 4,4567.2,11,0.2,-19.42
+854,ORD-2023854,2023-08-19,2023-08-25,Same Day,CU-1043,Chris Smith,Home Office,United States,Seattle,Washington,61355,West,PR-0020,Furniture,Furnishings,Furnishings Model 2,372.24,12,0.5,88.6
+855,ORD-2023855,2024-02-06,2024-02-09,Same Day,CU-1039,Laura Smith,Home Office,United States,Philadelphia,Pennsylvania,19414,East,PR-0021,Furniture,Furnishings,Furnishings Model 3,2383.92,7,0.15,545.58
+856,ORD-2023856,2023-07-19,2023-07-25,Standard Class,CU-1068,Chris Patel,Consumer,United States,Houston,Texas,49855,Central,PR-0037,Office Supplies,Storage,Storage Model 1,1799.28,9,0.1,21.07
+857,ORD-2023857,2024-05-09,2024-05-12,Standard Class,CU-1059,Daniel Moore,Consumer,United States,San Francisco,California,57477,West,PR-0021,Furniture,Furnishings,Furnishings Model 3,326.49,3,0.5,73.2
+858,ORD-2023858,2023-06-01,2023-06-05,Standard Class,CU-1093,David Thomas,Home Office,United States,Philadelphia,Pennsylvania,56607,East,PR-0074,Technology,Copiers,Copiers Model 2,2389.31,7,0.1,747.84
+859,ORD-2023859,2024-06-11,2024-06-17,Same Day,CU-1061,Daniel Davis,Consumer,United States,New York,New York,42112,East,PR-0023,Furniture,Furnishings,Furnishings Model 5,1792.38,6,0.1,293.03
+860,ORD-2023860,2024-05-15,2024-05-18,Same Day,CU-1005,Sarah Sharma,Consumer,United States,San Francisco,California,97914,West,PR-0016,Furniture,Bookcases,Bookcases Model 4,3601.2,12,0.1,635.25
+861,ORD-2023861,2024-01-27,2024-01-30,Standard Class,CU-1085,Rohit Brown,Consumer,United States,Charlotte,North Carolina,20831,South,PR-0012,Furniture,Tables,Tables Model 6,3611.63,11,0.15,-520.79
+862,ORD-2023862,2024-08-23,2024-08-28,Second Class,CU-1016,Amy Singh,Consumer,United States,Los Angeles,California,60326,West,PR-0063,Technology,Machines,Machines Model 3,2423.5,10,0.4,539.66
+863,ORD-2023863,2023-05-09,2023-05-10,Second Class,CU-1062,Vikram Gupta,Consumer,United States,Houston,Texas,63127,Central,PR-0056,Technology,Phones,Phones Model 2,218.58,6,0.5,54.12
+864,ORD-2023864,2024-07-03,2024-07-10,Standard Class,CU-1090,Sarah Kumar,Consumer,United States,Charlotte,North Carolina,37192,South,PR-0003,Furniture,Chairs,Chairs Model 3,2221.56,9,0.3,596.65
+865,ORD-2023865,2023-07-04,2023-07-05,Second Class,CU-1085,Rohit Brown,Consumer,United States,Seattle,Washington,85377,West,PR-0016,Furniture,Bookcases,Bookcases Model 4,2037.42,9,0.15,-180.27
+866,ORD-2023866,2023-09-20,2023-09-27,First Class,CU-1027,Anita Gupta,Corporate,United States,Philadelphia,Pennsylvania,81359,East,PR-0021,Furniture,Furnishings,Furnishings Model 3,46.88,1,0.0,4.83
+867,ORD-2023867,2023-11-04,2023-11-05,Same Day,CU-1022,Rohit Sharma,Home Office,United States,New York,New York,28331,East,PR-0055,Technology,Phones,Phones Model 1,4075.11,9,0.15,731.8
+868,ORD-2023868,2023-12-27,2024-01-01,Standard Class,CU-1074,Sarah Kumar,Home Office,United States,Houston,Texas,41077,Central,PR-0063,Technology,Machines,Machines Model 3,2319.66,9,0.4,-233.12
+869,ORD-2023869,2023-08-09,2023-08-11,Second Class,CU-1005,Sarah Sharma,Consumer,United States,San Francisco,California,91567,West,PR-0025,Office Supplies,Binders,Binders Model 1,2782.7,10,0.3,82.18
+870,ORD-2023870,2024-01-26,2024-02-01,Same Day,CU-1055,James Patel,Corporate,United States,Dallas,Texas,28775,Central,PR-0010,Furniture,Tables,Tables Model 4,609.09,3,0.0,196.35
+871,ORD-2023871,2023-10-03,2023-10-09,Second Class,CU-1069,Laura Thomas,Consumer,United States,Philadelphia,Pennsylvania,65009,East,PR-0027,Office Supplies,Binders,Binders Model 3,3894.72,12,0.4,140.49
+872,ORD-2023872,2023-01-27,2023-02-01,Same Day,CU-1020,Amy Moore,Corporate,United States,Atlanta,Georgia,18645,South,PR-0041,Office Supplies,Storage,Storage Model 5,173.48,4,0.0,20.08
+873,ORD-2023873,2023-10-07,2023-10-09,Second Class,CU-1043,Chris Smith,Home Office,United States,Dallas,Texas,59628,Central,PR-0012,Furniture,Tables,Tables Model 6,561.84,4,0.0,21.67
+874,ORD-2023874,2023-11-10,2023-11-15,First Class,CU-1014,Sneha Patel,Corporate,United States,Seattle,Washington,82291,West,PR-0016,Furniture,Bookcases,Bookcases Model 4,418.32,8,0.15,83.76
+875,ORD-2023875,2023-06-24,2023-06-27,Same Day,CU-1035,Divya Thomas,Consumer,United States,New York,New York,72503,East,PR-0078,Technology,Copiers,Copiers Model 6,661.01,7,0.5,145.85
+876,ORD-2023876,2024-06-09,2024-06-15,First Class,CU-1076,Michael Wilson,Home Office,United States,Chicago,Illinois,16929,Central,PR-0017,Furniture,Bookcases,Bookcases Model 5,991.47,3,0.1,39.06
+877,ORD-2023877,2024-09-15,2024-09-19,Same Day,CU-1093,David Thomas,Home Office,United States,Seattle,Washington,75828,West,PR-0048,Office Supplies,Art,Art Model 6,2779.2,12,0.2,953.61
+878,ORD-2023878,2023-08-23,2023-08-26,First Class,CU-1037,Rohit Kumar,Home Office,United States,Charlotte,North Carolina,21814,South,PR-0036,Office Supplies,Paper,Paper Model 6,4726.37,11,0.15,251.71
+879,ORD-2023879,2023-09-03,2023-09-04,Same Day,CU-1082,Aarav Patel,Home Office,United States,Philadelphia,Pennsylvania,11401,East,PR-0011,Furniture,Tables,Tables Model 5,869.34,3,0.0,192.74
+880,ORD-2023880,2024-05-24,2024-05-29,Same Day,CU-1055,James Patel,Corporate,United States,San Francisco,California,11821,West,PR-0066,Technology,Machines,Machines Model 6,5488.89,11,0.3,1091.97
+881,ORD-2023881,2024-03-11,2024-03-17,Standard Class,CU-1079,Divya Patel,Corporate,United States,Philadelphia,Pennsylvania,89609,East,PR-0025,Office Supplies,Binders,Binders Model 1,3384.81,9,0.1,1174.9
+882,ORD-2023882,2023-03-18,2023-03-21,Same Day,CU-1058,Arjun Brown,Consumer,United States,Los Angeles,California,32345,West,PR-0022,Furniture,Furnishings,Furnishings Model 4,777.81,3,0.0,47.73
+883,ORD-2023883,2023-09-13,2023-09-20,First Class,CU-1048,Anita Anderson,Home Office,United States,Houston,Texas,73324,Central,PR-0015,Furniture,Bookcases,Bookcases Model 3,3835.17,9,0.5,-349.26
+884,ORD-2023884,2024-10-08,2024-10-13,Standard Class,CU-1038,James Kumar,Home Office,United States,Los Angeles,California,70693,West,PR-0034,Office Supplies,Paper,Paper Model 4,788.48,7,0.15,248.02
+885,ORD-2023885,2023-01-07,2023-01-12,First Class,CU-1080,Aarav Davis,Home Office,United States,Boston,Massachusetts,34400,East,PR-0063,Technology,Machines,Machines Model 3,1341.04,8,0.15,-129.3
+886,ORD-2023886,2024-03-17,2024-03-21,Same Day,CU-1052,Jessica Thomas,Consumer,United States,New York,New York,26232,East,PR-0046,Office Supplies,Art,Art Model 4,187.8,4,0.3,56.2
+887,ORD-2023887,2023-09-14,2023-09-16,Second Class,CU-1063,Jessica Anderson,Home Office,United States,Seattle,Washington,80310,West,PR-0001,Furniture,Chairs,Chairs Model 1,1605.6,8,0.15,51.78
+888,ORD-2023888,2024-03-25,2024-03-27,Second Class,CU-1035,Divya Thomas,Consumer,United States,Charlotte,North Carolina,24505,South,PR-0014,Furniture,Bookcases,Bookcases Model 2,540.3,3,0.2,-79.48
+889,ORD-2023889,2024-02-09,2024-02-13,Second Class,CU-1025,Sneha Smith,Corporate,United States,New York,New York,72822,East,PR-0037,Office Supplies,Storage,Storage Model 1,2027.4,12,0.0,-141.6
+890,ORD-2023890,2024-05-15,2024-05-20,Same Day,CU-1086,Arjun Wilson,Corporate,United States,Boston,Massachusetts,75779,East,PR-0035,Office Supplies,Paper,Paper Model 5,3207.28,8,0.4,-276.73
+891,ORD-2023891,2023-04-21,2023-04-28,Second Class,CU-1093,David Thomas,Home Office,United States,Los Angeles,California,16820,West,PR-0050,Office Supplies,Labels,Labels Model 2,67.43,1,0.15,6.74
+892,ORD-2023892,2023-01-09,2023-01-13,Same Day,CU-1087,Karan Brown,Consumer,United States,Charlotte,North Carolina,42472,South,PR-0044,Office Supplies,Art,Art Model 2,1186.32,8,0.2,-128.94
+893,ORD-2023893,2023-10-15,2023-10-22,Same Day,CU-1080,Aarav Davis,Home Office,United States,Los Angeles,California,36006,West,PR-0020,Furniture,Furnishings,Furnishings Model 2,865.52,2,0.4,-22.78
+894,ORD-2023894,2024-08-28,2024-09-03,Standard Class,CU-1061,Daniel Davis,Consumer,United States,Los Angeles,California,45895,West,PR-0014,Furniture,Bookcases,Bookcases Model 2,864.82,11,0.0,-72.52
+895,ORD-2023895,2024-09-23,2024-09-25,First Class,CU-1025,Sneha Smith,Corporate,United States,Miami,Florida,93009,South,PR-0019,Furniture,Furnishings,Furnishings Model 1,865.7,2,0.2,46.44
+896,ORD-2023896,2024-05-05,2024-05-06,First Class,CU-1030,Anita Brown,Home Office,United States,Dallas,Texas,57654,Central,PR-0029,Office Supplies,Binders,Binders Model 5,1947.6,9,0.0,4.18
+897,ORD-2023897,2023-11-24,2023-11-25,First Class,CU-1036,James Smith,Corporate,United States,Miami,Florida,37784,South,PR-0045,Office Supplies,Art,Art Model 3,75.72,3,0.0,13.65
+898,ORD-2023898,2023-04-14,2023-04-18,First Class,CU-1037,Rohit Kumar,Home Office,United States,Houston,Texas,24618,Central,PR-0061,Technology,Machines,Machines Model 1,389.61,3,0.2,12.39
+899,ORD-2023899,2024-01-05,2024-01-11,First Class,CU-1013,Vikram Kumar,Corporate,United States,San Francisco,California,41228,West,PR-0002,Furniture,Chairs,Chairs Model 2,2236.5,6,0.3,255.93
+900,ORD-2023900,2024-01-29,2024-01-30,Standard Class,CU-1084,Priya Thomas,Corporate,United States,Seattle,Washington,86881,West,PR-0036,Office Supplies,Paper,Paper Model 6,139.18,2,0.4,21.0
+901,ORD-2023901,2024-04-01,2024-04-02,Same Day,CU-1084,Priya Thomas,Corporate,United States,Seattle,Washington,36476,West,PR-0025,Office Supplies,Binders,Binders Model 1,942.4,2,0.3,20.21
+902,ORD-2023902,2023-07-16,2023-07-20,First Class,CU-1069,Laura Thomas,Consumer,United States,New York,New York,57973,East,PR-0020,Furniture,Furnishings,Furnishings Model 2,3215.16,9,0.5,889.7
+903,ORD-2023903,2024-05-09,2024-05-13,Second Class,CU-1058,Arjun Brown,Consumer,United States,Miami,Florida,88532,South,PR-0016,Furniture,Bookcases,Bookcases Model 4,4194.09,9,0.3,1029.41
+904,ORD-2023904,2024-08-02,2024-08-03,Standard Class,CU-1036,James Smith,Corporate,United States,Chicago,Illinois,31694,Central,PR-0017,Furniture,Bookcases,Bookcases Model 5,1189.68,12,0.5,57.99
+905,ORD-2023905,2024-02-04,2024-02-08,Second Class,CU-1057,Aarav Taylor,Home Office,United States,Charlotte,North Carolina,87609,South,PR-0066,Technology,Machines,Machines Model 6,1393.9,10,0.1,-206.58
+906,ORD-2023906,2024-06-21,2024-06-24,Standard Class,CU-1090,Sarah Kumar,Consumer,United States,Charlotte,North Carolina,32427,South,PR-0002,Furniture,Chairs,Chairs Model 2,2134.9,5,0.15,435.79
+907,ORD-2023907,2023-02-10,2023-02-16,First Class,CU-1029,Rohit Davis,Home Office,United States,San Francisco,California,16752,West,PR-0006,Furniture,Chairs,Chairs Model 6,1413.93,3,0.15,443.44
+908,ORD-2023908,2023-04-29,2023-04-30,First Class,CU-1083,Priya Kumar,Consumer,United States,Seattle,Washington,20911,West,PR-0032,Office Supplies,Paper,Paper Model 2,1946.89,11,0.3,654.37
+909,ORD-2023909,2023-05-17,2023-05-21,Standard Class,CU-1091,Sneha Wilson,Corporate,United States,Houston,Texas,56593,Central,PR-0071,Technology,Accessories,Accessories Model 5,1509.7,10,0.0,246.05
+910,ORD-2023910,2023-01-17,2023-01-22,Standard Class,CU-1029,Rohit Davis,Home Office,United States,San Francisco,California,60067,West,PR-0036,Office Supplies,Paper,Paper Model 6,5384.39,11,0.5,1720.36
+911,ORD-2023911,2023-08-14,2023-08-17,Same Day,CU-1084,Priya Thomas,Corporate,United States,San Francisco,California,30400,West,PR-0033,Office Supplies,Paper,Paper Model 3,529.7,5,0.4,134.47
+912,ORD-2023912,2023-06-01,2023-06-05,Second Class,CU-1058,Arjun Brown,Consumer,United States,Atlanta,Georgia,34754,South,PR-0030,Office Supplies,Binders,Binders Model 6,501.0,2,0.2,-28.8
+913,ORD-2023913,2023-10-16,2023-10-17,Second Class,CU-1073,Daniel Thomas,Home Office,United States,Seattle,Washington,19103,West,PR-0063,Technology,Machines,Machines Model 3,428.2,5,0.1,110.8
+914,ORD-2023914,2024-04-10,2024-04-16,Standard Class,CU-1019,Neha Thomas,Home Office,United States,Miami,Florida,89074,South,PR-0010,Furniture,Tables,Tables Model 4,382.34,7,0.3,-31.11
+915,ORD-2023915,2023-04-23,2023-04-30,Second Class,CU-1013,Vikram Kumar,Corporate,United States,Miami,Florida,42550,South,PR-0049,Office Supplies,Labels,Labels Model 1,382.91,1,0.4,121.51
+916,ORD-2023916,2024-10-04,2024-10-09,Standard Class,CU-1099,Sarah Reddy,Corporate,United States,Chicago,Illinois,81089,Central,PR-0011,Furniture,Tables,Tables Model 5,397.24,1,0.0,130.62
+917,ORD-2023917,2023-05-23,2023-05-27,First Class,CU-1095,Sneha Sharma,Corporate,United States,New York,New York,72771,East,PR-0044,Office Supplies,Art,Art Model 2,4467.3,10,0.5,-305.69
+918,ORD-2023918,2023-10-01,2023-10-07,First Class,CU-1020,Amy Moore,Corporate,United States,Philadelphia,Pennsylvania,23443,East,PR-0032,Office Supplies,Paper,Paper Model 2,593.28,9,0.5,-75.78
+919,ORD-2023919,2023-08-18,2023-08-19,First Class,CU-1066,Emily Moore,Corporate,United States,Los Angeles,California,39607,West,PR-0054,Office Supplies,Labels,Labels Model 6,865.72,4,0.1,23.08
+920,ORD-2023920,2023-06-23,2023-06-24,First Class,CU-1088,Chris Davis,Corporate,United States,Boston,Massachusetts,25512,East,PR-0050,Office Supplies,Labels,Labels Model 2,221.44,4,0.15,6.35
+921,ORD-2023921,2023-06-04,2023-06-06,Same Day,CU-1047,Sneha Reddy,Home Office,United States,Philadelphia,Pennsylvania,29689,East,PR-0011,Furniture,Tables,Tables Model 5,1873.13,7,0.3,-111.11
+922,ORD-2023922,2023-04-17,2023-04-20,Standard Class,CU-1086,Arjun Wilson,Corporate,United States,Dallas,Texas,10285,Central,PR-0039,Office Supplies,Storage,Storage Model 3,2660.48,8,0.15,679.38
+923,ORD-2023923,2024-02-04,2024-02-08,Standard Class,CU-1020,Amy Moore,Corporate,United States,Chicago,Illinois,85739,Central,PR-0019,Furniture,Furnishings,Furnishings Model 1,4793.28,12,0.2,1233.43
+924,ORD-2023924,2023-11-27,2023-11-29,Same Day,CU-1055,James Patel,Corporate,United States,Los Angeles,California,73083,West,PR-0036,Office Supplies,Paper,Paper Model 6,1154.79,3,0.15,11.15
+925,ORD-2023925,2024-10-31,2024-11-02,Same Day,CU-1089,Divya Anderson,Corporate,United States,Chicago,Illinois,79792,Central,PR-0053,Office Supplies,Labels,Labels Model 5,1485.68,7,0.2,177.35
+926,ORD-2023926,2024-08-17,2024-08-23,Second Class,CU-1069,Laura Thomas,Consumer,United States,Miami,Florida,21436,South,PR-0030,Office Supplies,Binders,Binders Model 6,1860.88,7,0.5,366.13
+927,ORD-2023927,2023-01-18,2023-01-21,Standard Class,CU-1031,Divya Reddy,Corporate,United States,New York,New York,55789,East,PR-0047,Office Supplies,Art,Art Model 5,2156.31,9,0.1,669.43
+928,ORD-2023928,2023-05-28,2023-06-04,Second Class,CU-1047,Sneha Reddy,Home Office,United States,Dallas,Texas,17322,Central,PR-0018,Furniture,Bookcases,Bookcases Model 6,4374.45,9,0.2,-125.77
+929,ORD-2023929,2023-05-27,2023-05-31,Standard Class,CU-1096,James Anderson,Consumer,United States,Philadelphia,Pennsylvania,96867,East,PR-0018,Furniture,Bookcases,Bookcases Model 6,216.48,12,0.2,7.76
+930,ORD-2023930,2023-06-11,2023-06-12,Standard Class,CU-1075,Karan Taylor,Corporate,United States,Charlotte,North Carolina,84603,South,PR-0010,Furniture,Tables,Tables Model 4,557.4,3,0.0,-15.32
+931,ORD-2023931,2023-05-24,2023-05-30,First Class,CU-1054,Arjun Anderson,Home Office,United States,San Francisco,California,68192,West,PR-0020,Furniture,Furnishings,Furnishings Model 2,3157.11,9,0.15,268.65
+932,ORD-2023932,2023-06-09,2023-06-10,Second Class,CU-1083,Priya Kumar,Consumer,United States,Chicago,Illinois,11424,Central,PR-0002,Furniture,Chairs,Chairs Model 2,229.9,11,0.5,-14.53
+933,ORD-2023933,2023-09-22,2023-09-27,Second Class,CU-1051,David Brown,Corporate,United States,Charlotte,North Carolina,45628,South,PR-0055,Technology,Phones,Phones Model 1,1408.41,9,0.1,87.09
+934,ORD-2023934,2023-08-05,2023-08-09,Standard Class,CU-1012,Sarah Gupta,Corporate,United States,Miami,Florida,71398,South,PR-0067,Technology,Accessories,Accessories Model 1,327.2,10,0.2,-19.03
+935,ORD-2023935,2023-06-18,2023-06-19,Standard Class,CU-1062,Vikram Gupta,Consumer,United States,Atlanta,Georgia,20198,South,PR-0041,Office Supplies,Storage,Storage Model 5,1950.54,6,0.1,-29.34
+936,ORD-2023936,2023-09-03,2023-09-06,Standard Class,CU-1047,Sneha Reddy,Home Office,United States,Chicago,Illinois,50516,Central,PR-0078,Technology,Copiers,Copiers Model 6,819.24,3,0.0,-36.08
+937,ORD-2023937,2023-02-03,2023-02-05,Same Day,CU-1025,Sneha Smith,Corporate,United States,Seattle,Washington,15987,West,PR-0071,Technology,Accessories,Accessories Model 5,235.45,5,0.3,31.17
+938,ORD-2023938,2023-01-09,2023-01-12,Same Day,CU-1007,Daniel Davis,Consumer,United States,Boston,Massachusetts,56640,East,PR-0041,Office Supplies,Storage,Storage Model 5,2397.9,5,0.3,-126.03
+939,ORD-2023939,2024-05-30,2024-05-31,Same Day,CU-1017,David Brown,Consumer,United States,Dallas,Texas,72515,Central,PR-0013,Furniture,Bookcases,Bookcases Model 1,3642.39,9,0.1,-503.22
+940,ORD-2023940,2023-06-05,2023-06-11,Second Class,CU-1076,Michael Wilson,Home Office,United States,Chicago,Illinois,38265,Central,PR-0005,Furniture,Chairs,Chairs Model 5,351.84,8,0.4,-36.36
+941,ORD-2023941,2024-06-12,2024-06-18,Second Class,CU-1088,Chris Davis,Corporate,United States,Seattle,Washington,54436,West,PR-0019,Furniture,Furnishings,Furnishings Model 1,3274.4,10,0.5,67.81
+942,ORD-2023942,2024-11-30,2024-12-04,Second Class,CU-1038,James Kumar,Home Office,United States,Miami,Florida,84304,South,PR-0047,Office Supplies,Art,Art Model 5,433.48,4,0.3,66.51
+943,ORD-2023943,2023-05-27,2023-06-03,Standard Class,CU-1081,Divya Davis,Consumer,United States,New York,New York,75393,East,PR-0064,Technology,Machines,Machines Model 4,1379.15,5,0.5,331.99
+944,ORD-2023944,2023-10-30,2023-11-01,Standard Class,CU-1013,Vikram Kumar,Corporate,United States,Chicago,Illinois,33486,Central,PR-0059,Technology,Phones,Phones Model 5,287.32,2,0.15,7.67
+945,ORD-2023945,2023-09-20,2023-09-27,Same Day,CU-1091,Sneha Wilson,Corporate,United States,Dallas,Texas,15189,Central,PR-0059,Technology,Phones,Phones Model 5,2615.12,8,0.1,836.62
+946,ORD-2023946,2024-09-26,2024-10-02,First Class,CU-1047,Sneha Reddy,Home Office,United States,Atlanta,Georgia,58979,South,PR-0037,Office Supplies,Storage,Storage Model 1,669.63,3,0.3,182.42
+947,ORD-2023947,2024-11-29,2024-11-30,Second Class,CU-1011,Aarav Anderson,Consumer,United States,Atlanta,Georgia,83505,South,PR-0053,Office Supplies,Labels,Labels Model 5,4888.3,10,0.0,1077.97
+948,ORD-2023948,2024-01-20,2024-01-22,Same Day,CU-1002,Arjun Kumar,Consumer,United States,Boston,Massachusetts,97706,East,PR-0020,Furniture,Furnishings,Furnishings Model 2,2026.4,10,0.0,-77.96
+949,ORD-2023949,2024-10-19,2024-10-24,Same Day,CU-1012,Sarah Gupta,Corporate,United States,Atlanta,Georgia,66769,South,PR-0045,Office Supplies,Art,Art Model 3,472.08,8,0.1,101.92
+950,ORD-2023950,2023-11-21,2023-11-24,Standard Class,CU-1026,David Wilson,Corporate,United States,Chicago,Illinois,46487,Central,PR-0052,Office Supplies,Labels,Labels Model 4,2457.2,10,0.4,542.16
+951,ORD-2023951,2023-05-30,2023-06-05,Same Day,CU-1059,Daniel Moore,Consumer,United States,San Francisco,California,18178,West,PR-0005,Furniture,Chairs,Chairs Model 5,653.96,4,0.0,224.9
+952,ORD-2023952,2023-02-25,2023-02-27,First Class,CU-1047,Sneha Reddy,Home Office,United States,Miami,Florida,93320,South,PR-0056,Technology,Phones,Phones Model 2,476.56,1,0.4,29.29
+953,ORD-2023953,2023-10-08,2023-10-12,Same Day,CU-1023,Divya Anderson,Corporate,United States,Los Angeles,California,78783,West,PR-0011,Furniture,Tables,Tables Model 5,305.36,2,0.4,23.12
+954,ORD-2023954,2023-04-05,2023-04-09,First Class,CU-1028,Karan Wilson,Corporate,United States,Los Angeles,California,64932,West,PR-0034,Office Supplies,Paper,Paper Model 4,2891.22,6,0.15,-195.83
+955,ORD-2023955,2024-03-23,2024-03-26,Second Class,CU-1062,Vikram Gupta,Consumer,United States,Seattle,Washington,20198,West,PR-0061,Technology,Machines,Machines Model 1,3447.72,12,0.5,-500.04
+956,ORD-2023956,2024-11-11,2024-11-18,Standard Class,CU-1093,David Thomas,Home Office,United States,San Francisco,California,29727,West,PR-0075,Technology,Copiers,Copiers Model 3,4472.4,12,0.4,968.56
+957,ORD-2023957,2023-04-27,2023-05-04,Same Day,CU-1059,Daniel Moore,Consumer,United States,Atlanta,Georgia,26478,South,PR-0019,Furniture,Furnishings,Furnishings Model 1,2267.76,11,0.3,478.82
+958,ORD-2023958,2023-08-12,2023-08-18,Same Day,CU-1082,Aarav Patel,Home Office,United States,New York,New York,38329,East,PR-0058,Technology,Phones,Phones Model 4,851.96,4,0.3,202.08
+959,ORD-2023959,2024-08-13,2024-08-14,First Class,CU-1045,Vikram Brown,Corporate,United States,Seattle,Washington,75809,West,PR-0027,Office Supplies,Binders,Binders Model 3,2446.92,6,0.0,2.38
+960,ORD-2023960,2024-02-25,2024-02-28,First Class,CU-1016,Amy Singh,Consumer,United States,Atlanta,Georgia,24860,South,PR-0064,Technology,Machines,Machines Model 4,2489.7,6,0.2,277.81
+961,ORD-2023961,2023-07-01,2023-07-06,Same Day,CU-1023,Divya Anderson,Corporate,United States,Atlanta,Georgia,93113,South,PR-0059,Technology,Phones,Phones Model 5,855.2,10,0.2,34.88
+962,ORD-2023962,2023-04-02,2023-04-08,Standard Class,CU-1037,Rohit Kumar,Home Office,United States,New York,New York,93037,East,PR-0013,Furniture,Bookcases,Bookcases Model 1,310.05,1,0.2,-30.44
+963,ORD-2023963,2023-10-24,2023-10-31,Same Day,CU-1057,Aarav Taylor,Home Office,United States,Philadelphia,Pennsylvania,25007,East,PR-0065,Technology,Machines,Machines Model 5,769.16,7,0.5,59.47
+964,ORD-2023964,2024-04-20,2024-04-24,First Class,CU-1026,David Wilson,Corporate,United States,Boston,Massachusetts,39351,East,PR-0061,Technology,Machines,Machines Model 1,3887.4,11,0.4,186.22
+965,ORD-2023965,2023-09-28,2023-10-01,Same Day,CU-1065,Laura Sharma,Consumer,United States,Houston,Texas,14282,Central,PR-0037,Office Supplies,Storage,Storage Model 1,2367.96,7,0.0,710.61
+966,ORD-2023966,2024-06-15,2024-06-22,Same Day,CU-1002,Arjun Kumar,Consumer,United States,San Francisco,California,41697,West,PR-0004,Furniture,Chairs,Chairs Model 4,3623.64,12,0.15,-234.79
+967,ORD-2023967,2024-10-21,2024-10-25,Same Day,CU-1072,Jessica Reddy,Corporate,United States,Seattle,Washington,32769,West,PR-0051,Office Supplies,Labels,Labels Model 3,401.66,1,0.3,25.93
+968,ORD-2023968,2023-08-25,2023-08-26,Same Day,CU-1052,Jessica Thomas,Consumer,United States,San Francisco,California,92223,West,PR-0041,Office Supplies,Storage,Storage Model 5,4818.96,12,0.3,-437.63
+969,ORD-2023969,2023-07-28,2023-07-29,Second Class,CU-1034,James Thomas,Consumer,United States,San Francisco,California,13646,West,PR-0071,Technology,Accessories,Accessories Model 5,35.38,2,0.0,5.82
+970,ORD-2023970,2024-01-27,2024-01-28,First Class,CU-1080,Aarav Davis,Home Office,United States,Philadelphia,Pennsylvania,34452,East,PR-0070,Technology,Accessories,Accessories Model 4,4420.92,12,0.2,739.32
+971,ORD-2023971,2024-07-02,2024-07-09,First Class,CU-1031,Divya Reddy,Corporate,United States,Chicago,Illinois,96410,Central,PR-0029,Office Supplies,Binders,Binders Model 5,1458.08,4,0.5,354.35
+972,ORD-2023972,2024-10-04,2024-10-05,Same Day,CU-1007,Daniel Davis,Consumer,United States,New York,New York,88105,East,PR-0036,Office Supplies,Paper,Paper Model 6,5417.17,11,0.5,-532.46
+973,ORD-2023973,2023-09-26,2023-09-28,Second Class,CU-1016,Amy Singh,Consumer,United States,San Francisco,California,61222,West,PR-0014,Furniture,Bookcases,Bookcases Model 2,86.6,2,0.5,2.66
+974,ORD-2023974,2023-03-17,2023-03-21,First Class,CU-1013,Vikram Kumar,Corporate,United States,Boston,Massachusetts,93040,East,PR-0063,Technology,Machines,Machines Model 3,470.47,11,0.4,28.21
+975,ORD-2023975,2023-01-11,2023-01-13,Standard Class,CU-1058,Arjun Brown,Consumer,United States,San Francisco,California,54932,West,PR-0021,Furniture,Furnishings,Furnishings Model 3,3143.91,11,0.3,872.13
+976,ORD-2023976,2024-06-18,2024-06-24,Standard Class,CU-1045,Vikram Brown,Corporate,United States,New York,New York,77894,East,PR-0062,Technology,Machines,Machines Model 2,2318.3,5,0.1,354.83
+977,ORD-2023977,2023-04-28,2023-04-30,Second Class,CU-1066,Emily Moore,Corporate,United States,San Francisco,California,45073,West,PR-0020,Furniture,Furnishings,Furnishings Model 2,167.13,1,0.1,-18.1
+978,ORD-2023978,2023-12-23,2023-12-29,Same Day,CU-1036,James Smith,Corporate,United States,Los Angeles,California,67155,West,PR-0062,Technology,Machines,Machines Model 2,2949.3,9,0.2,656.51
+979,ORD-2023979,2023-06-27,2023-06-29,Same Day,CU-1066,Emily Moore,Corporate,United States,San Francisco,California,23486,West,PR-0052,Office Supplies,Labels,Labels Model 4,4661.69,11,0.4,-44.09
+980,ORD-2023980,2023-07-30,2023-08-05,First Class,CU-1075,Karan Taylor,Corporate,United States,Chicago,Illinois,51779,Central,PR-0076,Technology,Copiers,Copiers Model 4,1756.56,8,0.2,108.68
+981,ORD-2023981,2023-07-24,2023-07-29,Same Day,CU-1080,Aarav Davis,Home Office,United States,Atlanta,Georgia,31921,South,PR-0014,Furniture,Bookcases,Bookcases Model 2,1140.66,6,0.4,296.2
+982,ORD-2023982,2024-02-24,2024-02-27,First Class,CU-1005,Sarah Sharma,Consumer,United States,Houston,Texas,62206,Central,PR-0066,Technology,Machines,Machines Model 6,4142.1,10,0.4,1346.97
+983,ORD-2023983,2024-03-15,2024-03-22,First Class,CU-1004,Jessica Patel,Home Office,United States,San Francisco,California,58754,West,PR-0015,Furniture,Bookcases,Bookcases Model 3,546.24,3,0.0,-23.16
+984,ORD-2023984,2023-11-23,2023-11-29,First Class,CU-1019,Neha Thomas,Home Office,United States,New York,New York,40493,East,PR-0041,Office Supplies,Storage,Storage Model 5,359.82,1,0.1,29.75
+985,ORD-2023985,2024-09-08,2024-09-10,Standard Class,CU-1072,Jessica Reddy,Corporate,United States,Atlanta,Georgia,85228,South,PR-0009,Furniture,Tables,Tables Model 3,1013.76,9,0.3,-11.13
+986,ORD-2023986,2023-11-24,2023-11-26,First Class,CU-1083,Priya Kumar,Consumer,United States,Atlanta,Georgia,65212,South,PR-0054,Office Supplies,Labels,Labels Model 6,118.32,4,0.2,11.75
+987,ORD-2023987,2024-09-07,2024-09-10,Standard Class,CU-1016,Amy Singh,Consumer,United States,Miami,Florida,94366,South,PR-0016,Furniture,Bookcases,Bookcases Model 4,1945.1,10,0.3,-271.08
+988,ORD-2023988,2023-05-15,2023-05-22,Standard Class,CU-1074,Sarah Kumar,Home Office,United States,Atlanta,Georgia,54222,South,PR-0001,Furniture,Chairs,Chairs Model 1,163.24,7,0.3,50.44
+989,ORD-2023989,2023-04-08,2023-04-15,First Class,CU-1083,Priya Kumar,Consumer,United States,Boston,Massachusetts,62473,East,PR-0003,Furniture,Chairs,Chairs Model 3,2541.07,7,0.15,21.84
+990,ORD-2023990,2024-09-19,2024-09-20,Standard Class,CU-1011,Aarav Anderson,Consumer,United States,Dallas,Texas,59008,Central,PR-0072,Technology,Accessories,Accessories Model 6,1069.11,7,0.2,103.35
+991,ORD-2023991,2023-02-18,2023-02-25,Same Day,CU-1080,Aarav Davis,Home Office,United States,New York,New York,39667,East,PR-0014,Furniture,Bookcases,Bookcases Model 2,73.67,1,0.15,20.68
+992,ORD-2023992,2024-01-13,2024-01-20,First Class,CU-1022,Rohit Sharma,Home Office,United States,Seattle,Washington,15646,West,PR-0012,Furniture,Tables,Tables Model 6,4453.47,9,0.4,1264.82
+993,ORD-2023993,2023-09-28,2023-10-01,Second Class,CU-1015,Sneha Gupta,Corporate,United States,Chicago,Illinois,28056,Central,PR-0007,Furniture,Tables,Tables Model 1,3699.72,12,0.5,147.17
+994,ORD-2023994,2023-11-23,2023-11-30,Same Day,CU-1075,Karan Taylor,Corporate,United States,New York,New York,93480,East,PR-0059,Technology,Phones,Phones Model 5,1133.25,3,0.5,377.28
+995,ORD-2023995,2024-05-04,2024-05-10,Same Day,CU-1058,Arjun Brown,Consumer,United States,Seattle,Washington,39600,West,PR-0016,Furniture,Bookcases,Bookcases Model 4,3906.32,8,0.15,923.15
+996,ORD-2023996,2023-03-26,2023-03-29,Second Class,CU-1012,Sarah Gupta,Corporate,United States,Houston,Texas,20225,Central,PR-0034,Office Supplies,Paper,Paper Model 4,3767.31,9,0.1,677.14
+997,ORD-2023997,2023-01-14,2023-01-20,Standard Class,CU-1010,David Davis,Corporate,United States,New York,New York,54623,East,PR-0064,Technology,Machines,Machines Model 4,946.92,4,0.2,-53.07
+998,ORD-2023998,2024-04-09,2024-04-15,Second Class,CU-1027,Anita Gupta,Corporate,United States,Dallas,Texas,57663,Central,PR-0076,Technology,Copiers,Copiers Model 4,1273.98,3,0.0,391.19
+999,ORD-2023999,2023-07-12,2023-07-13,Standard Class,CU-1050,Michael Smith,Home Office,United States,San Francisco,California,29305,West,PR-0058,Technology,Phones,Phones Model 4,1072.15,5,0.4,3.83
+1000,ORD-2024000,2023-01-17,2023-01-21,Same Day,CU-1060,Neha Thomas,Home Office,United States,New York,New York,56131,East,PR-0014,Furniture,Bookcases,Bookcases Model 2,411.12,3,0.2,74.39

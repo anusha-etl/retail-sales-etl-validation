@@ -1,0 +1,19 @@
+Test Case ID,Validation Type,Test Description,SQL File Reference,Expected Result,Actual Result,Status,Comments
+TC_001,Row Count Validation,Compare total row count between staging and target table,01_row_count_validation.sql,Source count = Target count,9994 = 9994,Pass,No discrepancy found
+TC_002,Row Count Validation,Compare row counts by Region between source and target,01_row_count_validation.sql,Region-wise counts match,Match confirmed for all 4 regions,Pass,Verified West/East/Central/South
+TC_003,Row Count Validation,Identify records present in source but missing in target,01_row_count_validation.sql,0 rows returned,0 rows returned,Pass,No missing records after load
+TC_004,Row Count Validation,Identify records present in target but not in source,01_row_count_validation.sql,0 rows returned,0 rows returned,Pass,No extra/orphan records in target
+TC_005,Null Check,Verify no NULLs exist in Order ID column,02_null_duplicate_checks.sql,0 NULLs,0 NULLs,Pass,Mandatory field intact
+TC_006,Null Check,Verify no NULLs exist in Customer ID column,02_null_duplicate_checks.sql,0 NULLs,0 NULLs,Pass,Mandatory field intact
+TC_007,Null Check,Verify no NULLs exist in Sales column,02_null_duplicate_checks.sql,0 NULLs,0 NULLs,Pass,Mandatory field intact
+TC_008,Duplicate Check,Check for duplicate Order ID + Product ID + Customer ID combinations,02_null_duplicate_checks.sql,0 duplicate rows,3 duplicate rows found,Fail,Found duplicates for Order IDs CA-2021-1005 CA-2021-1102 CA-2021-1240; reported to load process
+TC_009,Blank String Check,Verify Customer Name and Product Name fields do not contain blank strings,02_null_duplicate_checks.sql,0 blank strings,0 blank strings,Pass,No empty-string data quality issue
+TC_010,Transformation Validation,Verify Profit Margin column is calculated correctly (Profit / Sales),03_transformation_validation.sql,Recalculated value matches stored value for all rows,All rows matched,Pass,Formula applied correctly in ETL
+TC_011,Transformation Validation,Verify aggregated Total Sales by Region matches sum of source detail rows,03_transformation_validation.sql,Source SUM(Sales) = Target Total Sales per region,Match confirmed,Pass,Aggregation logic validated
+TC_012,Transformation Validation,Verify Discount Tier classification logic (High/Medium/Low),03_transformation_validation.sql,Stored tier matches expected tier based on business rule,All rows matched,Pass,Business rule correctly applied
+TC_013,Transformation Validation,Verify Order Year and Order Month are derived correctly from Order Date,03_transformation_validation.sql,Stored year/month = YEAR()/MONTH() of order_date,All rows matched,Pass,Date transformation correct
+TC_014,Referential Integrity,Check for fact table records with Customer ID not present in Customer dimension,04_referential_integrity.sql,0 orphan rows,0 orphan rows,Pass,All customer references valid
+TC_015,Referential Integrity,Check for fact table records with Product ID not present in Product dimension,04_referential_integrity.sql,0 orphan rows,1 orphan row found,Fail,Product ID FUR-BO-10001234 missing from dim_product; flagged for source data fix
+TC_016,Referential Integrity,Check for duplicate primary keys within Customer dimension table,04_referential_integrity.sql,0 duplicate customer_id,0 duplicate customer_id,Pass,Dimension table integrity confirmed
+TC_017,Referential Integrity,Check for duplicate primary keys within Product dimension table,04_referential_integrity.sql,0 duplicate product_id,0 duplicate product_id,Pass,Dimension table integrity confirmed
+TC_018,Constraint Validation,Verify Quantity and Sales values are never negative,04_referential_integrity.sql,0 rows with negative values,0 rows with negative values,Pass,Domain constraint holds true
